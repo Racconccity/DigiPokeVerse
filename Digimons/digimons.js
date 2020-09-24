@@ -96,7 +96,13 @@ module.exports.run = async(client, message, args) => {
         "Leopardmon.jpg","Leopardmon Leopard Mode.jpg","Leopardmon X.jpg","Leviamon.jpg","Leviamon X.jpg","Liamon.jpg","Lilamon.jpg","Lillymon.jpg","Lillymon X.jpg","Liollmon.jpg",
         "LoaderLiomon.jpg","Lobomon.jpg","Locomon.jpg","Lopmon.jpg","Lopmon (White).jpg","Lopmon X.jpg","Lotosmon.jpg","Loweemon.jpg","Lucemon.jpg","Lucemon Chaos Mode.jpg",
         "Lucemon Larva.jpg","Lucemon Shadowlord Mode.jpg","Lucemon X.jpg","Ludomon.jpg","Luminamon.jpg","Luminamon (Nene Version).jpg","Lunamon.jpg","Lycamon.jpg","Lynxmon.jpg",
-        "Eosmon (Adulto).jpg","Eosmon (Perfecto).jpg","Eosmon (Definitivo).jpg","Gabumon (Yuki no Kizuna).jpg","Agumon (Yuki no Kizuna).jpg","Eyesmon.jpg"
+        "Eosmon (Adulto).jpg","Eosmon (Perfecto).jpg","Eosmon (Definitivo).jpg","Gabumon (Yuki no Kizuna).jpg","Agumon (Yuki no Kizuna).jpg","Eyesmon.jpg","MachGaogamon.jpg",
+        "Machinedramon.jpg","MachLeomon.jpg","MadLeomon.jpg","MadLeomon (Orochimode).jpg","MadLeomon (Final Mode).jpg","MagnaAngemon.jpg","MagnaAngemon (Priest Mode).jpg",
+        "Magnadramon.jpg","Magnadramon X.jpg","MagnaGarurumon.jpg","MagnaGarurumon (SV).jpg","MagnaKidmon.jpg","Magnamon.jpg","Magnamon X.jpg","MailBirdramon.jpg",
+        "Mailbirdramon+Golemon.jpg","Maildramon.jpg","Maildramon.jpg","Makuramon.jpg","MaloMyotismon.jpg","Mamemon.jpg","Mamemon X.jpg","MameTyramon.jpg","Mammothmon.jpg",
+        "Mammothmon X.jpg","Manbomon.jpg","Mantaraymon.jpg","Mantaraymon X.jpg","MarinChimairamon.jpg","MarineAngemon.jpg","MarineDevimon.jpg","Marsmon.jpg","Mastemon.jpg",
+        "MasterTyrannomon.jpg","Master V-dramon.jpg","Matadormon.jpg","MedievalDukemon.jpg","MegaBlackShoutmon X7.jpg","AxeKnightmon.jpg","MegaDarknessBagramon.jpg","DeckerGreymon.jpg",
+        "Megadramon.jpg","MegaGargomon.jpg","GranKuwagamon.jpg","MegaKabuterimon (Blue).jpg","MegaKabuterimon (Red).jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
