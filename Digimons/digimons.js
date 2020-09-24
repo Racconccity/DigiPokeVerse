@@ -1,0 +1,110 @@
+const Discord = require("discord.js");
+const config = require("../config.json");
+const colours = require("../colours.json");
+const window = require("window");
+const randomFile = require('random-file');
+const path = require('path');
+const fs = require('fs');
+
+module.exports.run = async(client, message, args) => {
+    var randomimg = path.join(__dirname, 'Digimons/');
+    randomimg = [
+        "Aegiochusmon Blue.jpg", "Aegiochusmon Dark.jpg", "Aegiochusmon Green.jpg", "Aegiochusmon Holy.jpg", "Aegiochusmon.jpg",
+        "Aegisdramon.jpg", "AeroVeedramon.jpg", "Agumon (2006 anime).jpg", "Agumon Burst Mode.jpg", "Agumon Expert.jpg",
+        "Agumon X.jpg", "Agumon.jpg", "Agunimon.jpg", "Agumon (Yukis Kizuna).jpg", "Aircraft Carrier Whamon.jpg", "Airdramon.jpg", "Akatorimon.jpg",
+        "Aldamon.jpg", "Algomon (Baby I).jpg", "Algomon (Baby II).jpg", "Algomon (Child).jpg", "Algomon (Adult).jpg", "Algomon (Perfect).jpg", 
+        "Algomon (Ultimate).jpg", "Allomon.jpg", "Allomon X.jpg", "Alphamon.jpg", "Alphamon Ouryuken.jpg", "Amon.jpg", "AncientBeetlemon.jpg",
+        "AncientGarurumon.jpg", "AncientGreymon.jpg", "AncientKazemon.jpg", "AncientMegatheriummon.jpg", "AncientMermaidmon.jpg",
+        "AncientSphinxmon.jpg", "AncientTroiamon.jpg", "AncientVolcanomon.jpg", "AncientWisemon.jpg", "Andromon.jpg", "Angemon.jpg",
+        "Angewomon X.jpg", "Angewomon.jpg", "Ankylomon.jpg", "Antylamon (Evil).jpg", "Antylamon (Good).jpg", "Anubismon.jpg",
+        "Apemon.jpg", "Apocalymon.jpg", "Apokarimon (Creepy Mode).jpg", "Apollomon.jpg", "Apollomon Darkness Mode.jpg",
+        "Apollomon Whispered.jpg", "Aquilamon.jpg", "Arbormon.jpg", "Arcadiamon (Champion).jpg", "Arcadiamon (In-Training).jpg",
+        "Arcadiamon (Mega).jpg", "Arcadiamon (Rookie).jpg", "Arcadiamon (Ultimate).jpg", "Arcadiamon (Ultra).jpg", "Archelomon.jpg",
+        "Argomon (Mega).jpg", "Argomon (Ultimate Worm Phase).jpg", "Argomon (Ultimate).jpg", "Armadillomon.jpg", "Armageddemon.jpg",
+        "Armamon.jpg", "Armed MadLeomon.jpg", "Armormon.jpg", "Arresterdramon.jpg", "Arresterdramon Superior Mode.jpg",
+        "Arukenimon (Human).jpg", "Arukenimon.jpg", "Aruraumon.jpg", "Astamon.jpg", "Asuramon.jpg", "Atamadekachimon.jpg",
+        "AtlurBallistamon.jpg", "Aurumon.jpg", "AvengeKidmon.jpg", "AxeKnightmon.jpg", "AxeKnightmon (Blastmon).jpg",
+        "AxeKnightmon (Duskmon).jpg", "AxeKnightmon (Gulfmon).jpg", "AxeKnightmon (Laylamon).jpg", "AxeKnightmon X.jpg", "Axemon.jpg",
+        "Azulongmon.jpg", "Babamon.jpg", "Babydmon.jpg", "Bacchusmon.jpg", "Bacchusmon (Deisui Mode).jpg", "Bacomon.jpg",
+        "Bagramon.jpg", "Baihumon.jpg", "Bakemon.jpg", "BalliBeastmon.jpg", "Ballistamon.jpg", "Ballistamon Mush Cottage.jpg",
+        "Ballistamon Sextet Launcher.jpg", "BanchoGolemon.jpg", "BanchoLeomon.jpg", "BanchoLeomon Burst Mode.jpg",
+        "BanchoLillymon.jpg", "BanchoMamemon.jpg", "BanchoStingmon.jpg", "BaoHuckmon.jpg", "Barbamon.jpg", "Barbamon X.jpg",
+        "Baromon.jpg", "Batterymon.jpg", "Battle Armament Trailmon.jpg", "Bearmon.jpg", "Beastmon.jpg", "Beelzemon (Behemoth).jpg",
+        "Beelzemon.jpg", "Beelzemon (2010 anime).jpg", "Beelzemon (Starmons).jpg", "Beelzemon Blast Mode.jpg", "Beelzemon X.jpg",
+        "Beetlemon.jpg", "BelleStarmon.jpg", "BelleStarmon X.jpg", "Belphemon Rage Mode.jpg", "Belphemon Sleep Mode.jpg", "Belphemon X.jpg",
+        "BeoWolfmon.jpg", "Betamon.jpg", "Betamon X.jpg", "Betsumon.jpg", "BigMamemon.jpg", "BioDarkdramon.jpg", "BioQuetzalmon.jpg",
+        "BioRotosmon.jpg", "BioStegomon.jpg", "BioSupinomon.jpg", "BioThunderbirdmon.jpg", "Birdramon.jpg", "BishopChessmon (Black).jpg",
+        "BishopChessmon (White).jpg", "Biyomon.jpg", "BlackAgumon.jpg", "BlackAgumon (2006 anime).jpg", "BlackAgumon X.jpg", "BlackGabumon.jpg",
+        "BlackGaogamon.jpg", "BlackGargomon.jpg", "BlackGarurumon.jpg", "BlackGatomon.jpg", "BlackGreymon.jpg", "BlackGrowlmon.jpg", "BlackGuilmon.jpg",
+        "BlackImperialdramon.jpg", "BlackKingNumemon.jpg", "BlackMachGaogamon.jpg", "BlackMegaGargomon.jpg", "BlackMetalGarurumon.jpg", "BlackRapidmon.jpg",
+        "BlackSeraphimon.jpg", "Black Seraphimon (DW3).jpg", "BlackShoutmon X7.jpg", "BlackWarGreymon.jpg", "BlackWarGreymon X.jpg", "BlackWarGrowlmon.jpg", "BladeKuwagamon.jpg",
+        "Blastmon.jpg", "Blikmon.jpg", "Blimpmon.jpg", "BlitzGreymon.jpg", "Blossomon.jpg", "BlueMeramon.jpg", "Boarmon.jpg", "Bokomon.jpg", "Boltboutamon.jpg", "Boltmon.jpg",
+        "BomberNanimon.jpg", "Bombmon.jpg", "Bommon.jpg", "Boogiemon.jpg", "Botamon.jpg", "Brachiomon.jpg", "Breakdramon.jpg", "BryweLudramon.jpg", "Bucchiemon.jpg",
+        "Bucchiemon (Green).jpg", "Budmon.jpg", "Bukamon.jpg", "Bulbmon.jpg", "Bullmon.jpg", "Bulucomon.jpg", "Bun.jpg", "Buraimon.jpg", "Burgermon.jpg",
+        "Burgermon (Champion).jpg", "BurningGreymon.jpg", "Burpmon.jpg", "BushiAgumon.jpg", "Butenmon.jpg", "Butterflymon.jpg", "Būmon.jpg", "Callismon.jpg", "Calmaramon.jpg",
+        "Calumon.jpg", "Candlemon.jpg", "CannonBeemon.jpg", "CannonBeemon (Aircraft Carrier).jpg", "Cannondramon.jpg", "CaptainHookmon.jpg", "Cardmon.jpg", 
+        "CatchMamemon.jpg", "Caturamon.jpg", "Centarumon.jpg", "Cerberumon.jpg", "Cerberumon Werewolf Mode.jpg", "Cerberumon X.jpg", "Ceresmon.jpg",
+        "Ceresmon Medium.jpg", "Chamelemon.jpg", "ChaosBlackWarGreymon.jpg", "Chaosdramon X.jpg", "Chaosdromon.jpg", "ChaosGallantmon.jpg", "ChaosGallantmon C.jpg",
+        "ChaosGrimmon.jpg", "ChaosMetalSeadramon.jpg", "Chaosmon.jpg", "Chaosmon Valdur Arm.jpg", "ChaosPiedmon.jpg", "Chapmon.jpg", "Cherrymon.jpg",
+        "Cherubimon (Evil).jpg", "Cherubimon (Evil) X.jpg", "Cherubimon (Good).jpg", "Cherubimon (Good) X.jpg","Chibickmon.jpg","ChibiKiwimon.jpg","Chibomon.jpg",
+        "Chicchimon.jpg","Chikurimon.jpg","Chirinmon.jpg","Cho Hakkaimon.jpg","Chronomon Destroy Mode.jpg","Chronomon Holy Mode.jpg","Chrysalimon.jpg",
+        "Chuumon.jpg","Citramon.jpg","ClavisAngemon.jpg","ClearAgumon.jpg","Clockmon (Fusion).jpg","Clockmon.jpg","Coelamon.jpg","Commandramon.jpg","Conomon.jpg",
+        "Copymon.jpg","Coredramon (Blue).jpg","Coredramon (Green).jpg","Coronamon.jpg","Cotsucomon.jpg","Crabmon.jpg","Crabmon X.jpg","Craniamon.jpg",
+        "Craniamon X.jpg","Crescemon.jpg","CresGarurumon.jpg","Crowmon.jpg","Crusadermon.jpg","Crusadermon X.jpg","CrysPaledramon.jpg","Cutemon.jpg","CuteShoutmon.jpg",
+        "CyberDracomon.jpg","Cyberdramon.jpg","Cyberdramon (2010 anime).jpg","Cyberdramon X.jpg","Cyclonemon.jpg","Daemon.jpg","Daemon (Mantled).jpg",
+        "Daemon (Ultra).jpg","Daemon X.jpg","Daipenmon.jpg","Damemon.jpg","Damemon (C'mon Digimon).jpg","Darcmon.jpg","Dark Trailmon.jpg",
+        "Darkdramon.jpg","Darkest AxeKnightmon.jpg","DarkLizardmon.jpg","DarkSuperStarmon.jpg","DarkTyrannomon.jpg","DarkTyrannomon X.jpg","DarkVolumon.jpg",
+        "Datamon.jpg","Datirimon.jpg","Death Airdramon.jpg","Death Devimon.jpg","Death Meramon.jpg","Death MetalGreymon.jpg","Death Tyranomon.jpg",
+        "Deathmon.jpg","Deckerdramon.jpg","Deckerdramon Float Mode.jpg","DeckerGreymon.jpg","Deltamon.jpg","DemiDevimon.jpg","DemiMeramon.jpg","DemiVeemon.jpg",
+        "Depthmon.jpg","Deputymon.jpg","Deramon.jpg","Destromon.jpg","Devidramon.jpg","Devimon.jpg","Devitamamon.jpg","DexDorugamon.jpg","DexDorugoramon.jpg",
+        "DexDoruGreymon.jpg","Dexmon.jpg","Diaboromon.jpg","Diaboromon X.jpg","Dianamon.jpg","Diatrymon.jpg","Digitamamon.jpg","Digmon.jpg","Dinobeemon.jpg",
+        "Dinohyumon.jpg","Dinorexmon.jpg","Dinotigermon.jpg","Divermon.jpg","Dobermon.jpg","Dobermon X.jpg","Dodomon.jpg","Doggymon.jpg","Dokugumon.jpg",
+        "Dokunemon.jpg","Dolphmon.jpg","Dominimon.jpg","Dondokomon.jpg","DonShoutmon.jpg","Dorbickmon.jpg","Dorbickmon Darkness Mode (Flarerizamon).jpg",
+        "Dorbickmon Darkness Mode One.jpg","Dorbickmon Darkness Mode Two.jpg","Dorimon.jpg","Dorugamon.jpg","Dorugoramon.jpg","DoruGreymon.jpg","Dorulumon.jpg",
+        "Dorumon.jpg","Doumon.jpg","Dracmon.jpg","Dracomon.jpg","Dracomon X.jpg","Dragomon.jpg","Drimogemon.jpg","Duramon.jpg","Durandamon.jpg","Duskmon.jpg",
+        "Dynasmon.jpg","Dynasmon X.jpg","Eaglemon.jpg","Ebemon.jpg","Ebemon X.jpg","EbiBurgamon.jpg","Ebidramon.jpg","Ebonwumon.jpg","Ekakimon.jpg",
+        "ElDradimon.jpg","Elecmon.jpg","Elephantmon.jpg","EmperorGreymon.jpg","Etemon.jpg","Etemon (Chaos).jpg","Evil Grademon.jpg","Evilbeast Laylamon.jpg",
+        "Examon.jpg","Examon X.jpg","ExoGrimmon.jpg","ExTyrannomon.jpg","ExVeemon.jpg","ExVeemon (Virus).jpg","Fake Agumon Expert.jpg","Falcomon.jpg","Falcomon (2006 anime).jpg",
+        "FanBeemon.jpg","Fangmon.jpg","Filmon.jpg","Firamon.jpg","Flamedramon.jpg","Flamemon.jpg","FlameWizardmon.jpg","Flaremon.jpg","Flarerizamon.jpg","Floramon.jpg",
+        "Flybeemon.jpg","Flymon.jpg","Footmon.jpg","Frigimon.jpg","Frimon.jpg","Frogmon.jpg","Fufumon.jpg","Fugamon.jpg","Fujinmon.jpg","Fujitsumon.jpg",
+        "FusedAncientVolcanomon.jpg","Gabumon.jpg","Gabumon X.jpg","Gaiamon.jpg","Galacticmon.jpg","Gallantmon (Grani).jpg","Gallantmon.jpg","Gallantmon Chaos Mode.jpg",
+        "Gallantmon Crimson Mode.jpg","Gallantmon X.jpg","Ganemon.jpg","Gankoomon.jpg","Gankoomon X.jpg","Gaogamon.jpg","Gaomon.jpg","Gaossmon.jpg","Garbagemon.jpg",
+        "Gargomon.jpg","Gargoylemon.jpg","Garudamon.jpg","Garudamon X.jpg","Garurumon.jpg","Garurumon X.jpg","Gatomon.jpg","Gatomon (Ringless).jpg","Gatomon X.jpg",
+        "Gazimon.jpg","Gazimon X.jpg","Gekomon.jpg","Generamon.jpg","GeoGreymon.jpg","Geremon.jpg","Gesomon.jpg","Gesomon X.jpg","Ghoulmon.jpg","Ghoulmon (Black).jpg",
+        "GigaBreakdramon.jpg","Gigadramon.jpg","GigaSeadramon.jpg","Gigasmon.jpg","GigaWaruMonzaemon.jpg","Gigimon.jpg","Ginkakumon.jpg","Ginkakumon Promote.jpg",
+        "Ginryumon.jpg","Giromon.jpg","Gizamon.jpg","Gizumon.jpg","Gizumon-AT.jpg","Gizumon-XT.jpg","Gladimon.jpg","Goblimon.jpg","Gokuwmon.jpg","GoldNumemon.jpg","Goldramon.jpg",
+        "Goldramon X.jpg","GoldVeedramon.jpg","GolemJijiTortomon.jpg","Golemon.jpg","Gomamon.jpg","Gomamon X.jpg","Gorillamon.jpg","Gotsumon.jpg","Gotsumon X.jpg",
+        "GraceNovamon.jpg","Grademon.jpg","Grand Generamon.jpg","GrandisKuwagamon.jpg","GrandisKuwagamon Honeybee Mode.jpg","GranDracmon.jpg","GranKuwagamon.jpg","GranLocomon.jpg",
+        "GrapLeomon.jpg","Gravimon.jpg","Gravimon Darkness Mode.jpg","Greatest Cutemon.jpg","GreyKnightsmon.jpg","Greymon.jpg","Greymon (2010 anime).jpg","Greymon O.jpg",
+        "Greymon X.jpg","Grimmon.jpg","Grimmon (Mystic Energy).jpg","Grizzlymon.jpg","Groundramon.jpg","Growlmon.jpg","Growlmon (Yellow).jpg","Growlmon X.jpg","Grumblemon.jpg",
+        "Gryphonmon.jpg","Guardromon.jpg","Guardromon (Gold).jpg","Guidemon.jpg","Guilmon.jpg","Guilmon X.jpg","Gulfmon.jpg","Gumdramon.jpg","Gummymon.jpg","Gundramon.jpg",
+        "Gururumon.jpg","Gwappamon.jpg","Hackmon.jpg","Hagurumon.jpg","Hagurumon X.jpg","Halsemon.jpg","Harpymon.jpg","Hawkmon.jpg","HerculesKabuterimon.jpg",
+        "HerculesKabuterimon X.jpg","Herissmon.jpg","Hermmon.jpg","Hi-VisionMonitamon.jpg","HiAndromon.jpg","HiMachineDramon.jpg","Hinukamuy.jpg","Hippogriffomon.jpg",
+        "Hyogamon.jpg","Hyokomon.jpg","IceDevimon.jpg","IceDevimon (Enhancement Absorbent).jpg","IceDevimon-Daipenmon Enhancement.jpg","IceLeomon.jpg","IceLeomon X.jpg",
+        "Icemon.jpg","Ignitemon.jpg","Ikkakumon.jpg","Imperialdramon Dragon Mode.jpg","Imperialdramon Fighter Mode.jpg","Imperialdramon Fighter Mode (Black).jpg",
+        "Imperialdramon Paladin Mode.jpg","Impmon.jpg","Impmon X.jpg","Indramon.jpg","Infermon.jpg","Jagamon.jpg","JagerLoweemon.jpg","Jazamon.jpg","Jazardmon.jpg",
+        "Jazarichmon.jpg","Jesmon.jpg","Jesmon GX.jpg","Jesmon X.jpg","JetMervamon.jpg","JetSilphymon.jpg","JewelBeemon.jpg","Jijimon.jpg","JijiShoutmon.jpg","Jokermon.jpg",
+        "JumboGamemon.jpg","JungleMojyamon.jpg","Junomon.jpg","Junomon Hysteric Mode.jpg","Jupitermon.jpg","Jupitermon Wrath Mode.jpg","Justimon (Accel Arm).jpg",
+        "Justimon (Blitz Arm).jpg","Justimon (Critical Arm).jpg","Justimon X.jpg", "Jyagamon.jpg", "Jyarimon.jpg","Kabukimon.jpg","Kabuterimon.jpg","Kakkinmon.jpg","Kamemon.jpg",
+        "Kangarumon.jpg","Kapurimon.jpg","Karatenmon.jpg","KaratsukiNumemon.jpg","Kazemon.jpg","Keemon.jpg","KendoGarurumon.jpg","Kenkimon.jpg","Kentaurosmon.jpg",
+        "Kentaurosmon X.jpg","Keramon.jpg","Keramon X.jpg","Ketomon.jpg","Kimeramon.jpg","KingChessmon.jpg","KingEtemon.jpg","Kinkakumon.jpg","Kiwimon.jpg","KnightChessmon (Black).jpg",
+        "KnightChessmon (White).jpg","Knightmon.jpg","Knightmon Wise-Sword Mode.jpg","KoDokugumon.jpg","Kogamon.jpg","KoHagurumon.jpg","KoKabuterimon.jpg",
+        "Kokatorimon.jpg","Kokomon.jpg","Kokuwamon.jpg","Kokuwamon X.jpg","Kongoumon.jpg","Korikakumon.jpg","Koromon.jpg","Kotemon.jpg",
+        "KoZenimon.jpg","Kudamon.jpg","Kudamon (2006 anime).jpg","Kumamon.jpg","Kumbhiramon.jpg","Kunemon.jpg","Kuramon.jpg",
+        "Kuwagamon.jpg","Kuwagamon X.jpg","Kuzuhamon.jpg","Kuzuhamon Miko Mode.jpg","Kyaromon.jpg","KyodaiNumemon.jpg",
+        "Kyokyomon.jpg","Kyubimon.jpg","Kyubimon (Silver).jpg","Kyukimon.jpg","Kyupimon.jpg","L-ToyAgumon.jpg","Labramon.jpg","LadyDevimon.jpg",
+        "LadyDevimon X.jpg","Lalamon.jpg","Lampmon.jpg","Lavogaritamon.jpg","Lavorvomon.jpg","Laylamon.jpg","Laylamon X.jpg","Leafmon.jpg","Lekismon.jpg","Leomon.jpg","Leomon X.jpg",
+        "Leopardmon.jpg","Leopardmon Leopard Mode.jpg","Leopardmon X.jpg","Leviamon.jpg","Leviamon X.jpg","Liamon.jpg","Lilamon.jpg","Lillymon.jpg","Lillymon X.jpg","Liollmon.jpg",
+        "LoaderLiomon.jpg","Lobomon.jpg","Locomon.jpg","Lopmon.jpg","Lopmon (White).jpg","Lopmon X.jpg","Lotosmon.jpg","Loweemon.jpg","Lucemon.jpg","Lucemon Chaos Mode.jpg",
+        "Lucemon Larva.jpg","Lucemon Shadowlord Mode.jpg","Lucemon X.jpg","Ludomon.jpg","Luminamon.jpg","Luminamon (Nene Version).jpg","Lunamon.jpg","Lycamon.jpg","Lynxmon.jpg"
+    ]
+    const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
+    message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
+    message.channel.send({ file: ["Digimons/"] + img })
+}
+
+module.exports.config = {
+    name: "digimons",
+    usage: "-digimons",
+    aliases: ["dig", "digimdesc"]
+}
