@@ -102,7 +102,12 @@ module.exports.run = async(client, message, args) => {
         "Mailbirdramon+Golemon.jpg","Maildramon.jpg","Maildramon.jpg","Makuramon.jpg","MaloMyotismon.jpg","Mamemon.jpg","Mamemon X.jpg","MameTyramon.jpg","Mammothmon.jpg",
         "Mammothmon X.jpg","Manbomon.jpg","Mantaraymon.jpg","Mantaraymon X.jpg","MarinChimairamon.jpg","MarineAngemon.jpg","MarineDevimon.jpg","Marsmon.jpg","Mastemon.jpg",
         "MasterTyrannomon.jpg","Master V-dramon.jpg","Matadormon.jpg","MedievalDukemon.jpg","MegaBlackShoutmon X7.jpg","AxeKnightmon.jpg","MegaDarknessBagramon.jpg","DeckerGreymon.jpg",
-        "Megadramon.jpg","MegaGargomon.jpg","GranKuwagamon.jpg","MegaKabuterimon (Blue).jpg","MegaKabuterimon (Red).jpg"
+        "Megadramon.jpg","MegaGargomon.jpg","GranKuwagamon.jpg","MegaKabuterimon (Blue).jpg","MegaKabuterimon (Red).jpg","MusoKnightmon.jpg","MegaSeadramon.jpg","MegaSeadramon X.jpg",
+        "Megidramon.jpg","Megidramon X.jpg","Meicoomon.jpg","Meicoomon (Saltation).jpg","Meicrackmon.jpg","Meicrackmon Vicious Mode.jpg","Mekanorimon.jpg","Mephistomon.jpg","Mephistomon X.jpg",
+        "Meramon.jpg","Meramon X.jpg","Mercurymon.jpg","Mermaimon.jpg","Merukimon.jpg","Mervamon.jpg","Mervamon Wide-Hi-Vision Sword.jpg","MetalEtemon.jpg","MetalGarurumon.jpg",
+        "MetalGarurumon X.jpg","MetalGreymon (Vaccine).jpg","MetalGreymon (Virus).jpg","MetalGreymon (2010 anime).jpg","MetalGreymon Cyberdramon.jpg","MetalGreymon X.jpg",
+        "MetalGreymon (Virus) X.jpg","MetalKabuterimon.jpg","MetalKoromon.jpg","Metallicdramon.jpg","MetallifeKuwagamon.jpg","MetalMamemon.jpg","MetalMamemon X.jpg",
+        "MetalPhantomon.jpg","MetalPiranimon.jpg","MetalSeadramon.jpg","MetalTyrannomon.jpg","MetalTyrannomon X.jpg","Metamormon.jpg","Meteormon.jpg","Mihiramon.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
