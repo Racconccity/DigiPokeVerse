@@ -107,7 +107,14 @@ module.exports.run = async(client, message, args) => {
         "Meramon.jpg","Meramon X.jpg","Mercurymon.jpg","Mermaimon.jpg","Merukimon.jpg","Mervamon.jpg","Mervamon Wide-Hi-Vision Sword.jpg","MetalEtemon.jpg","MetalGarurumon.jpg",
         "MetalGarurumon X.jpg","MetalGreymon (Vaccine).jpg","MetalGreymon (Virus).jpg","MetalGreymon (2010 anime).jpg","MetalGreymon Cyberdramon.jpg","MetalGreymon X.jpg",
         "MetalGreymon (Virus) X.jpg","MetalKabuterimon.jpg","MetalKoromon.jpg","Metallicdramon.jpg","MetallifeKuwagamon.jpg","MetalMamemon.jpg","MetalMamemon X.jpg",
-        "MetalPhantomon.jpg","MetalPiranimon.jpg","MetalSeadramon.jpg","MetalTyrannomon.jpg","MetalTyrannomon X.jpg","Metamormon.jpg","Meteormon.jpg","Mihiramon.jpg"
+        "MetalPhantomon.jpg","MetalPiranimon.jpg","MetalSeadramon.jpg","MetalTyrannomon.jpg","MetalTyrannomon X.jpg","Metamormon.jpg","Meteormon.jpg","Mihiramon.jpg",
+        "Mikemon.jpg","Millenniummon.jpg","Minervamon.jpg","Minervamon X.jpg","Minidekachimon.jpg","Minomon.jpg","Minotarumon.jpg","MirageGaogamon.jpg","MirrorBallmon.jpg",
+        "Missimon.jpg","Mistymon.jpg","Mitamamon.jpg","ModokiBetamon.jpg","Mojyamon.jpg","Mokumon.jpg","Monimon.jpg","Monitamon.jpg","Monmon.jpg","Monochromon.jpg","Monochromon X.jpg",
+        "Monodramon.jpg","Monzaemon.jpg","Monzaemon X.jpg","Moon=Millenniummon.jpg","Moonmon.jpg","Moosemon.jpg","MoriShellmon.jpg","Morphomon.jpg","Mothmon.jpg","Motimon.jpg",
+        "Muchomon.jpg","MudFrigimon.jpg","Mummymon.jpg","Mummymon (Human).jpg","Murmukusmon.jpg","Mush-Upped MachLeomon.jpg","Mushroomon.jpg","MusoKnightmon.jpg","Musyamon.jpg",
+        "Myotismon.jpg","Myotismon X.jpg","Nanimon.jpg","Neemon.jpg","Nefertimon.jpg","Nefertimon X.jpg","NeoDevimon.jpg","NeoMyotismon.jpg","NeoMyotismon Darkness Mode One.jpg",
+        "NeoMyotismon Darkness Mode Two.jpg","NeoMyotismon Darkness Mode (Shoutmon).jpg","Neptunemon.jpg","Ninjamon.jpg","NiseDrimogemon.jpg","NoblePumpkinmon.jpg","Nohemon.jpg",
+        "Numemon.jpg","Numemon X.jpg","Nyaromon.jpg","Nyokimon.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
