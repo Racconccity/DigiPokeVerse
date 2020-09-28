@@ -114,7 +114,11 @@ module.exports.run = async(client, message, args) => {
         "Muchomon.jpg","MudFrigimon.jpg","Mummymon.jpg","Mummymon (Human).jpg","Murmukusmon.jpg","Mush-Upped MachLeomon.jpg","Mushroomon.jpg","MusoKnightmon.jpg","Musyamon.jpg",
         "Myotismon.jpg","Myotismon X.jpg","Nanimon.jpg","Neemon.jpg","Nefertimon.jpg","Nefertimon X.jpg","NeoDevimon.jpg","NeoMyotismon.jpg","NeoMyotismon Darkness Mode One.jpg",
         "NeoMyotismon Darkness Mode Two.jpg","NeoMyotismon Darkness Mode (Shoutmon).jpg","Neptunemon.jpg","Ninjamon.jpg","NiseDrimogemon.jpg","NoblePumpkinmon.jpg","Nohemon.jpg",
-        "Numemon.jpg","Numemon X.jpg","Nyaromon.jpg","Nyokimon.jpg"
+        "Numemon.jpg","Numemon X.jpg","Nyaromon.jpg","Nyokimon.jpg","Ochimusayamon.jpg","Octomon.jpg","Ogremon.jpg","Ogremon X.jpg","Ogudomon.jpg","Ogudomon X.jpg","Ohakadamon.jpg",
+        "Oinkmon.jpg","Okuwamon.jpg","Okuwamon X.jpg","Olegmon.jpg","OmegaArmamon Burst Mode.jpg","Omegamon Alter-B.jpg","Omegamon Alter-S.jpg","Omegamon Zwart Defeat.jpg",
+        "Omekamon.jpg","Omegamon.jpg","Omegamon X.jpg","Omegamon Merciful Mode.jpg","Omegamon Zwart.jpg","OmegaShoutmon.jpg","OmegaShoutmon X.jpg","Ophanimon.jpg","Ophanimon C.jpg",
+        "Ophanimon X.jpg","Ophanimon Falldown Mode.jpg","Ophanimon Falldown Mode X.jpg","Opossummon.jpg","Orcamon.jpg","Ordinemon.jpg","Ornismon.jpg","Orochimon.jpg","Oryxmon.jpg",
+        "Otamamon.jpg","Otamamon (Red).jpg","Otamamon X.jpg","Ouryumon.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
