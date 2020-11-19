@@ -122,7 +122,14 @@ module.exports.run = async(client, message, args) => {
         "Piddomon.jpg","Piedmon.jpg","PileVolcamon.jpg","Pillomon.jpg","Pinamon.jpg","Pipismon.jpg","Piranimon.jpg","Piximon.jpg","PlatinumNumemon.jpg","PlatinumSukamon.jpg","Plesiomon.jpg",
         "Plesiomon X.jpg","Plutomon.jpg","Pomumon.jpg","Ponchomon.jpg","Popomon.jpg","Pol.jpg","Porcupamon.jpg","Poromon.jpg","Poyomon.jpg","Prairiemon.jpg","PrinceMamemon.jpg",
         "PrinceMamemon X.jpg","Psychemon.jpg","Pteramon.jpg","Pteramon X.jpg","Pukumon.jpg","Pumpkinmon.jpg","Punimon.jpg","Puppetmon.jpg","Pupumon.jpg","Puroromon.jpg","Pusumon.jpg",
-        "Pusurimon.jpg","Puttimon.jpg","Puwamon.jpg","Quartzmon.jpg","Quartzmon (Tower).jpg","Quartzmon (Terminal).jpg","Quartzmon (World).jpg","QueenChessmon.jpg","Quetzalmon.jpg"
+        "Pusurimon.jpg","Puttimon.jpg","Puwamon.jpg","Quartzmon.jpg","Quartzmon (Tower).jpg","Quartzmon (Terminal).jpg","Quartzmon (World).jpg","QueenChessmon.jpg","Quetzalmon.jpg",
+        "Rabbitmon.jpg","Rafflesimon.jpg","RagnaLoardmon.jpg","Raguelmon.jpg","Raidenmon.jpg","Raidramon.jpg","RaijiLudomon.jpg","RaijiLudomon (Shield Form).jpg","Raijinmon.jpg",
+        "RampageGreymon.jpg","Ranamon.jpg","Rapidmon.jpg","Rapidmon (Armor).jpg","Rapidmon X.jpg","RaptorSparrowmon.jpg","Raremon.jpg","Rasielmon.jpg","Rasenmon.jpg","Rasenmon (Anniv).jpg",
+        "Rasenmon Fury Mode.jpg","Rasenmon Fury Mode (Anniv).jpg","Ravemon.jpg","Ravemon Burst Mode.jpg","Reapermon.jpg","Reapmon.jpg","Rebellimon.jpg","RedVeedramon.jpg",
+        "RedVegiemon.jpg","Regalecusmon.jpg","Regulumon.jpg","Relemon.jpg","Renamon.jpg","Renamon X.jpg","Reppamon.jpg","Reptiledramon.jpg","ReverseWeddinmon.jpg","Rhihimon.jpg",
+        "RhinoKabuterimon.jpg","Rhinomon.jpg","Rhinomon X.jpg","Rhythm.jpg","Rinkmon.jpg","RizeGreymon.jpg","RizeGreymon X.jpg","Roachmon.jpg","Rockmon.jpg","RookChessmon (Black).jpg",
+        "RookChessmon (White).jpg","Rosemon.jpg","Rosemon Burst Mode.jpg","Rosemon X.jpg","RustTyranomon.jpg","Ruthless Tuwarmon.jpg","Ryudamon.jpg","Saberdramon.jpg","SaberLeomon.jpg",
+        "Sagittarimon.jpg","Sagomon.jpg","Sakkakumon.jpg","Sakumon.jpg","SakutekiMonitamon.jpg","Sakuttomon.jpg","Sakuyamon.jpg","Sakuyamon Maid Mode.jpg","Sakuyamon X.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
