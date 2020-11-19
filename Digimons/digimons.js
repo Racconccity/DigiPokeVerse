@@ -10,15 +10,13 @@ module.exports.run = async(client, message, args) => {
     var randomimg = path.join(__dirname, 'Digimons/');
     randomimg = [
         "Aegiochusmon Blue.jpg", "Aegiochusmon Dark.jpg", "Aegiochusmon Green.jpg", "Aegiochusmon Holy.jpg", "Aegiochusmon.jpg",
-        "Aegisdramon.jpg", "AeroVeedramon.jpg", "Agumon (2006 anime).jpg", "Agumon Burst Mode.jpg", "Agumon Expert.jpg",
-        "Agumon X.jpg", "Agumon.jpg", "Agunimon.jpg", "Agumon (Yukis Kizuna).jpg", "Aircraft Carrier Whamon.jpg", "Airdramon.jpg", "Akatorimon.jpg",
+        "Aegisdramon.jpg", "AeroVeedramon.jpg", "Agumon (2006 anime).jpg", "Agumon Burst Mode.jpg", "Agumon Expert.jpg","Agumon X.jpg", "Agumon.jpg", "Agunimon.jpg", "Agumon (Yuki no Kizuna).jpg", "Aircraft Carrier Whamon.jpg", "Airdramon.jpg", "Akatorimon.jpg",
         "Aldamon.jpg", "Algomon (Baby I).jpg", "Algomon (Baby II).jpg", "Algomon (Child).jpg", "Algomon (Adult).jpg", "Algomon (Perfect).jpg", 
         "Algomon (Ultimate).jpg", "Allomon.jpg", "Allomon X.jpg", "Alphamon.jpg", "Alphamon Ouryuken.jpg", "Amon.jpg", "AncientBeetlemon.jpg",
         "AncientGarurumon.jpg", "AncientGreymon.jpg", "AncientKazemon.jpg", "AncientMegatheriummon.jpg", "AncientMermaidmon.jpg",
         "AncientSphinxmon.jpg", "AncientTroiamon.jpg", "AncientVolcanomon.jpg", "AncientWisemon.jpg", "Andromon.jpg", "Angemon.jpg",
         "Angewomon X.jpg", "Angewomon.jpg", "Ankylomon.jpg", "Antylamon (Evil).jpg", "Antylamon (Good).jpg", "Anubismon.jpg",
-        "Apemon.jpg", "Apocalymon.jpg", "Apokarimon (Creepy Mode).jpg", "Apollomon.jpg", "Apollomon Darkness Mode.jpg",
-        "Apollomon Whispered.jpg", "Aquilamon.jpg", "Arbormon.jpg", "Arcadiamon (Champion).jpg", "Arcadiamon (In-Training).jpg",
+        "Apemon.jpg", "Apocalymon.jpg", "Apokarimon (Creepy Mode).jpg", "Apollomon.jpg", "Apollomon Darkness Mode.jpg","Apollomon Whispered.jpg", "Aquilamon.jpg", "Arbormon.jpg", "Arcadiamon (Champion).jpg", "Arcadiamon (In-Training).jpg",
         "Arcadiamon (Mega).jpg", "Arcadiamon (Rookie).jpg", "Arcadiamon (Ultimate).jpg", "Arcadiamon (Ultra).jpg", "Archelomon.jpg",
         "Argomon (Mega).jpg", "Argomon (Ultimate Worm Phase).jpg", "Argomon (Ultimate).jpg", "Armadillomon.jpg", "Armageddemon.jpg",
         "Armamon.jpg", "Armed MadLeomon.jpg", "Armormon.jpg", "Arresterdramon.jpg", "Arresterdramon Superior Mode.jpg",
@@ -27,8 +25,7 @@ module.exports.run = async(client, message, args) => {
         "AxeKnightmon (Duskmon).jpg", "AxeKnightmon (Gulfmon).jpg", "AxeKnightmon (Laylamon).jpg", "AxeKnightmon X.jpg", "Axemon.jpg",
         "Azulongmon.jpg", "Babamon.jpg", "Babydmon.jpg", "Bacchusmon.jpg", "Bacchusmon (Deisui Mode).jpg", "Bacomon.jpg",
         "Bagramon.jpg", "Baihumon.jpg", "Bakemon.jpg", "BalliBeastmon.jpg", "Ballistamon.jpg", "Ballistamon Mush Cottage.jpg",
-        "Ballistamon Sextet Launcher.jpg", "BanchoGolemon.jpg", "BanchoLeomon.jpg", "BanchoLeomon Burst Mode.jpg",
-        "BanchoLillymon.jpg", "BanchoMamemon.jpg", "BanchoStingmon.jpg", "BaoHuckmon.jpg", "Barbamon.jpg", "Barbamon X.jpg",
+        "Ballistamon Sextet Launcher.jpg", "BanchoGolemon.jpg", "BanchoLeomon.jpg", "BanchoLeomon Burst Mode.jpg", "BanchoLillymon.jpg", "BanchoMamemon.jpg", "BanchoStingmon.jpg", "BaoHuckmon.jpg", "Barbamon.jpg", "Barbamon X.jpg",
         "Baromon.jpg", "Batterymon.jpg", "Battle Armament Trailmon.jpg", "Bearmon.jpg", "Beastmon.jpg", "Beelzemon (Behemoth).jpg",
         "Beelzemon.jpg", "Beelzemon (2010 anime).jpg", "Beelzemon (Starmons).jpg", "Beelzemon Blast Mode.jpg", "Beelzemon X.jpg",
         "Beetlemon.jpg", "BelleStarmon.jpg", "BelleStarmon X.jpg", "Belphemon Rage Mode.jpg", "Belphemon Sleep Mode.jpg", "Belphemon X.jpg",
@@ -118,7 +115,11 @@ module.exports.run = async(client, message, args) => {
         "Oinkmon.jpg","Okuwamon.jpg","Okuwamon X.jpg","Olegmon.jpg","OmegaArmamon Burst Mode.jpg","Omegamon Alter-B.jpg","Omegamon Alter-S.jpg","Omegamon Zwart Defeat.jpg",
         "Omekamon.jpg","Omegamon.jpg","Omegamon X.jpg","Omegamon Merciful Mode.jpg","Omegamon Zwart.jpg","OmegaShoutmon.jpg","OmegaShoutmon X.jpg","Ophanimon.jpg","Ophanimon C.jpg",
         "Ophanimon X.jpg","Ophanimon Falldown Mode.jpg","Ophanimon Falldown Mode X.jpg","Opossummon.jpg","Orcamon.jpg","Ordinemon.jpg","Ornismon.jpg","Orochimon.jpg","Oryxmon.jpg",
-        "Otamamon.jpg","Otamamon (Red).jpg","Otamamon X.jpg","Ouryumon.jpg"
+        "Otamamon.jpg","Otamamon (Red).jpg","Otamamon X.jpg","Ouryumon.jpg","Pabumon.jpg","Pafumon.jpg","Pagumon.jpg","Paildramon.jpg","Pajiramon.jpg","Palmon.jpg","Palmon X.jpg",
+        "Paledramon.jpg","Panbachimon.jpg","Pandamon.jpg","Panimon.jpg","Paomon.jpg","Parallelmon.jpg","Parasimon.jpg","Parasaurmon.jpg","Parrotmon.jpg","Patamon.jpg","PawnChessmon (Black).jpg",
+        "PawnChessmon (White).jpg","PaunGaossmon.jpg","PawnShoutmon.jpg","Peacockmon.jpg","Peckmon.jpg","Pegasusmon.jpg","Pegasusmon X.jpg","Penguinmon.jpg","Petaldramon.jpg",
+        "Petermon.jpg","PetitMamon.jpg","Petitmon.jpg","Phantomon.jpg","Pharaohmon.jpg","Phascomon.jpg","Phelesmon.jpg","","","","","","",""
+        "","","","","","","","","","","","","","","","","","","","",""
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
