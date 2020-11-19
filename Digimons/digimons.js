@@ -118,8 +118,11 @@ module.exports.run = async(client, message, args) => {
         "Otamamon.jpg","Otamamon (Red).jpg","Otamamon X.jpg","Ouryumon.jpg","Pabumon.jpg","Pafumon.jpg","Pagumon.jpg","Paildramon.jpg","Pajiramon.jpg","Palmon.jpg","Palmon X.jpg",
         "Paledramon.jpg","Panbachimon.jpg","Pandamon.jpg","Panimon.jpg","Paomon.jpg","Parallelmon.jpg","Parasimon.jpg","Parasaurmon.jpg","Parrotmon.jpg","Patamon.jpg","PawnChessmon (Black).jpg",
         "PawnChessmon (White).jpg","PaunGaossmon.jpg","PawnShoutmon.jpg","Peacockmon.jpg","Peckmon.jpg","Pegasusmon.jpg","Pegasusmon X.jpg","Penguinmon.jpg","Petaldramon.jpg",
-        "Petermon.jpg","PetitMamon.jpg","Petitmon.jpg","Phantomon.jpg","Pharaohmon.jpg","Phascomon.jpg","Phelesmon.jpg","","","","","","",""
-        "","","","","","","","","","","","","","","","","","","","",""
+        "Petermon.jpg","PetitMamon.jpg","Petitmon.jpg","Phantomon.jpg","Pharaohmon.jpg","Phascomon.jpg","Phelesmon.jpg","Pichimon.jpg","Pickmon (Silver).jpg","Pickmon (White).jpg",
+        "Piddomon.jpg","Piedmon.jpg","PileVolcamon.jpg","Pillomon.jpg","Pinamon.jpg","Pipismon.jpg","Piranimon.jpg","Piximon.jpg","PlatinumNumemon.jpg","PlatinumSukamon.jpg","Plesiomon.jpg",
+        "Plesiomon X.jpg","Plutomon.jpg","Pomumon.jpg","Ponchomon.jpg","Popomon.jpg","Pol.jpg","Porcupamon.jpg","Poromon.jpg","Poyomon.jpg","Prairiemon.jpg","PrinceMamemon.jpg",
+        "PrinceMamemon X.jpg","Psychemon.jpg","Pteramon.jpg","Pteramon X.jpg","Pukumon.jpg","Pumpkinmon.jpg","Punimon.jpg","Puppetmon.jpg","Pupumon.jpg","Puroromon.jpg","Pusumon.jpg",
+        "Pusurimon.jpg","Puttimon.jpg","Puwamon.jpg","Quartzmon.jpg","Quartzmon (Tower).jpg","Quartzmon (Terminal).jpg","Quartzmon (World).jpg","QueenChessmon.jpg","Quetzalmon.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
