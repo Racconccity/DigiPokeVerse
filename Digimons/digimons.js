@@ -36,7 +36,7 @@ module.exports.run = async(client, message, args) => {
         "BomberNanimon.jpg", "Bombmon.jpg", "Bommon.jpg", "Boogiemon.jpg", "Botamon.jpg", "Brachiomon.jpg", "Breakdramon.jpg", "BryweLudramon.jpg", "Bucchiemon.jpg",
         "Bucchiemon (Green).jpg", "Budmon.jpg", "Bukamon.jpg", "Bulbmon.jpg", "Bullmon.jpg", "Bulucomon.jpg", "Bun.jpg", "Buraimon.jpg", "Burgermon.jpg",
         "Burgermon (Champion).jpg", "BurningGreymon.jpg", "Burpmon.jpg", "BushiAgumon.jpg", "Butenmon.jpg", "Butterflymon.jpg", "Būmon.jpg", "Callismon.jpg", "Calmaramon.jpg",
-        "Calumon.jpg", "Candlemon.jpg", "CannonBeemon.jpg", "CannonBeemon (Aircraft Carrier).jpg", "Cannondramon.jpg", "CaptainHookmon.jpg", "Cardmon.jpg", 
+        "Calumon.jpg", "Candlemon.jpg", "CannonBeemon.jpg", "CannonBeemon (Aircraft Carrier).jpg", "Cannondramon.jpg", "CaptainHookmon.jpg", "Cardmon.jpg",
         "CatchMamemon.jpg", "Caturamon.jpg", "Centarumon.jpg", "Cerberumon.jpg", "Cerberumon Werewolf Mode.jpg", "Cerberumon X.jpg", "Ceresmon.jpg",
         "Ceresmon Medium.jpg", "Chamelemon.jpg", "ChaosBlackWarGreymon.jpg", "Chaosdramon X.jpg", "Chaosdromon.jpg", "ChaosGallantmon.jpg", "ChaosGallantmon C.jpg",
         "ChaosGrimmon.jpg", "ChaosMetalSeadramon.jpg", "Chaosmon.jpg", "Chaosmon Valdur Arm.jpg", "ChaosPiedmon.jpg", "Chapmon.jpg", "Cherrymon.jpg",
@@ -138,7 +138,28 @@ module.exports.run = async(client, message, args) => {
 		"Shurimon.jpg","Shurimon (Black).jpg","Silphymon.jpg","Sinduramon.jpg","Sirenmon.jpg","Sistermon Blanc.jpg","Sistermon Blanc (Awakened).jpg","Sistermon Ciel.jpg","Sistermon Noir.jpg",
 		"Sistermon Noir (Awakened).jpg","SkullBaluchimon.jpg","SkullGreymon.jpg","SkullKnightmon.jpg","SkullKnightmon BR.jpg","SkullKnightmon Cavalier Mode.jpg","SkullKnightmon Mighty Axe Mode.jpg",
 		"SkullMammothmon.jpg","SkullMammothmon X.jpg","SkullMeramon.jpg","SkullSatamon.jpg","SkullScorpionmon.jpg","Slayerdramon.jpg","SlashAngemon.jpg","Snatchmon.jpg","Snimon.jpg","SnowAgumon.jpg","SnowAgumon (2006).jpg",
-		"SnowGoblimon.jpg","Solarmon.jpg","Sorcermon.jpg","Soulmon.jpg","Soundbirdmon.jpg","Spadamon.jpg","Sparrowmon.jpg"
+		"SnowGoblimon.jpg","Solarmon.jpg","Sorcermon.jpg","Soulmon.jpg","Soundbirdmon.jpg","Spadamon.jpg","Sparrowmon.jpg","Sparrowmon After Burner.jpg","Spinomon.jpg","Splashmon.jpg",
+		"Splashmon Darkness Mode 1.jpg","Splashmon Darkness Mode 2.jpg","Starmon.jpg","Starmon (2010 anime).jpg","Starmon X.jpg","Stefilmon.jpg","Stegomon.jpg","Stingmon.jpg","Strabimon.jpg","Strikedramon.jpg",
+		"Submarimon.jpg","Suijinmon.jpg","Sukamon.jpg","Sunarizamon.jpg","Sunflowmon.jpg","Sunmon.jpg","SuperDarkKnightmon.jpg","SuperStarmon.jpg","Surfimon.jpg","Susanoomon.jpg","Swanmon.jpg",
+		"Swimmon.jpg","Syakomon.jpg","Syakomon X.jpg","Tactimon.jpg","Tanemon.jpg","Tankdramon.jpg","Tankmon.jpg","Taomon.jpg","Taomon (Silver).jpg","Tapirmon.jpg","Targetmon.jpg","Technodramon.jpg","Tekkamon.jpg",
+		"Tentomon.jpg","Terriermon.jpg","Terriermon X.jpg","Terriermon Assistant.jpg","Thunderbirdmon.jpg","Thundermon.jpg","Thundermon X.jpg","TiaLudomon.jpg","TigerVespamon.jpg","Tinkermon.jpg","Tinmon.jpg",
+		"Titamon.jpg","Tobiumon.jpg","TobuCatmon.jpg","Togemogumon.jpg","Togemon.jpg","Togemon X.jpg","Tokomon.jpg","Tokomon X.jpg","TonosamaMamemon.jpg","TorikaraBallmon.jpg","Toropiamon.jpg","Tortomon.jpg",
+		"Toucanmon.jpg","ToyAgumon.jpg","Trailmon (Angler).jpg","Trailmon (Ball).jpg","Trailmon (C-89 Model).jpg","Trailmon (Franken).jpg","Trailmon (Worm).jpg","Triceramon.jpg","Triceramon X.jpg",
+		"Troopmon.jpg","Tsubumon.jpg","Tsukaimon.jpg","Tsumemon.jpg","Tsunomon.jpg","Tuwarmon.jpg","Turuiemon.jpg","Tuskmon.jpg","Tylomon.jpg","Tylomon X.jpg","Tyrannomon.jpg","Tyrannomon X.jpg",
+		"TyrantKabuterimon.jpg","Tyutyumon.jpg","UlforceVeedramon.jpg","UlforceVeedramon Future Mode.jpg","UlforceVeedramon X.jpg","UltimateBrachiomon.jpg","UltimateChaosmon.jpg","Umon.jpg","Unimon.jpg",
+		"Upamon.jpg","Vademon.jpg","Vademon X.jpg","Vajramon.jpg","Valkyrimon.jpg","Varodurumon.jpg","Veedramon.jpg","Veedramon (Virus).jpg","Veemon.jpg","Vegiemon.jpg","Velgemon.jpg","Vemmon.jpg",
+		"VenomMyotismon.jpg","Venusmon.jpg","Vermillimon.jpg","VictoryGreymon.jpg","Vikaralamon.jpg","Vikemon.jpg","Vilemon.jpg","Viximon.jpg","Volcamon.jpg","Volcanicdramon.jpg","Volcdramon.jpg",
+		"Vorvomon.jpg","Vulcanusmon.jpg","Wanyamon.jpg","WarGreymon.jpg","WarGreymon X.jpg","WarGrowlmon.jpg","WarGrowlmon (Yellow).jpg","WarGrowlmon X.jpg","WaruMonzaemon.jpg","WaruSeadramon.jpg",
+		"Waspmon.jpg","Weddinmon.jpg","Weedmon.jpg","Wendigomon.jpg","WereGarurumon.jpg","WereGarurumon Sagittarius Mode.jpg","WereGarurumon X.jpg","Whamon.jpg","KingWhamon.jpg","Wingdramon.jpg",
+		"Wisemon.jpg","Witchmon.jpg","Wizardmon.jpg","Wizardmon X.jpg","Woodmon.jpg","Wormmon.jpg","Xiaomon.jpg","Yaamon.jpg","YaegerDorulumon.jpg","Yakiimon.jpg","Yanmamon.jpg","Yasyamon.jpg",
+		"Yatakaramon.jpg","Yoyomon.jpg","Yokomon.jpg","Youkomon.jpg","YukimiBotamon.jpg","Yuramon.jpg","Zamielmon.jpg","Zanbamon.jpg","ZeedGarurumon.jpg","ZeedMillenniummon.jpg","ZekeGreymon.jpg",
+		"Zenimon.jpg","Zephyrmon.jpg","Zerimon.jpg","Zhuqiaomon.jpg","ZubaEagermon.jpg","Zubamon.jpg","Zudomon.jpg","Zurumon.jpg",
+		/*Xtra Forms*/
+		"Omedamon.jpg","BlackWarKazumon.jpg","DigiGnome.jpg","D-Reaper ADR-01 - Jeri Type.jpg","D-Reaper ADR-02 - Searcher.jpg","D-Reaper ADR-03 - Pendulum Feet.jpg","D-Reaper ADR-04 - Bubbles.jpg",
+		"D-Reaper ADR-05 - Creep Hands.jpg","D-Reaper ADR-06 - Horn Striker.jpg","D-Reaper ADR-07 - Paratice Head.jpg","D-Reaper ADR-08 - Optimizer.jpg","D-Reaper ADR-09 - Gatekeeper.jpg","Reaper.jpg",
+		"Mother D-Reaper.jpg","Eater (Humanoid Mode).jpg","Eater (Purebreed Mode).jpg","Eater Adam.jpg","Eater Bit.jpg","Eater EDEN.jpg","Eater Eve.jpg","Eater Legion.jpg","Eraser.jpg",
+		"Ex-Eraser α.jpg","Ex-Eraser β.jpg","Ex-Eraser γ.jpg","Ex-Eraser Ω.jpg","Giga Devast.jpg","Mother Eater.jpg","NEO.jpg","Shift Eraser.jpg","Spiral.jpg","Tera Devast.jpg","Vitium (Form 1).jpg",
+		"Vitium (Form 2).jpg","King Drasil 7D6.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
