@@ -15,7 +15,7 @@
     "fs": "0.0.1-security",
     "imgflip": "^1.0.4",
     "imgflipper": "^1.0.1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "nodemon": "^2.0.0",
     "path": "^0.12.7",
     "random-file": "^1.0.0",
