@@ -60,7 +60,7 @@ module.exports.run = async(client, message, args) => {
         "ElDradimon.jpg","Elecmon.jpg","Elephantmon.jpg","EmperorGreymon.jpg","Etemon.jpg","Etemon (Chaos).jpg","Evil Grademon.jpg","Evilbeast Laylamon.jpg",
         "Examon.jpg","Examon X.jpg","ExoGrimmon.jpg","ExTyrannomon.jpg","ExVeemon.jpg","ExVeemon (Virus).jpg","Fake Agumon Expert.jpg","Falcomon.jpg","Falcomon (2006 anime).jpg",
         "FanBeemon.jpg","Fangmon.jpg","Filmon.jpg","Firamon.jpg","Flamedramon.jpg","Flamemon.jpg","FlameWizardmon.jpg","Flaremon.jpg","Flarerizamon.jpg","Floramon.jpg",
-        "Flybeemon.jpg","Flymon.jpg","Footmon.jpg","Frigimon.jpg","Frimon.jpg","Frogmon.jpg","Fufumon.jpg","Fugamon.jpg","Fujinmon.jpg","Fujitsumon.jpg",
+        "Flybeemon.jpg","Flymon.jpg","Footmon.jpg","Frigimon.jpg","Frimon.jpg","Frogmon.jpg","Fufumon.jpg","Fugamon.jpg","Fujinmon.jpg",
         "FusedAncientVolcanomon.jpg","Gabumon.jpg","Gabumon X.jpg","Gaiamon.jpg","Galacticmon.jpg","Gallantmon (Grani).jpg","Gallantmon.jpg","Gallantmon Chaos Mode.jpg",
         "Gallantmon Crimson Mode.jpg","Gallantmon X.jpg","Ganemon.jpg","Gankoomon.jpg","Gankoomon X.jpg","Gaogamon.jpg","Gaomon.jpg","Gaossmon.jpg","Garbagemon.jpg",
         "Gargomon.jpg","Gargoylemon.jpg","Garudamon.jpg","Garudamon X.jpg","Garurumon.jpg","Garurumon X.jpg","Gatomon.jpg","Gatomon (Ringless).jpg","Gatomon X.jpg",
