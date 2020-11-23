@@ -127,7 +127,18 @@ module.exports.run = async(client, message, args) => {
         "RedVegiemon.jpg","Regalecusmon.jpg","Regulumon.jpg","Relemon.jpg","Renamon.jpg","Renamon X.jpg","Reppamon.jpg","Reptiledramon.jpg","ReverseWeddinmon.jpg","Rhihimon.jpg",
         "RhinoKabuterimon.jpg","Rhinomon.jpg","Rhinomon X.jpg","Rhythm.jpg","Rinkmon.jpg","RizeGreymon.jpg","RizeGreymon X.jpg","Roachmon.jpg","Rockmon.jpg","RookChessmon (Black).jpg",
         "RookChessmon (White).jpg","Rosemon.jpg","Rosemon Burst Mode.jpg","Rosemon X.jpg","RustTyranomon.jpg","Ruthless Tuwarmon.jpg","Ryudamon.jpg","Saberdramon.jpg","SaberLeomon.jpg",
-        "Sagittarimon.jpg","Sagomon.jpg","Sakkakumon.jpg","Sakumon.jpg","SakutekiMonitamon.jpg","Sakuttomon.jpg","Sakuyamon.jpg","Sakuyamon Maid Mode.jpg","Sakuyamon X.jpg"
+        "Sagittarimon.jpg","Sagomon.jpg","Sakkakumon.jpg","Sakumon.jpg","SakutekiMonitamon.jpg","Sakuttomon.jpg","Sakuyamon.jpg","Sakuyamon Maid Mode.jpg","Sakuyamon X.jpg","Salamandermon.jpg",
+		"Salamon.jpg","Salamon X.jpg","Samudramon.jpg","Sandiramon.jpg","Sangomon.jpg","SandYanmamon.jpg","Sangloupmon.jpg","SantaAgumon.jpg","Sanzomon.jpg","SaviorHuckmon.jpg","Scorpiomon.jpg","Scorpiomon X.jpg",
+		"ScudMissimon.jpg","Seadramon.jpg","Seadramon X.jpg","Seahomon.jpg","Sealsdramon.jpg","Searchmon.jpg","Seasarmon.jpg","Seasarmon X.jpg","Sepikmon.jpg","Seraphimon.jpg","Sethmon.jpg",
+		"Sethmon Wild Mode.jpg","Shademon.jpg","Shademon (Nene).jpg","ShadowSeraphimon.jpg","ShadowToyAgumon.jpg","ShadowWereGarurumon.jpg","Shadramon.jpg","Shakamon.jpg","Shakkoumon.jpg","Shamanmon.jpg","Shawjamon.jpg",
+		"Sheepmon.jpg","Shellmon.jpg","ShimaUnimon.jpg","ShineGreymon.jpg","ShineGreymon Burst Mode.jpg","ShineGreymon Ruin Mode.jpg","ShogunGekomon.jpg","ShootingStarmon.jpg","Shortmon.jpg",
+		"Shounitamon.jpg","Shoutmon.jpg","Shoutmon (King Ver).jpg","Shoutmon + Drill Cannon.jpg","Shoutmon + Star Sword.jpg","Shoutmon + Supersonic Sparrow.jpg","Shoutmon B.jpg",
+		"Shoutmon DX.jpg","Shoutmon EX6.jpg","Shoutmon Star Wheel.jpg","Shoutmon X2.jpg","Shoutmon X2 (Incomplete X4).jpg","Shoutmon X2+.jpg","Shoutmon X3.jpg","Shoutmon X3GM.jpg","Shoutmon X3SD.jpg","Shoutmon X4.jpg",
+		"Shoutmon X4B.jpg","Shoutmon X4K.jpg","Shoutmon X4S.jpg","Shoutmon X5.jpg","Shoutmon X5B.jpg","Shoutmon X5S.jpg","Shoutmon X6.jpg","Shoutmon X7.jpg","Shoutmon X7F Superior Mode.jpg",
+		"Shurimon.jpg","Shurimon (Black).jpg","Silphymon.jpg","Sinduramon.jpg","Sirenmon.jpg","Sistermon Blanc.jpg","Sistermon Blanc (Awakened).jpg","Sistermon Ciel.jpg","Sistermon Noir.jpg",
+		"Sistermon Noir (Awakened).jpg","SkullBaluchimon.jpg","SkullGreymon.jpg","SkullKnightmon.jpg","SkullKnightmon BR.jpg","SkullKnightmon Cavalier Mode.jpg","SkullKnightmon Mighty Axe Mode.jpg",
+		"SkullMammothmon.jpg","SkullMammothmon X.jpg","SkullMeramon.jpg","SkullSatamon.jpg","SkullScorpionmon.jpg","Slayerdramon.jpg","SlashAngemon.jpg","Snatchmon.jpg","Snimon.jpg","SnowAgumon.jpg","SnowAgumon (2006).jpg",
+		"SnowGoblimon.jpg","Solarmon.jpg","Sorcermon.jpg","Soulmon.jpg","Soundbirdmon.jpg","Spadamon.jpg","Sparrowmon.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
