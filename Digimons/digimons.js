@@ -160,7 +160,7 @@ module.exports.run = async(client, message, args) => {
 		"Mother D-Reaper.jpg","Eater (Humanoid Mode).jpg","Eater (Purebreed Mode).jpg","Eater Adam.jpg","Eater Bit.jpg","Eater EDEN.jpg","Eater Eve.jpg","Eater Legion.jpg","Eraser.jpg",
 		"Ex-Eraser α.jpg","Ex-Eraser β.jpg","Ex-Eraser γ.jpg","Ex-Eraser Ω.jpg","Giga Devast.jpg","Mother Eater.jpg","NEO.jpg","Shift Eraser.jpg","Spiral.jpg","Tera Devast.jpg","Vitium (Form 1).jpg",
 		"Vitium (Form 2).jpg","King Drasil 7D6.jpg"
-    ]}
+    ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
     message.channel.send({ file: ["Digimons/"] + img })
