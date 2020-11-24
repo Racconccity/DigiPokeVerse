@@ -90,9 +90,9 @@ client.on('message', message => {
       message.channel.send({embed: {
         color: 3447003,
         description: ""
-      }});
+      }})
   }
-}
+});
 //////////////////////////////////////////////////////////////////////////////////////
 client.on("message", async(message) => {
     let prefix = config.prefix;
