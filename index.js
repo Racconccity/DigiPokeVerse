@@ -69,12 +69,16 @@ fs.readdir("./Pokemon/", (err, files) => {
     });
 });
 //////////////////////////////////////////////////////////////////////////////////////
-@bot.event
-async def on_message(message):
-args = message.content.split(" ")[1:]
-if message.content.startswith(prefix + "digimons"):
-await bot.delete_message(message)
-await bot.send_message(message.channel, " ".join(args))
+messages = [];
+client.on('message', (message) => {
+   messages.push(message);
+   var args = message.content.substring(prefix.length).split(" ");
+
+   if(args[0] == "clear" && args[1] == "all") {
+      client.deleteMessages(messages);
+      messages = [];
+   }
+};
 //////////////////////////////////////////////////////////////////////////////////////
 client.on("message", async(message) => {
     let prefix = config.prefix;
