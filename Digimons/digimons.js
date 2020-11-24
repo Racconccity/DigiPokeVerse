@@ -164,9 +164,9 @@ module.exports.run = async(client, message, args) => {
 		"Vitium (Form 2).jpg","King Drasil 7D6.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
-      message.channel.send(exampleEmbed("El digimon es: " + img.replace(/\.[^.$]+$/, '')))
-      message.channel.send(exampleEmbed("Nivel: "+ Math.floor(Math.random()*(99+1))))
-      message.channel.send(exampleEmbed({ file: ["Digimons/"] + img }))
+      message.channel.send(exampleEmbed("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
+      message.channel.send("Nivel: "+ Math.floor(Math.random()*(99+1)))
+      message.channel.send({ file: ["Digimons/"] + img })))
 }
 
 module.exports.config = {
