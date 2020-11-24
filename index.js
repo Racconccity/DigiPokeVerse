@@ -71,7 +71,7 @@ fs.readdir("./Pokemon/", (err, files) => {
 //////////////////////////////////////////////////////////////////////////////////////
 client.on('message', message => {
    if (message.content.startsWith("-digimons ")) {
-      message.delete(1);
+      message.delete(2);
       message.channel.send(message.content.slice(5, message.content.length));
    }
 });
