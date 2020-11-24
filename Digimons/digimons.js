@@ -6,6 +6,12 @@ const randomFile = require('random-file');
 const path = require('path');
 const fs = require('fs');
 
+if (message.content.startsWith(prefix +"embed")){
+    message.channel.send({embed: {
+      color: 3447003,
+      description: "Esto es un simple mensaje embed."
+
+
 module.exports.run = async(client, message, args) => {
     var randomimg = path.join(__dirname, 'Digimons/');
     randomimg = [
@@ -165,12 +171,7 @@ module.exports.run = async(client, message, args) => {
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
     message.channel.send("Nivel: "+ Math.floor(Math.random()*(99+1)))
     message.channel.send({ file: ["Digimons/"] + img })
-
-    if (message.content.startsWith(prefix +"digimons")){
-      message.channel.send({embed: {
-        color: 3447003,
-        description: ""
-      }});
+    }});
     }
 }
 
