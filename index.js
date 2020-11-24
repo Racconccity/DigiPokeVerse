@@ -77,8 +77,8 @@ client.on('message', message => {
 
    if (message.channel.id === '646469578540449792') {
      if (isNaN(message.content)) {
-       message.delete()
-       message.author.send('')
+       message.delete(1)
+       message.author.send()
      }
    }
 });
