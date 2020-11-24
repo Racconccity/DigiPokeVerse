@@ -3,7 +3,6 @@ const Discord = require("discord.js");
 const colours = require("./colours.json");
 const fs = require("fs");
 const client = new Discord.Client({ disableEveryone: true });
-client = discord.Client()
 //////////////////////////////////////////////////////////////////////////////////////
 client.on("ready", async() => {
     console.log("Bot listo");
