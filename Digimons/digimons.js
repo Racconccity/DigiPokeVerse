@@ -168,10 +168,10 @@ module.exports.run = async(client, message, args) => {
         message.channel.send({ file: ["Digimons/"] + img })  */
 
         const embed = new Discord.RichEmbed()
-          .setTitle(message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, '')}))
+          .setTitle("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
           .setColor(3447003)
-          .setDescription(message.channel.send("Nivel: "+ Math.floor(Math.random()*(99+1))))
-          .setImage(message.channel.send({ file: ["Digimons/"] + img }))
+          .setDescription("Nivel: "+ Math.floor(Math.random()*(99+1)))
+          .setImage(file: ["Digimons/"] + img )
           message.channel.send({embed});
 }
 
