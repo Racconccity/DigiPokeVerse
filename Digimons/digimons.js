@@ -8,7 +8,6 @@ const fs = require('fs');
 
 module.exports.run = async(client, message, args) => {
     var randomimg = path.join(__dirname, 'Digimons/');
-    message.channel.send({embed: {
     randomimg = [
         "Aegiochusmon Blue.jpg", "Aegiochusmon Dark.jpg", "Aegiochusmon Green.jpg", "Aegiochusmon Holy.jpg", "Aegiochusmon.jpg",
         "Aegisdramon.jpg", "AeroVeedramon.jpg", "Agumon (2006 anime).jpg", "Agumon Burst Mode.jpg", "Agumon Expert.jpg","Agumon X.jpg", "Agumon.jpg", "Agunimon.jpg", "Agumon (Yuki no Kizuna).jpg", "Aircraft Carrier Whamon.jpg", "Airdramon.jpg", "Akatorimon.jpg",
@@ -162,13 +161,14 @@ module.exports.run = async(client, message, args) => {
 		"Ex-Eraser α.jpg","Ex-Eraser β.jpg","Ex-Eraser γ.jpg","Ex-Eraser Ω.jpg","Giga Devast.jpg","Mother Eater.jpg","NEO.jpg","Shift Eraser.jpg","Spiral.jpg","Tera Devast.jpg","Vitium (Form 1).jpg",
 		"Vitium (Form 2).jpg","King Drasil 7D6.jpg"
     ]
-
-      color: 3447003
+    message.channel.send({embed: {
+      color: 3447003,
+      description: "A very simple Embed!"
+    }});
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
       message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
       message.channel.send("Nivel: "+ Math.floor(Math.random()*(99+1)))
       message.channel.send({ file: ["Digimons/"] + img })
-      }});
 }
 
 module.exports.config = {
