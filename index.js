@@ -69,6 +69,12 @@ fs.readdir("./Pokemon/", (err, files) => {
     });
 });
 //////////////////////////////////////////////////////////////////////////////////////
+channel.fetchMessages({limit: 10}).then(collected => { //collected is a Collection
+  collected.forEach(msg => {
+    if (msg.content.startsWith("-digimons")) msg.delete();
+  });
+});
+//////////////////////////////////////////////////////////////////////////////////////
 client.on("message", async(message) => {
     let prefix = config.prefix;
     let messageArray = message.content.split(" ")
