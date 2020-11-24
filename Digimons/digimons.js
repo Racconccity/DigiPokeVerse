@@ -11,7 +11,7 @@ module.exports.run = async(client, message, args) => {
     randomimg = [
         "Aegiochusmon Blue.jpg", "Aegiochusmon Dark.jpg", "Aegiochusmon Green.jpg", "Aegiochusmon Holy.jpg", "Aegiochusmon.jpg",
         "Aegisdramon.jpg", "AeroVeedramon.jpg", "Agumon (2006 anime).jpg", "Agumon Burst Mode.jpg", "Agumon Expert.jpg","Agumon X.jpg", "Agumon.jpg", "Agunimon.jpg", "Agumon (Yuki no Kizuna).jpg", "Aircraft Carrier Whamon.jpg", "Airdramon.jpg", "Akatorimon.jpg",
-        "Aldamon.jpg", "Algomon (Baby I).jpg", "Algomon (Baby II).jpg", "Algomon (Child).jpg", "Algomon (Adult).jpg", "Algomon (Perfect).jpg", 
+        "Aldamon.jpg", "Algomon (Baby I).jpg", "Algomon (Baby II).jpg", "Algomon (Child).jpg", "Algomon (Adult).jpg", "Algomon (Perfect).jpg",
         "Algomon (Ultimate).jpg", "Allomon.jpg", "Allomon X.jpg", "Alphamon.jpg", "Alphamon Ouryuken.jpg", "Amon.jpg", "AncientBeetlemon.jpg",
         "AncientGarurumon.jpg", "AncientGreymon.jpg", "AncientKazemon.jpg", "AncientMegatheriummon.jpg", "AncientMermaidmon.jpg",
         "AncientSphinxmon.jpg", "AncientTroiamon.jpg", "AncientVolcanomon.jpg", "AncientWisemon.jpg", "Andromon.jpg", "Angemon.jpg",
@@ -163,6 +163,7 @@ module.exports.run = async(client, message, args) => {
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
+    message.channel.send("Nivel: "+ getRandomArbitrary(1, 100))
     message.channel.send({ file: ["Digimons/"] + img })
 }
 
