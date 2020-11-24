@@ -161,14 +161,10 @@ module.exports.run = async(client, message, args) => {
 		"Ex-Eraser α.jpg","Ex-Eraser β.jpg","Ex-Eraser γ.jpg","Ex-Eraser Ω.jpg","Giga Devast.jpg","Mother Eater.jpg","NEO.jpg","Shift Eraser.jpg","Spiral.jpg","Tera Devast.jpg","Vitium (Form 1).jpg",
 		"Vitium (Form 2).jpg","King Drasil 7D6.jpg"
     ]
-    message.channel.send({embed: {
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
     message.channel.send("Nivel: "+ Math.floor(Math.random()*(99+1)))
     message.channel.send({ file: ["Digimons/"] + img })
-        color: 3447003,
-        description: ""
-    })
 }
 
 module.exports.config = {
