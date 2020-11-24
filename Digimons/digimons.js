@@ -171,8 +171,8 @@ module.exports.run = async(client, message, args) => {
           .setTitle("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
           .setColor(3447003)
           .setDescription("Nivel: "+ Math.floor(Math.random()*(99+1)))
-          .attachFiles(img)
-          .setImage("file: ["Digimons/"] + img")
+          .attachFiles(file)
+          .setImage({file: ["Digimons/"] + img})
           message.channel.send({embed});
 }
 
