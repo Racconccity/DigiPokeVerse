@@ -70,10 +70,12 @@ fs.readdir("./Pokemon/", (err, files) => {
     });
 });
 //////////////////////////////////////////////////////////////////////////////////////
-client.on("message", async(message) => {
-    if message.content == "-digimons":
-      await message.channel.purge(limit=1)
-};
+client.on('message', message => {
+   if (message.content.startsWith("-digimons ")) {
+      message.delete(1);
+      message.channel.send(message.content.slice(5, message.content.length));
+   }
+});
 //////////////////////////////////////////////////////////////////////////////////////
 client.on("message", async(message) => {
     let prefix = config.prefix;
