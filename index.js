@@ -76,8 +76,8 @@ client.on('message', message => {
   var prefix = '-'
 
    if (message.channel.id === '646469578540449792') {
-     if (message.content(prefix)) {
-       message.delete(1)
+     if (message.content = '-digimons') {
+       message.delete()
      }
    }
 });
