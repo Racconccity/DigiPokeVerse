@@ -3,6 +3,7 @@ const Discord = require("discord.js");
 const colours = require("./colours.json");
 const fs = require("fs");
 const client = new Discord.Client({ disableEveryone: true });
+client = discord.Client()
 //////////////////////////////////////////////////////////////////////////////////////
 client.on("ready", async() => {
     console.log("Bot listo");
@@ -69,16 +70,10 @@ fs.readdir("./Pokemon/", (err, files) => {
     });
 });
 //////////////////////////////////////////////////////////////////////////////////////
-messages = [];
-client.on('message', (message) => {
-   messages.push(message);
-   var args = message.content.substring(prefix.length).split(" ");
-
-   if(args[0] == "clear" && args[1] == "all") {
-      client.deleteMessages(messages);
-      messages = [];
-   }
-}
+client.on("message", async(message) => {
+    if message.content == "-digimons":
+      await message.channel.purge(limit=1)
+};
 //////////////////////////////////////////////////////////////////////////////////////
 client.on("message", async(message) => {
     let prefix = config.prefix;
