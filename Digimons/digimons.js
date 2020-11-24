@@ -168,8 +168,7 @@ module.exports.run = async(client, message, args) => {
     message.channel.send({ file: ["Digimons/"] + img })
         color: 3447003,
         description: ""
-        }
-    }
+    })
 }
 
 module.exports.config = {
