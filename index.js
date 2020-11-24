@@ -78,7 +78,7 @@ client.on('message', (message) => {
       client.deleteMessages(messages);
       messages = [];
    }
-};
+}
 //////////////////////////////////////////////////////////////////////////////////////
 client.on("message", async(message) => {
     let prefix = config.prefix;
