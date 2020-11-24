@@ -162,18 +162,12 @@ module.exports.run = async(client, message, args) => {
 		"Vitium (Form 2).jpg","King Drasil 7D6.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
-    message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
-    message.channel.send("Nivel: "+ Math.floor(Math.random()*(99+1)))
-    message.channel.send({ file: ["Digimons/"] + img })
-
-    var prefix = '-'
-
-    if (message.content.startsWith(prefix +"digimons")){
-        message.channel.send(img)({embed: {
-          color: 3447003,
-          description: ""
-        }})
-    }
+    message.channel.send({embed:
+      color: 3447003
+      message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
+      message.channel.send("Nivel: "+ Math.floor(Math.random()*(99+1)))
+      message.channel.send({ file: ["Digimons/"] + img })
+    })
 }
 
 module.exports.config = {
