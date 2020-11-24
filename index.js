@@ -76,9 +76,8 @@ client.on('message', message => {
   var prefix = '-'
 
    if (message.channel.id === '646469578540449792') {
-     if (isNaN(message.content)) {
+     if (message.content(prefix)) {
        message.delete(1)
-       message.author.send()
      }
    }
 });
