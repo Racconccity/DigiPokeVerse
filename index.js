@@ -82,18 +82,6 @@ client.on('message', message => {
    }
 });
 //////////////////////////////////////////////////////////////////////////////////////
-client.on('message', message => {
-
-  var prefix = '-'
-
-  if (message.content.startsWith(prefix +"digimons")){
-      message.channel.send({embed: {
-        color: 3447003,
-        description: ""
-      }})
-  }
-});
-//////////////////////////////////////////////////////////////////////////////////////
 client.on("message", async(message) => {
     let prefix = config.prefix;
     let messageArray = message.content.split(" ")
