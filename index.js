@@ -70,9 +70,16 @@ fs.readdir("./Pokemon/", (err, files) => {
 });
 //////////////////////////////////////////////////////////////////////////////////////
 client.on('message', message => {
-   if (message.content.startsWith("-digimons ")) {
-      message.delete(2);
-      message.channel.send(message.content.slice(5, message.content.length));
+
+  var sender = message.author;
+  var msg = message.content.toUpperCase();
+  var prefix = '-'
+
+   if (message.channel.id === '646469578540449792') {
+     if (isNaN(message.content)) {
+       message.delete()
+       message.author.send('')
+     }
    }
 });
 //////////////////////////////////////////////////////////////////////////////////////
