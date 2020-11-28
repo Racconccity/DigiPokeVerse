@@ -166,8 +166,6 @@ module.exports.run = async(client, message, args) => {
         message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
         message.channel.send("Nivel: "+ Math.floor(Math.random()*(99+1)))
         message.channel.send({ file: ["Digimons/"] + img })
-          message.channel.send("")
-        message.channel.send("--------------------------------------------------")
 }
 
 module.exports.config = {
