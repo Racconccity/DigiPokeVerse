@@ -41,7 +41,14 @@ module.exports.run = async(client, message, args) => {
     message.channel.send("--------------------------------------------------")
     message.channel.send("El pokémon es: " + img.replace(/\.[^.$]+$/, ''))
     message.channel.send("Nivel: "+ Math.floor(Math.random()*(99+1)))
-    message.channel.send("ATK: "+ Math.floor(Math.random()*(149+1)))
+    message.channel.send("→ Ataque: "+ Math.floor(Math.random()*(149+1)))
+    message.channel.send("→ Defensa: "+ Math.floor(Math.random()*(149+1)))
+    message.channel.send("→ Especial: "+ Math.floor(Math.random()*(149+1)))
+    message.channel.send("→ Velocidad: "+ Math.floor(Math.random()*(149+1)))
+    message.channel.send("→ Ataque Esp.: "+ Math.floor(Math.random()*(149+1)))
+    message.channel.send("→ Defensa Esp.: "+ Math.floor(Math.random()*(149+1)))
+    message.channel.send("→ Evasión: "+ Math.floor(Math.random()*(99+1)) + "%")
+    message.channel.send("→ Acierto: "+ Math.floor(Math.random()*(99+1)) + "%")
     message.channel.send({ file: ["Pokemon/"] + img })
 }
 
