@@ -82,6 +82,19 @@ client.on('message', message => {
    }
 });
 //////////////////////////////////////////////////////////////////////////////////////
+client.on('message', message => {
+
+  var sender = message.author;
+  var msg = message.content.toUpperCase();
+  var prefix = '-'
+
+   if (message.channel.id === '650350820256382986') {
+     if (message.content == '-pokemons') {
+       message.delete(1)
+     }
+   }
+});
+//////////////////////////////////////////////////////////////////////////////////////
 client.on("message", async(message) => {
     let prefix = config.prefix;
     let messageArray = message.content.split(" ")
