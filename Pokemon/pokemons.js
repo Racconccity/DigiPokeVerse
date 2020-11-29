@@ -50,7 +50,7 @@ module.exports.run = async(client, message, args) => {
         "Latios.png","Kyogre.png","Groudon.png","Rayquaza.png","Jirachi.png","Deoxys.png",
         /*Cuarta gen*/
         "Turtwig.png","Grotle.png","Torterra.png","Chimchar.png","Monferno.png","Infernape.png","Piplup.png","Prinplup.png","Empoleon.png","Starly.png","Staravia.png","Staraptor.png",
-        "Bidoof","Bibarel.png","Kricketot.png","Kricketune.png","Shinx.png","Luxio.png","Luxray.png","Budew.png","Roserade.png","Cranidos.png","Rampardos.png","Shieldon.png","Bastiodon.png",
+        "Bidoof.png","Bibarel.png","Kricketot.png","Kricketune.png","Shinx.png","Luxio.png","Luxray.png","Budew.png","Roserade.png","Cranidos.png","Rampardos.png","Shieldon.png","Bastiodon.png",
         "Burmy.png","Wormadam.png","Mothim.png","Combee.png","Vespiquen.png","Pachirisu.png","Buizel.png","Floatzel.png","Cherubi.png","Cherrim.png","Shellos.png","Gastrodon.png","Ambipom.png",
         "Drifloon.png","Drifblim.png","Buneary.png","Lopunny.png","Mismagius.png","Honchkrow.png","Glameow.png","Purugly.png","Chingling.png","Stunky.png","Skuntank.png","Bronzor.png",
         "Bronzong.png","Bonsly.png","Mime Jr.png","Happiny.png","Chatot.png","Spiritomb.png","Gible.png","Gabite.png","Garchomp.png","Munchlax.png","Riolu.png","Lucario.png","Hippopotas.png",
