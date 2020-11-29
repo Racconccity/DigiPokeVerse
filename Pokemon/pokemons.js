@@ -34,8 +34,32 @@ module.exports.run = async(client, message, args) => {
         "Gligar.png","Steelix.png","Snubbull.png","Granbull.png","Qwilfish.png","Scizor.png","Shuckle.png","Heracross.png","Sneasel.png","Teddiursa.png","Ursaring.png",
         "Slugma.png","Magcargo.png","Swinub.png","Piloswine.png","Corsola.png","Remoraid.png","Octillery.png","Delibird.png","Mantine.png","Skarmory.png","Houndour.png",
         "Houndoom.png","Kingdra.png","Phanpy.png","Donphan.png","Porygon2.png","Stantler.png","Smeargle.png","Tyrogue.png","Hitmontop.png","Smoochum.png","Elekid.png",
-        "Magby.png","Miltank.png","Blissey.png","Raikou.png","Entei.png","Suicune.png","Larvitar.png","Pupitar.png","Tyranitar.png","Lugia.png","Ho-Oh.png","Celebi.png"
+        "Magby.png","Miltank.png","Blissey.png","Raikou.png","Entei.png","Suicune.png","Larvitar.png","Pupitar.png","Tyranitar.png","Lugia.png","Ho-Oh.png","Celebi.png",
         /*Tercera gen*/
+      	"Treecko.png","Grovyle.png","Sceptile.png","Torchic.png","Combusken.png","Blaziken.png","Mudkip.png","Marshtomp.png","Swampert.png","Poochyena.png","Mightyena.png",
+        "Zigzagoon.png","Linoone.png","Wurmple.png","Silcoon.png","Beautifly.png","Cascoon.png","Dustox.png","Lotad.png","Lombre.png","Ludicolo.png","Seedot.png","Nuzleaf.png",
+        "Shiftry.png","Taillow.png","Swellow.png","Wingull.png","Pelipper.png","Ralts.png","Kirlia.png","Gardevoir.png","Surskit.png","Masquerain.png","Shroomish.png",
+        "Breloom.png","Slakoth.png","Vigoroth.png","Slaking.png","Nincada.png","Ninjask.png","Shedinja.png","Whismur.png","Loudred.png","Exploud.png","Makuhita.png",
+        "Hariyama.png","Azurill.png","Nosepass.png","Skitty.png","Delcatty.png","Sableye.png","Mawile.png","Aron.png","Lairon.png","Aggron.png","Meditite.png","Medicham.png",
+        "Electrike.png","Manectric.png","Plusle.png","Minun.png","Volbeat.png","Illumise.png","Roselia.png","Gulpin.png","Swalot.png","Carvanha.png","Sharpedo.png","Wailmer.png",
+        "Wailord.png","Numel.png","Camerupt.png","Torkoal.png","Spoink.png","Grumpig.png","Spinda.png","Trapinch.png","Vibrava.png","Flygon.png","Cacnea.png","Cacturne.png",
+        "Swablu.png","Altaria.png","Zangoose.png","Seviper.png","Lunatone.png","Solrock.png","Barboach.png","Whiscash.png","Corphish.png","Crawdaunt.png","Baltoy.png","Claydol.png",
+        "Lileep.png","Cradily.png","Anorith.png","Armaldo.png","Feebas.png","Milotic.png","Castform.png","Kecleon.png","Shuppet.png","Banette.png","Duskull.png","Dusclops.png",
+        "Tropius.png","Chimecho.png","Absol.png","Wynaut.png","Snorunt.png","Glalie.png","Spheal.png","Sealeo.png","Walrein.png","Clamperl.png","Huntail.png","Gorebyss.png",
+        "Relicanth.png","Luvdisc.png","Bagon.png","Shelgon.png","Salamence.png","Beldum.png","Metang.png","Metagross.png","Regirock.png","Regice.png","Registeel.png","Latias.png",
+        "Latios.png","Kyogre.png","Groudon.png","Rayquaza.png","Jirachi.png","Deoxys.png",
+        /*Cuarta gen*/
+        "Turtwig.png","Grotle.png","Torterra.png","Chimchar.png","Monferno.png","Infernape.png","Piplup.png","Prinplup.png","Empoleon.png","Starly.png","Staravia.png","Staraptor.png",
+        "Bidoof","Bibarel.png","Kricketot.png","Kricketune.png","Shinx.png","Luxio.png","Luxray.png","Budew.png","Roserade.png","Cranidos.png","Rampardos.png","Shieldon.png","Bastiodon.png",
+        "Burmy.png","Wormadam.png","Mothim.png","Combee.png","Vespiquen.png","Pachirisu.png","Buizel.png","Floatzel.png","Cherubi.png","Cherrim.png","Shellos.png","Gastrodon.png","Ambipom.png",
+        "Drifloon.png","Drifblim.png","Buneary.png","Lopunny.png","Mismagius.png","Honchkrow.png","Glameow.png","Purugly.png","Chingling.png","Stunky.png","Skuntank.png","Bronzor.png",
+        "Bronzong.png","Bonsly.png","Mime Jr.png","Happiny.png","Chatot.png","Spiritomb.png","Gible.png","Gabite.png","Garchomp.png","Munchlax.png","Riolu.png","Lucario.png","Hippopotas.png",
+        "Hippowdon.png","Skorupi.png","Drapion.png","Croagunk.png","Toxicroak.png","Carnivine.png","Finneon.png","Lumineon.png","Mantyke.png","Snover.png","Abomasnow.png","Weavile.png",
+        "Magnezone.png","Lickilicky.png","Rhyperior.png","Tangrowth.png","Electivire.png","Magmortar.png","Togekiss.png","Yanmega.png","Leafeon.png","Glaceon.png","Gliscor.png","Mamoswine.png",
+        "Porygon-Z.png","Gallade.png","Probopass.png","Dusknoir.png","Froslass.png","Rotom.png","Uxie.png","Mesprit.png","Azelf.png","Dialga.png","Palkia.png","Heatran.png","Regigigas.png",
+        "Giratina.png","Cresselia.png","Phione.png","Manaphy.png","Darkrai.png","Shaymin.png","Arceus.png"
+        /*Quinta gen*/
+
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("--------------------------------------------------")
