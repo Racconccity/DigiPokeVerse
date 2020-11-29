@@ -40,11 +40,11 @@ module.exports.run = async(client, message, args) => {
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("--------------------------------------------------")
     message.channel.send("El pokémon es: " + img.replace(/\.[^.$]+$/, ''))
-    message.channel.send("►Nivel: "+ Math.floor(Math.random()*(99+1)))
-    message.channel.send("►Ataque: "+ Math.floor(Math.random()*(149+1)) + " " + "►Defensa: " Math.floor(Math.random()*(149+1)))
-    message.channel.send("►Especial: "+ Math.floor(Math.random()*(149+1)) + " " + "►Velocidad: "+ Math.floor(Math.random()*(149+1)))
-    message.channel.send("►Ataque Esp: "+ Math.floor(Math.random()*(149+1)) + " " + "►Defensa Esp: "+ Math.floor(Math.random()*(149+1)))
-    message.channel.send("►Evasión: "+ Math.floor(Math.random()*(99+1)) + "%" + " " + "►Acierto: "+ Math.floor(Math.random()*(99+1)) + "%")
+    message.channel.send("►Nivel: "   + Math.floor(Math.random()*(99+1)))
+    message.channel.send("►Ataque: "  + Math.floor(Math.random()*(149+1))     + "  " + "►Defensa: " + Math.floor(Math.random()*(149+1)))
+    message.channel.send("►Especial: "+ Math.floor(Math.random()*(149+1))     + "  " + "►Velocidad: " + Math.floor(Math.random()*(149+1)))
+    message.channel.send("►Ataque Esp: "+ Math.floor(Math.random()*(149+1))   + "  " + "►Defensa Esp: " + Math.floor(Math.random()*(149+1)))
+    message.channel.send("►Evasión: " + Math.floor(Math.random()*(99+1))      + "%" + "  " + "►Acierto: " + Math.floor(Math.random()*(99+1)) + "%")
     message.channel.send({ file: ["Pokemon/"] + img })
 }
 
