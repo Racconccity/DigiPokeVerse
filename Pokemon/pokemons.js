@@ -57,8 +57,22 @@ module.exports.run = async(client, message, args) => {
         "Hippowdon.png","Skorupi.png","Drapion.png","Croagunk.png","Toxicroak.png","Carnivine.png","Finneon.png","Lumineon.png","Mantyke.png","Snover.png","Abomasnow.png","Weavile.png",
         "Magnezone.png","Lickilicky.png","Rhyperior.png","Tangrowth.png","Electivire.png","Magmortar.png","Togekiss.png","Yanmega.png","Leafeon.png","Glaceon.png","Gliscor.png","Mamoswine.png",
         "Porygon-Z.png","Gallade.png","Probopass.png","Dusknoir.png","Froslass.png","Rotom.png","Uxie.png","Mesprit.png","Azelf.png","Dialga.png","Palkia.png","Heatran.png","Regigigas.png",
-        "Giratina.png","Cresselia.png","Phione.png","Manaphy.png","Darkrai.png","Shaymin.png","Arceus.png"
+        "Giratina.png","Cresselia.png","Phione.png","Manaphy.png","Darkrai.png","Shaymin.png","Arceus.png",
         /*Quinta gen*/
+        "Snivy.png","Servine.png","Serperior.png","Tepig.png","Pignite.png","Emboar.png","Oshawott.png","Dewott.png","Samurott.png","Patrat.png","Watchog.png","Lillipup.png",
+        "Herdier.png","Stoutland.png","Purrloin.png","Liepard.png","Pansage.png","Simisage.png","Pansear.png","Simisear.png","Panpour.png","Simipour.png","Munna.png","Musharna.png",
+        "Pidove.png","Tranquill.png","Unfezant.png","Blitzle.png","Zebstrika.png","Roggenrola.png","Boldore.png","Gigalith.png","Woobat.png","Swoobat.png","Drilbur.png","Excadrill.png",
+        "Audino.png","Timburr.png","Gurdurr.png","Conkeldurr.png","Tympole.png","Palpitoad.png","Seismitoad.png","Throh.png","Sawk.png","Sewaddle.png","Swadloon.png","Leavanny.png",
+        "Venipede.png","Whirlipede.png","Scolipede.png","Cottonee.png","Whimsicott.png","Petilil.png","Lilligant.png","Basculin.png","Sandile.png","Krokorok.png","Krookodile.png",
+        "Darumaka.png","Darmanitan.png","Maractus.png","Dwebble.png","Crustle.png","Scraggy.png","Scrafty.png","Sigilyph.png","Yamask.png","Cofagrigus.png","Tirtouga.png","Carracosta.png",
+        "Archen.png","Archeops.png","Trubbish.png","Garbodor.png","Zorua.png","Zoroark.png","Minccino.png","Cinccino.png","Gothita.png","Gothorita.png","Gothitelle.png","Solosis.png",
+        "Duosion.png","Reuniclus.png","Ducklett.png","Swanna.png","Vanillite.png","Vanillish.png","Vanilluxe.png","Deerling.png","Sawsbuck.png","Emolga.png","Karrablast.png","Escavalier.png",
+        "Foongus.png","Amoonguss.png","Frillish.png","Jellicent.png","Alomomola.png","Joltik.png","Galvantula.png","Ferroseed.png","Ferrothorn.png","Klink.png","Klang.png","Klinklang.png",
+        "Tynamo.png","Eelektrik.png","Eelektross.png","Elgyem.png","Beheeyem.png","Litwick.png","Lampent.png","Chandelure.png","Axew.png","Fraxure.png","Haxorus.png","Cubchoo.png",
+        "Beartic.png","Cryogonal.png","Shelmet.png","Accelgor.png","Stunfisk.png","Mienfoo.png","Mienshao.png","Druddigon.png","Golett.png","Golurk.png","Pawniard.png","Bisharp.png",
+        "Bouffalant.png","Rufflet.png","Braviary.png","Vullaby.png","Mandibuzz.png","Heatmor.png","Durant.png","Deino.png","Zweilous.png","Hydreigon.png","Larvesta.png","Volcarona.png",
+        "Cobalion.png","Terrakion.png","Virizion.png","Tornadus.png","Thundurus.png","Reshiram.png","Zekrom.png","Landorus.png","Kyurem.png","Keldeo.png","Meloetta.png","Victini.png","Genesect.png"
+        /*Sexta gen*/
 
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
