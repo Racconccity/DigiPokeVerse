@@ -73,65 +73,65 @@ fs.readdir("./Pokemon/", (err, files) => {
     });
 });
 //////////////////////////////////////////////////////////////////////////////////////
-client.on('message', async message => {
-  if(message.author.bot) return
-  if(!message.content.startsWith(PREFIX)) return
+client.on('message', message => {
+    if (message.author.bot) return
+    if (!message.content.startsWith(PREFIX)) return
 
-  const args = message.content.substring(PREFIX.length).split(" ")
+    const args = message.content.substring(PREFIX.length).split(" ")
 
-  if(message.content.startsWith(`${PREFIX}play`)){
-    const voiceChannel = message.member.voice.channel
-    if(!voiceChannel) return message.channel.send("Metete en el chat amigo")
-    const permissions = voiceChannel.permissionsFor(message.client.user)
-    if(!permissions.has('CONNECT')) return message.channel.send ("No hay permisos")
-    if(!permissions.has('SPEAK')) return message.channel.send ("No hay permisos")
+    if (message.content.startsWith(`${PREFIX}play`)) {
+        const voiceChannel = message.member.voice.channel
+        if (!voiceChannel) return message.channel.send("Metete en el chat amigo")
+        const permissions = voiceChannel.permissionsFor(message.client.user)
+        if (!permissions.has('CONNECT')) return message.channel.send("No hay permisos")
+        if (!permissions.has('SPEAK')) return message.channel.send("No hay permisos")
 
-    try {
-      var connection = await voiceChannel.join()
-    } catch (error) {
-      console.log('Hay problemas gordos')
-      message.channel.send('Hay problemas gordos')
+        try {
+            var connection = await voiceChannel.join()
+        } catch (error) {
+            console.log('Hay problemas gordos')
+            message.channel.send('Hay problemas gordos')
+        }
+
+        const dispatcher = connection.play(ytdl(args[1]))
+            .on('finish', () => {
+                voiceChannel.leave()
+            })
+            .on('error', error => {
+                console.log(error)
+            })
+        dispatcher.setVolumeLogarithmic(5 / 5)
+    } else if (message.content.startsWith(`${PREFIX}stop`)) {
+        if (!message.member.voice.channel) return message.channel.send("Metete al chat para eso")
+        message.member.voice.channel.leave()
+        return undefined
     }
-
-    const dispatcher = connection.play(ytdl(args[1]))
-    .on('finish', () => {
-      voiceChannel.leave()
-    })
-    .on('error', error => {
-      console.log(error)
-    })
-    dispatcher.setVolumeLogarithmic(5 / 5)
-  } else if (message.content.startsWith(`${PREFIX}stop`)){
-    if(!message.member.voice.channel) return message.channel.send("Metete al chat para eso")
-    message.member.voice.channel.leave()
-    return undefined
-  }
 });
 //////////////////////////////////////////////////////////////////////////////////////
 client.on('message', message => {
 
-  var sender = message.author;
-  var msg = message.content.toUpperCase();
-  var prefix = '-'
+    var sender = message.author;
+    var msg = message.content.toUpperCase();
+    var prefix = '-'
 
-   if (message.channel.id === '646469578540449792') {
-     if (message.content == '-digimons') {
-       message.delete(1)
-     }
-   }
+    if (message.channel.id === '646469578540449792') {
+        if (message.content == '-digimons') {
+            message.delete(1)
+        }
+    }
 });
 //////////////////////////////////////////////////////////////////////////////////////
 client.on('message', message => {
 
-  var sender = message.author;
-  var msg = message.content.toUpperCase();
-  var prefix = '-'
+    var sender = message.author;
+    var msg = message.content.toUpperCase();
+    var prefix = '-'
 
-   if (message.channel.id === '650350820256382986') {
-     if (message.content == '-pokemons') {
-       message.delete(1)
-     }
-   }
+    if (message.channel.id === '650350820256382986') {
+        if (message.content == '-pokemons') {
+            message.delete(1)
+        }
+    }
 });
 //////////////////////////////////////////////////////////////////////////////////////
 client.on("message", async(message) => {
