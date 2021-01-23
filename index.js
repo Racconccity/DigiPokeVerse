@@ -1,7 +1,11 @@
+require('dotenv').config()
 const config = require("./config.json");
 const Discord = require("discord.js");
 const colours = require("./colours.json");
 const fs = require("fs");
+const { Client } = required('discord.js')
+const ytdl = require('ytdl-core')
+const PREFIX = '-'
 const client = new Discord.Client({ disableEveryone: true });
 //////////////////////////////////////////////////////////////////////////////////////
 client.on("ready", async() => {
@@ -69,12 +73,6 @@ fs.readdir("./Pokemon/", (err, files) => {
     });
 });
 //////////////////////////////////////////////////////////////////////////////////////
-require('dotenv').config()
-
-const { Client } = required('discord.js')
-const ytdl = require('ytdl-core')
-const PREFIX = '-'
-
 client.on('message', async message => {
   if(message.author.bot) return
   if(!message.content.startsWith(PREFIX)) return
