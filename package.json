@@ -22,9 +22,6 @@
     "random-puppy": "^1.1.0",
     "snekfetch": "^4.0.4",
     "superagent": "^5.1.0",
-    "window": "^4.2.6",
-    "discord-ytdl-core": "5.0.0",
-    "ytdl-core": "0.4.1",
-    "youtube-api": "0.3.2"
+    "window": "^4.2.6"
   }
 }
