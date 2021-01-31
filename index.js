@@ -1,4 +1,3 @@
-const { Client } = required('discord.js')
 const config = require("./config.json");
 const Discord = require("discord.js");
 const colours = require("./colours.json");
