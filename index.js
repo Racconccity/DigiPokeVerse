@@ -1,8 +1,8 @@
+const { Client } = required('discord.js')
 const config = require("./config.json");
 const Discord = require("discord.js");
 const colours = require("./colours.json");
 const fs = require("fs");
-const { Client } = required('discord.js')
 const client = new Discord.Client({ disableEveryone: true });
 //////////////////////////////////////////////////////////////////////////////////////
 client.on("ready", async() => {
