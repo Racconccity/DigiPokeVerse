@@ -88,6 +88,58 @@ client.on('message', message => {
     var msg = message.content.toUpperCase();
     var prefix = '-'
 
+    if (message.channel.id === '413400477976231939') {
+        if (message.content == '-xpp') {
+            message.delete(1)
+        }
+    }
+});
+//////////////////////////////////////////////////////////////////////////////////////
+client.on('message', message => {
+
+    var sender = message.author;
+    var msg = message.content.toUpperCase();
+    var prefix = '-'
+
+    if (message.channel.id === '413400477976231939') {
+        if (message.content == '-xpm') {
+            message.delete(1)
+        }
+    }
+});
+//////////////////////////////////////////////////////////////////////////////////////
+client.on('message', message => {
+
+    var sender = message.author;
+    var msg = message.content.toUpperCase();
+    var prefix = '-'
+
+    if (message.channel.id === '413400477976231939') {
+        if (message.content == '-xpg') {
+            message.delete(1)
+        }
+    }
+});
+//////////////////////////////////////////////////////////////////////////////////////
+client.on('message', message => {
+
+    var sender = message.author;
+    var msg = message.content.toUpperCase();
+    var prefix = '-'
+
+    if (message.channel.id === '413400477976231939') {
+        if (message.content == '-coin') {
+            message.delete(1)
+        }
+    }
+});
+//////////////////////////////////////////////////////////////////////////////////////
+client.on('message', message => {
+
+    var sender = message.author;
+    var msg = message.content.toUpperCase();
+    var prefix = '-'
+
     if (message.channel.id === '650350820256382986') {
         if (message.content == '-pokemons') {
             message.delete(1)
