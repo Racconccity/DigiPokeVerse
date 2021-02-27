@@ -134,43 +134,6 @@ client.on('message', message => {
     }
 });
 //////////////////////////////////////////////////////////////////////////////////////
-const prefix = "-";
-client.on('message', message => {
-    if (!message.content.startsWith(prefix)) return;
-
-    if (message.content.startsWith(prefix + "start ")) {
-        let commandRecd = "start ";
-        let args = getArgs(message, commandRecd).split(",");
-
-        if (args.length > 2){
-            message.reply("Too many args!!!");
-            return;
-        }
-        message.reply(args);
-        let arg = args[0];
-        let days = 0, hours = 0, minutes = 0;
-        let regx = /(\d*)d|(\d*)h|(\d*)m/g; // THIS IS LITERALLY BLACK MAGIC DO NOT TOUCH
-        let times = arg.match(regx);
-
-        times.forEach( x => {
-            let end = x.charAt(x.length - 1);
-            if (end == 'd'){
-                days = x.slice(0, x.length-1);
-                return;
-            }
-
-            if(end == 'h'){
-                hours = x.slice(0, x.length-1);
-                return;
-            }
-
-            if(end == 'm'){
-                minutes = x.slice(0, x.length-1);
-                return;
-          }
-          message.channel.send('d'+'h'+'m'+' tiempo restante')
-});
-//////////////////////////////////////////////////////////////////////////////////////
 client.on('message', message => {
 
     var sender = message.author;
