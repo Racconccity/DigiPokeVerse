@@ -137,15 +137,20 @@ client.on('message', message => {
 client.on('message', message => {
   var prefix = '-'
     if (message.content === '-ca') {
-      console.log('');
-      let total = Date.now() + (60000*2+60000/2); // 2 minutes later
-      let interval = setInterval(function() {
-        console.log((total-Date.now()/1000)+' tiempo restante');
-      }, 3000);
-        setTimeout(function(){
-          clearInterval(interval);
-        }, (60000*2+60000/2));
-      console.log("Timer ended");
+      setInterval(function time(){
+        var d = new Date();
+        var hours = 24 - d.getHours();
+        var min = 60 - d.getMinutes();
+        if((min + '').length == 1){
+          min = '0' + min;
+        }
+        var sec = 60 - d.getSeconds();
+        if((sec + '').length == 1){
+              sec = '0' + sec;
+        }
+        jQuery('#the-final-countdown p').html(hours+':'+min+':'+sec)
+      }, 1000);
+      message.channel.send(time() + ' tiempo restante');
     }
 });
 //////////////////////////////////////////////////////////////////////////////////////
