@@ -168,7 +168,7 @@ client.on('message', message => {
                 minutes = x.slice(0, x.length-1);
                 return;
           }
-          message.channel.send('d'+'h'+'m'+' tiempo restante');
+          message.channel.send('d'+'h'+'m'+' tiempo restante')
 });
 //////////////////////////////////////////////////////////////////////////////////////
 client.on('message', message => {
