@@ -135,6 +135,21 @@ client.on('message', message => {
 });
 //////////////////////////////////////////////////////////////////////////////////////
 client.on('message', message => {
+  var prefix = '-'
+    if (message.content === '-ca') {
+      console.log('');
+      let total = Date.now() + (60000*2+60000/2); // 2 minutes later
+      let interval = setInterval(function() {
+        console.log((total-Date.now()/1000)+' tiempo restante');
+      }, 3000);
+        setTimeout(function(){
+          clearInterval(interval);
+        }, (60000*2+60000/2));
+      console.log("Timer ended");
+    }
+});
+//////////////////////////////////////////////////////////////////////////////////////
+client.on('message', message => {
 
     var sender = message.author;
     var msg = message.content.toUpperCase();
