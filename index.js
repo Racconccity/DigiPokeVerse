@@ -5,11 +5,11 @@ const fs = require("fs");
 const client = new Discord.Client({ disableEveryone: true });
 //////////////////////////////////////////////////////////////////////////////////////
 client.on("ready", async() => {
-    console.log("Bot listo");
+    console.log("¡A la aventura!");
     client.user.setPresence({
         status: "online",
         game: {
-            name: "Dark Souls: Remastered",
+            name: "Viaje a Ughma",
             type: "PLAYING"
         }
     });
