@@ -1,6 +1,6 @@
 {
-    "name": "DrangleicBot",
-    "description": "Basic bot",
+    "name": "DigiBot",
+    "description": "Digimon and Pokemon bot",
     "version": "1.0.0",
     "engines": {
         "node": "14.x",

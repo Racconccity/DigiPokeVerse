@@ -3,11 +3,12 @@ const config = require("../config.json");
 const colours = require("../colours.json");
 
 module.exports.run = async(client, message, args) => {
-    message.channel.send("Obtienes "  + Math.floor(Math.random() * (200 - 15 + 1) + 15) +  " puntos de experiencia")
+    let quan = parseInt(args[0]);
+    message.channel.bulkDelete(quan);
 }
 
 module.exports.config = {
-    name: "xpp",
-    usage: "-xpp",
-    aliases: ["xpp"]
+    name: "clean",
+    usage: "-clean",
+    aliases: ["clean", "cl"]
 }

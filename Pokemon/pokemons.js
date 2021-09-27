@@ -9,7 +9,7 @@ const fs = require('fs');
 module.exports.run = async(client, message, args) => {
     var randomimg = path.join(__dirname, 'Pokemon/');
     randomimg = [
-        /*Primera gen*/
+        /*First gen*/
         "Bulbasaur.png","Ivysaur.png","Venusaur.png","Charmander.png","Charmeleon.png","Charizard.png","Squirtle.png","Wartortle.png","Blastoise.png",
         "Caterpie.png","Metapod.png","Butterfree.png","Weedle.png","Kakuna.png","Beedrill.png","Pidgey.png","Pidgeotto.png","Pidgeot.png","Rattata.png",
         "Raticate.png","Spearow.png","Fearow.png","Ekans.png","Arbok.png","Pikachu.png","Raichu.png","Sandshrew.png","Sandslash.png","Nidoran♀.png",
@@ -25,7 +25,7 @@ module.exports.run = async(client, message, args) => {
         "Electabuzz.png","Magmar.png","Pinsir.png","Tauros.png","Magikarp.png","Gyarados.png","Lapras.png","Ditto.png","Eevee.png","Vaporeon.png","Jolteon.png",
         "Flareon.png","Porygon.png","Omanyte.png","Omastar.png","Kabuto.png","Kabutops.png","Aerodactyl.png","Snorlax.png","Articuno.png","Zapdos.png","Moltres.png",
         "Dratini.png","Dragonair.png","Dragonite.png","Mewtwo.png","Mew.png",
-        /*Segunda gen*/
+        /*Second gen*/
         "Chikorita.png","Bayleef.png","Meganium.png","Cyndaquil.png","Quilava.png","Typhlosion.png","Totodile.png","Croconaw.png","Feraligatr.png","Sentret.png",
         "Furret.png","Hoothoot.png","Noctowl.png","Ledyba.png","Ledian.png","Spinarak.png","Ariados.png","Crobat.png","Chinchou.png","Lanturn.png","Pichu.png",
         "Cleffa.png","Igglybuff.png","Togepi.png","Togetic.png","Natu.png","Xatu.png","Mareep.png","Flaaffy.png","Ampharos.png","Bellossom.png","Marill.png","Azumarill.png",
@@ -35,7 +35,7 @@ module.exports.run = async(client, message, args) => {
         "Slugma.png","Magcargo.png","Swinub.png","Piloswine.png","Corsola.png","Remoraid.png","Octillery.png","Delibird.png","Mantine.png","Skarmory.png","Houndour.png",
         "Houndoom.png","Kingdra.png","Phanpy.png","Donphan.png","Porygon2.png","Stantler.png","Smeargle.png","Tyrogue.png","Hitmontop.png","Smoochum.png","Elekid.png",
         "Magby.png","Miltank.png","Blissey.png","Raikou.png","Entei.png","Suicune.png","Larvitar.png","Pupitar.png","Tyranitar.png","Lugia.png","Ho-Oh.png","Celebi.png",
-        /*Tercera gen*/
+        /*Third gen*/
       	"Treecko.png","Grovyle.png","Sceptile.png","Torchic.png","Combusken.png","Blaziken.png","Mudkip.png","Marshtomp.png","Swampert.png","Poochyena.png","Mightyena.png",
         "Zigzagoon.png","Linoone.png","Wurmple.png","Silcoon.png","Beautifly.png","Cascoon.png","Dustox.png","Lotad.png","Lombre.png","Ludicolo.png","Seedot.png","Nuzleaf.png",
         "Shiftry.png","Taillow.png","Swellow.png","Wingull.png","Pelipper.png","Ralts.png","Kirlia.png","Gardevoir.png","Surskit.png","Masquerain.png","Shroomish.png",
@@ -48,7 +48,7 @@ module.exports.run = async(client, message, args) => {
         "Tropius.png","Chimecho.png","Absol.png","Wynaut.png","Snorunt.png","Glalie.png","Spheal.png","Sealeo.png","Walrein.png","Clamperl.png","Huntail.png","Gorebyss.png",
         "Relicanth.png","Luvdisc.png","Bagon.png","Shelgon.png","Salamence.png","Beldum.png","Metang.png","Metagross.png","Regirock.png","Regice.png","Registeel.png","Latias.png",
         "Latios.png","Kyogre.png","Groudon.png","Rayquaza.png","Jirachi.png","Deoxys.png",
-        /*Cuarta gen*/
+        /*Fourth gen*/
         "Turtwig.png","Grotle.png","Torterra.png","Chimchar.png","Monferno.png","Infernape.png","Piplup.png","Prinplup.png","Empoleon.png","Starly.png","Staravia.png","Staraptor.png",
         "Bidoof.png","Bibarel.png","Kricketot.png","Kricketune.png","Shinx.png","Luxio.png","Luxray.png","Budew.png","Roserade.png","Cranidos.png","Rampardos.png","Shieldon.png","Bastiodon.png",
         "Burmy.png","Wormadam.png","Mothim.png","Combee.png","Vespiquen.png","Pachirisu.png","Buizel.png","Floatzel.png","Cherubi.png","Cherrim.png","Shellos.png","Gastrodon.png","Ambipom.png",
@@ -58,7 +58,7 @@ module.exports.run = async(client, message, args) => {
         "Magnezone.png","Lickilicky.png","Rhyperior.png","Tangrowth.png","Electivire.png","Magmortar.png","Togekiss.png","Yanmega.png","Leafeon.png","Glaceon.png","Gliscor.png","Mamoswine.png",
         "Porygon-Z.png","Gallade.png","Probopass.png","Dusknoir.png","Froslass.png","Rotom.png","Uxie.png","Mesprit.png","Azelf.png","Dialga.png","Palkia.png","Heatran.png","Regigigas.png",
         "Giratina.png","Cresselia.png","Phione.png","Manaphy.png","Darkrai.png","Shaymin.png","Arceus.png",
-        /*Quinta gen*/
+        /*Fifth gen*/
         "Snivy.png","Servine.png","Serperior.png","Tepig.png","Pignite.png","Emboar.png","Oshawott.png","Dewott.png","Samurott.png","Patrat.png","Watchog.png","Lillipup.png",
         "Herdier.png","Stoutland.png","Purrloin.png","Liepard.png","Pansage.png","Simisage.png","Pansear.png","Simisear.png","Panpour.png","Simipour.png","Munna.png","Musharna.png",
         "Pidove.png","Tranquill.png","Unfezant.png","Blitzle.png","Zebstrika.png","Roggenrola.png","Boldore.png","Gigalith.png","Woobat.png","Swoobat.png","Drilbur.png","Excadrill.png",
@@ -72,22 +72,22 @@ module.exports.run = async(client, message, args) => {
         "Beartic.png","Cryogonal.png","Shelmet.png","Accelgor.png","Stunfisk.png","Mienfoo.png","Mienshao.png","Druddigon.png","Golett.png","Golurk.png","Pawniard.png","Bisharp.png",
         "Bouffalant.png","Rufflet.png","Braviary.png","Vullaby.png","Mandibuzz.png","Heatmor.png","Durant.png","Deino.png","Zweilous.png","Hydreigon.png","Larvesta.png","Volcarona.png",
         "Cobalion.png","Terrakion.png","Virizion.png","Tornadus.png","Thundurus.png","Reshiram.png","Zekrom.png","Landorus.png","Kyurem.png","Keldeo.png","Meloetta.png","Victini.png","Genesect.png"
-        /*Sexta gen*/
+        /*Sixth gen*/
 
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("--------------------------------------------------")
-    message.channel.send("El pokémon es: " + img.replace(/\.[^.$]+$/, ''))
-    message.channel.send("►Nivel: "   + Math.floor(Math.random()*(99+1)))
-    message.channel.send("►Ataque: "  + Math.floor(Math.random()*(149+1))     + "  " + "►Defensa: " + Math.floor(Math.random()*(149+1)))
-    message.channel.send("►Especial: "+ Math.floor(Math.random()*(149+1))     + "  " + "►Velocidad: " + Math.floor(Math.random()*(149+1)))
-    message.channel.send("►Ataque Esp: "+ Math.floor(Math.random()*(149+1))   + "  " + "►Defensa Esp: " + Math.floor(Math.random()*(149+1)))
-    message.channel.send("►Evasión: " + Math.floor(Math.random()*(99+1))      + "%" + "  " + "►Acierto: " + Math.floor(Math.random()*(99+1)) + "%")
+    message.channel.send("The Pokemon is: " + img.replace(/\.[^.$]+$/, ''))
+    message.channel.send("►Level: "   + Math.floor(Math.random()*(99+1)))
+    message.channel.send("►Attack: "  + Math.floor(Math.random()*(149+1))     + "  " + "►Defense: " + Math.floor(Math.random()*(149+1)))
+    message.channel.send("►Special: "+ Math.floor(Math.random()*(149+1))     + "  " + "►Speed: " + Math.floor(Math.random()*(149+1)))
+    message.channel.send("►Spe. Attack: "+ Math.floor(Math.random()*(149+1))   + "  " + "►Spe. Defense: " + Math.floor(Math.random()*(149+1)))
+    message.channel.send("►Evasion: " + Math.floor(Math.random()*(99+1))      + "%" + "  " + "►Hit: " + Math.floor(Math.random()*(99+1)) + "%")
     message.channel.send({ file: ["Pokemon/"] + img })
 }
 
 module.exports.config = {
     name: "pokemons",
     usage: "-pokemons",
-    aliases: ["pok", "pokedesc"]
+    aliases: ["pok", "po"]
 }

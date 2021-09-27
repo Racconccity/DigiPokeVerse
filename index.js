@@ -5,11 +5,11 @@ const fs = require("fs");
 const client = new Discord.Client({ disableEveryone: true });
 //////////////////////////////////////////////////////////////////////////////////////
 client.on("ready", async() => {
-    console.log("¡A la aventura!");
+    console.log("Go!");
     client.user.setPresence({
         status: "online",
         game: {
-            name: "Viaje a Ughma",
+            name: "DigiVerse",
             type: "PLAYING"
         }
     });
@@ -23,7 +23,7 @@ fs.readdir("./commands/", (err, files) => {
 
     let jsfile = files.filter(f => f.split(".").pop() === "js")
     if (jsfile.length <= 0) {
-        return console.log("No hay comandos")
+        return console.log("No commands")
     }
 
     jsfile.forEach((f, i) => {
@@ -40,7 +40,7 @@ fs.readdir("./Digimons/", (err, files) => {
 
     let jsfile = files.filter(f => f.split(".").pop() === "js")
     if (jsfile.length <= 0) {
-        return console.log("No hay comandos")
+        return console.log("No commands")
     }
 
     jsfile.forEach((f, i) => {
@@ -57,7 +57,7 @@ fs.readdir("./Pokemon/", (err, files) => {
 
     let jsfile = files.filter(f => f.split(".").pop() === "js")
     if (jsfile.length <= 0) {
-        return console.log("No hay comandos")
+        return console.log("No commands")
     }
 
     jsfile.forEach((f, i) => {
@@ -67,97 +67,6 @@ fs.readdir("./Pokemon/", (err, files) => {
             client.aliases.set(alias, pull.config.name)
         });
     });
-});
-//////////////////////////////////////////////////////////////////////////////////////
-client.on('message', message => {
-
-    var sender = message.author;
-    var msg = message.content.toUpperCase();
-    var prefix = '-'
-
-    if (message.channel.id === '646469578540449792') {
-        if (message.content == '-digimons') {
-            message.delete(1)
-        }
-    }
-});
-//////////////////////////////////////////////////////////////////////////////////////
-client.on('message', message => {
-
-    var sender = message.author;
-    var msg = message.content.toUpperCase();
-    var prefix = '-'
-
-    if (message.channel.id === '413400477976231939') {
-        if (message.content == '-xpp') {
-            message.delete(1)
-        }
-    }
-});
-//////////////////////////////////////////////////////////////////////////////////////
-client.on('message', message => {
-
-    var sender = message.author;
-    var msg = message.content.toUpperCase();
-    var prefix = '-'
-
-    if (message.channel.id === '413400477976231939') {
-        if (message.content == '-xpm') {
-            message.delete(1)
-        }
-    }
-});
-//////////////////////////////////////////////////////////////////////////////////////
-client.on('message', message => {
-
-    var sender = message.author;
-    var msg = message.content.toUpperCase();
-    var prefix = '-'
-
-    if (message.channel.id === '413400477976231939') {
-        if (message.content == '-xpg') {
-            message.delete(1)
-        }
-    }
-});
-//////////////////////////////////////////////////////////////////////////////////////
-client.on('message', message => {
-
-    var sender = message.author;
-    var msg = message.content.toUpperCase();
-    var prefix = '-'
-
-    if (message.channel.id === '413400477976231939') {
-        if (message.content == '-coin') {
-            message.delete(1)
-        }
-    }
-});
-//////////////////////////////////////////////////////////////////////////////////////
-client.on('message', message => {
-
-    var sender = message.author;
-    var msg = message.content.toUpperCase();
-    var prefix = '-'
-
-    if (message.channel.id === '650350820256382986') {
-        if (message.content == '-pokemons') {
-            message.delete(1)
-        }
-    }
-});
-//////////////////////////////////////////////////////////////////////////////////////
-client.on('message', message => {
-
-    var sender = message.author;
-    var msg = message.content.toUpperCase();
-    var prefix = '!'
-
-    if (message.channel.id === '814561936803889162') {
-        if (message.content == '!countdown') {
-            message.delete(1)
-        }
-    }
 });
 //////////////////////////////////////////////////////////////////////////////////////
 client.on("message", async(message) => {

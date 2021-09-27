@@ -24,9 +24,9 @@ module.exports.run = async(client, message, args) => {
         "Bagramon.jpg", "Baihumon.jpg", "Bakemon.jpg", "BalliBeastmon.jpg", "Ballistamon.jpg", "Ballistamon Mush Cottage.jpg", "Baboongamon.jpg",
         "Ballistamon Sextet Launcher.jpg", "BanchoGolemon.jpg", "BanchoLeomon.jpg", "BanchoLeomon Burst Mode.jpg", "BanchoLillymon.jpg", "BanchoMamemon.jpg", "BanchoStingmon.jpg", "BaoHuckmon.jpg", "Barbamon.jpg", "Barbamon X.jpg",
         "Baromon.jpg", "Batterymon.jpg", "Battle Armament Trailmon.jpg", "Bearmon.jpg", "Beastmon.jpg", "Beelzemon (Behemoth).jpg",
-        "Beelzemon.jpg", "Beelzemon (2010 anime).jpg", "Beelzemon (Starmons).jpg", "Beelzemon Blast Mode.jpg", "Beelzemon X.jpg",
+        "Beelzemon.jpg", "Beelzemon (2010 anime).jpg", "Beelzemon (Starmons).jpg", "Beelzemon Blast Mode.jpg", "Beelzemon X.jpg", "Bosamon.jpg",
         "Beetlemon.jpg", "BelleStarmon.jpg", "BelleStarmon X.jpg", "Belphemon Rage Mode.jpg", "Belphemon Sleep Mode.jpg", "Belphemon X.jpg",
-        "BeoWolfmon.jpg", "Betamon.jpg", "Betamon X.jpg", "Betsumon.jpg", "BigMamemon.jpg", "BioDarkdramon.jpg", "BioQuetzalmon.jpg",
+        "BeoWolfmon.jpg", "Betamon.jpg", "Betamon X.jpg", "Betsumon.jpg", "BigMamemon.jpg", "BioDarkdramon.jpg", "BioQuetzalmon.jpg", "Pyonmon.jpg",
         "BioRotosmon.jpg", "BioStegomon.jpg", "BioSupinomon.jpg", "BioThunderbirdmon.jpg", "Birdramon.jpg", "BishopChessmon (Black).jpg",
         "BishopChessmon (White).jpg", "Biyomon.jpg", "BlackAgumon.jpg", "BlackAgumon (2006 anime).jpg", "BlackAgumon X.jpg", "BlackGabumon.jpg",
         "BlackGaogamon.jpg", "BlackGargomon.jpg", "BlackGarurumon.jpg", "BlackGatomon.jpg", "BlackGreymon.jpg", "BlackGrowlmon.jpg", "BlackGuilmon.jpg",
@@ -45,14 +45,14 @@ module.exports.run = async(client, message, args) => {
         "Chuumon.jpg", "Citramon.jpg", "ClavisAngemon.jpg", "ClearAgumon.jpg", "Clockmon (Fusion).jpg", "Clockmon.jpg", "Coelamon.jpg", "Commandramon.jpg", "Conomon.jpg",
         "Copymon.jpg", "Copipemon.jpg", "Coredramon (Blue).jpg", "Coredramon (Green).jpg", "Coronamon.jpg", "Cotsucomon.jpg", "Crabmon.jpg", "Crabmon X.jpg", "Craniamon.jpg",
         "Craniamon X.jpg", "Crescemon.jpg", "CresGarurumon.jpg", "Crowmon.jpg", "Crusadermon.jpg", "Crusadermon X.jpg", "CrysPaledramon.jpg", "Cutemon.jpg", "CuteShoutmon.jpg",
-        "CyberDracomon.jpg", "Cyberdramon.jpg", "Cyberdramon (2010 anime).jpg", "Cyberdramon X.jpg", "Cyclonemon.jpg", "Daemon.jpg", "Daemon (Mantled).jpg",
+        "CyberDracomon.jpg", "Cyberdramon.jpg", "Cyberdramon (2010 anime).jpg", "Cyberdramon X.jpg", "Cyclonemon.jpg", "Daemon.jpg", "Daemon (Mantled).jpg", "DeadlyAxemon.jpg",
         "Daemon (Ultra).jpg", "Daemon X.jpg", "Daipenmon.jpg", "Damemon.jpg", "Damemon (C'mon Digimon).jpg", "Darcmon.jpg", "Dark Trailmon.jpg", "DarkMaildramon.jpg",
         "Darkdramon.jpg", "Darkest AxeKnightmon.jpg", "DarkKnightmon X.jpg", "DarkLizardmon.jpg", "DarkSuperStarmon.jpg", "DarkTyrannomon.jpg", "DarkTyrannomon X.jpg", "DarkVolumon.jpg",
-        "Datamon.jpg", "Datirimon.jpg", "Death Airdramon.jpg", "Deathmon (White).jpg", "Deathmon (Black).jpg", "Death Devimon.jpg", "Death Meramon.jpg", "Death MetalGreymon.jpg", "Death Tyranomon.jpg", "DeadlyAxemon.jpg",
+        "Datamon.jpg", "Datirimon.jpg", "Death Airdramon.jpg", "Deathmon (White).jpg", "Deathmon (Black).jpg", "Death Devimon.jpg", "Death Meramon.jpg", "Death MetalGreymon.jpg", "Death Tyranomon.jpg",
         "Deathmon (C_mon Digimon).jpg", "Deckerdramon.jpg", "Deckerdramon Float Mode.jpg", "DeckerGreymon.jpg", "Deltamon.jpg", "DemiDevimon.jpg", "DemiMeramon.jpg", "DemiVeemon.jpg",
         "Depthmon.jpg", "Deputymon.jpg", "Deramon.jpg", "Destromon.jpg", "Devidramon.jpg", "Devimon.jpg", "Devitamamon.jpg", "DexDorugamon.jpg", "DexDorugoramon.jpg",
         "DexDoruGreymon.jpg", "Dexmon.jpg", "Diaboromon.jpg", "Diaboromon X.jpg", "Dianamon.jpg", "Diatrymon.jpg", "Digitamamon.jpg", "Digmon.jpg", "Dinobeemon.jpg",
-        "Dinohyumon.jpg", "Dinorexmon.jpg", "Dinotigermon.jpg", "Divermon.jpg", "Dobermon.jpg", "Dobermon X.jpg", "Dodomon.jpg", "Doggymon.jpg", "Dokugumon.jpg",
+        "Dinohyumon.jpg", "Dinorexmon.jpg", "Dinotigermon.jpg", "Divermon.jpg", "Dobermon.jpg", "Dobermon X.jpg", "Dodomon.jpg", "Doggymon.jpg", "Dokugumon.jpg", "Curimon.jpg",
         "Dokunemon.jpg", "Dolphmon.jpg", "Dominimon.jpg", "Dondokomon.jpg", "DonShoutmon.jpg", "Dorbickmon.jpg", "Dorbickmon Darkness Mode (Flarerizamon).jpg",
         "Dorbickmon Darkness Mode One.jpg", "Dorbickmon Darkness Mode Two.jpg", "Dorimon.jpg", "Dorugamon.jpg", "Dorugoramon.jpg", "DoruGreymon.jpg", "Dorulumon.jpg",
         "Dorumon.jpg", "Donedevimon.jpg", "Doumon.jpg", "Dracmon.jpg", "Dracomon.jpg", "Dracomon X.jpg", "Dragomon.jpg", "Drimogemon.jpg", "Duramon.jpg", "Durandamon.jpg", "Duskmon.jpg",
@@ -60,7 +60,7 @@ module.exports.run = async(client, message, args) => {
         "ElDradimon.jpg", "Elecmon.jpg", "Elephantmon.jpg", "EmperorGreymon.jpg", "Etemon.jpg", "Etemon (Chaos).jpg", "Evil Grademon.jpg", "Evilbeast Laylamon.jpg",
         "Examon.jpg", "Examon X.jpg", "ExoGrimmon.jpg", "ExTyrannomon.jpg", "ExVeemon.jpg", "ExVeemon (Virus).jpg", "Fake Agumon Expert.jpg", "Falcomon.jpg", "Falcomon (2006 anime).jpg",
         "FanBeemon.jpg", "Fangmon.jpg", "Filmon.jpg", "Firamon.jpg", "Flamedramon.jpg", "Flamemon.jpg", "FlameWizardmon.jpg", "Flaremon.jpg", "Flarerizamon.jpg", "Floramon.jpg",
-        "Flybeemon.jpg", "Flymon.jpg", "Footmon.jpg", "Frigimon.jpg", "Frimon.jpg", "Frogmon.jpg", "Fufumon.jpg", "Fugamon.jpg", "Fujinmon.jpg",
+        "Flybeemon.jpg", "Flymon.jpg", "Footmon.jpg", "Frigimon.jpg", "Frimon.jpg", "Frogmon.jpg", "Fufumon.jpg", "Fugamon.jpg", "Fujinmon.jpg", "Gammamon.jpg", "Gurimon.jpg",
         "FusedAncientVolcanomon.jpg", "Gabumon.jpg", "Gabumon X.jpg", "Gaiamon.jpg", "Galacticmon.jpg", "Gallantmon (Grani).jpg", "Gallantmon.jpg", "Gallantmon Chaos Mode.jpg",
         "Gallantmon Crimson Mode.jpg", "Gallantmon X.jpg", "Ganemon.jpg", "Gankoomon.jpg", "Gankoomon X.jpg", "Gaogamon.jpg", "Gaomon.jpg", "Gaossmon.jpg", "Garbagemon.jpg", "Ganvivormon.jpg",
         "Gargomon.jpg", "Gargoylemon.jpg", "Garudamon.jpg", "Garudamon X.jpg", "Garurumon.jpg", "Garurumon X.jpg", "Gatomon.jpg", "Gatomon (Ringless).jpg", "Gatomon X.jpg", "Gogmamon.jpg",
@@ -74,7 +74,7 @@ module.exports.run = async(client, message, args) => {
         "Gryphonmon.jpg", "Guardromon.jpg", "Guardromon (Gold).jpg", "Guidemon.jpg", "Guilmon.jpg", "Guilmon X.jpg", "Gulfmon.jpg", "Gumdramon.jpg", "Gummymon.jpg", "Gundramon.jpg", "Gusokumon.jpg",
         "Gururumon.jpg", "Gwappamon.jpg", "Hackmon.jpg", "Hagurumon.jpg", "Hagurumon X.jpg", "Halsemon.jpg", "Harpymon.jpg", "Hawkmon.jpg", "HerculesKabuterimon.jpg",
         "HerculesKabuterimon X.jpg", "Herissmon.jpg", "Hermmon.jpg", "Hi-VisionMonitamon.jpg", "HiAndromon.jpg", "HiMachineDramon.jpg", "Hinukamuy.jpg", "Hippogriffomon.jpg", "HolyDigitamamon.jpg", "Honeybeemon.jpg", "Hookmon.jpg",
-        "Hubmon.jpg", "Hopmon.jpg", "Hououmon.jpg", "Hououmon X.jpg", "Huanglongmon.jpg", "HustleNanimon.jpg", "Housemon.jpg", "Hudiemon.jpg",
+        "Hubmon.jpg", "Hopmon.jpg", "Hououmon.jpg", "Hououmon X.jpg", "Huanglongmon.jpg", "HustleNanimon.jpg", "Housemon.jpg", "Hudiemon.jpg", "Jellymon.jpg", "Ajatarmon.jpg",
         "Hyogamon.jpg", "Hyokomon.jpg", "IceDevimon.jpg", "IceDevimon (Enhancement Absorbent).jpg", "IceDevimon-Daipenmon Enhancement.jpg", "IceLeomon.jpg", "IceLeomon X.jpg",
         "Icemon.jpg", "Ignitemon.jpg", "Ikkakumon.jpg", "Imperialdramon Dragon Mode.jpg", "Imperialdramon Fighter Mode.jpg", "Imperialdramon Fighter Mode (Black).jpg",
         "Imperialdramon Paladin Mode.jpg", "Impmon.jpg", "Impmon X.jpg", "Indramon.jpg", "Infermon.jpg", "Jagamon.jpg", "JagerLoweemon.jpg", "Jazamon.jpg", "Jazardmon.jpg",
@@ -118,13 +118,13 @@ module.exports.run = async(client, message, args) => {
         "PawnChessmon (White).jpg", "PaunGaossmon.jpg", "PawnShoutmon.jpg", "Peacockmon.jpg", "Peckmon.jpg", "Pegasusmon.jpg", "Pegasusmon X.jpg", "Penguinmon.jpg", "Petaldramon.jpg", "Pyontomon.jpg",
         "Petermon.jpg", "PetitMamon.jpg", "Petitmon.jpg", "Phantomon.jpg", "Pharaohmon.jpg", "Phascomon.jpg", "Phelesmon.jpg", "Pichimon.jpg", "Pickmon (Silver).jpg", "Pickmon (White).jpg",
         "Piddomon.jpg", "Piedmon.jpg", "PileVolcamon.jpg", "Pillomon.jpg", "Pinamon.jpg", "Pipismon.jpg", "Pistmon.jpg", "Piranimon.jpg", "Piximon.jpg", "PlatinumNumemon.jpg", "PlatinumSukamon.jpg", "Plesiomon.jpg",
-        "Plesiomon X.jpg", "Plutomon.jpg", "Pomumon.jpg", "Ponchomon.jpg", "Popomon.jpg", "Pol.jpg", "Porcupamon.jpg", "Poromon.jpg", "Poyomon.jpg", "Prairiemon.jpg", "PrinceMamemon.jpg",
+        "Plesiomon X.jpg", "Plutomon.jpg", "Pomumon.jpg", "Ponchomon.jpg", "Popomon.jpg", "Pol.jpg", "Porcupamon.jpg", "Poromon.jpg", "Poyomon.jpg", "Prairiemon.jpg", "PrinceMamemon.jpg", "Puyomon.jpg",
         "PrinceMamemon X.jpg", "Psychemon.jpg", "Pteramon.jpg", "Pteramon X.jpg", "Pukumon.jpg", "Pumpkinmon.jpg", "Punimon.jpg", "Puppetmon.jpg", "Pulsemon.jpg", "Pupumon.jpg", "Puroromon.jpg", "Pusumon.jpg",
         "Pusurimon.jpg", "Puttimon.jpg", "Puwamon.jpg", "Quartzmon.jpg", "Quartzmon (Tower).jpg", "Quartzmon (Terminal).jpg", "Quartzmon (World).jpg", "QueenChessmon.jpg", "Quetzalmon.jpg",
         "Rabbitmon.jpg", "Rafflesimon.jpg", "RagnaLoardmon.jpg", "Raguelmon.jpg", "Raidenmon.jpg", "Raidramon.jpg", "RaijiLudomon.jpg", "RaijiLudomon (Shield Form).jpg", "Raijinmon.jpg", "Rurimon.jpg",
         "RampageGreymon.jpg", "Ranamon.jpg", "Rapidmon.jpg", "Rapidmon (Armor).jpg", "Rapidmon X.jpg", "RaptorSparrowmon.jpg", "Raremon.jpg", "Rasielmon.jpg", "Rasenmon.jpg", "Rasenmon (Anniv).jpg",
         "Rasenmon Fury Mode.jpg", "Rasenmon Fury Mode (Anniv).jpg", "Ravemon.jpg", "Ravemon Burst Mode.jpg", "Reapermon.jpg", "Reapmon.jpg", "Rebellimon.jpg", "RedVeedramon.jpg", "Runnermon.jpg",
-        "RedVegiemon.jpg", "Regalecusmon.jpg", "Regulumon.jpg", "Relemon.jpg", "Renamon.jpg", "Renamon X.jpg", "Reppamon.jpg", "Reptiledramon.jpg", "ReverseWeddinmon.jpg", "Rhihimon.jpg",
+        "RedVegiemon.jpg", "Regalecusmon.jpg", "Regulumon.jpg", "Relemon.jpg", "Renamon.jpg", "Renamon X.jpg", "Reppamon.jpg", "Reptiledramon.jpg", "ReverseWeddinmon.jpg", "Rhihimon.jpg", "Angoramon.jpg",
         "RhinoKabuterimon.jpg", "Rhinomon.jpg", "Rhinomon X.jpg", "Rhythm.jpg", "Rinkmon.jpg", "RizeGreymon.jpg", "RizeGreymon X.jpg", "Roachmon.jpg", "Rockmon.jpg", "RookChessmon (Black).jpg",
         "RookChessmon (White).jpg", "Rosemon.jpg", "Rosemon Burst Mode.jpg", "Rosemon X.jpg", "RustTyranomon.jpg", "Ruthless Tuwarmon.jpg", "Ryudamon.jpg", "Saberdramon.jpg", "SaberLeomon.jpg",
         "Sagittarimon.jpg", "Sagomon.jpg", "Sakkakumon.jpg", "Sakumon.jpg", "SakutekiMonitamon.jpg", "Sakuttomon.jpg", "Sakuyamon.jpg", "Sakuyamon Maid Mode.jpg", "Sakuyamon X.jpg", "Salamandermon.jpg",
@@ -132,7 +132,7 @@ module.exports.run = async(client, message, args) => {
         "ScudMissimon.jpg", "Seadramon.jpg", "Seadramon X.jpg", "Seahomon.jpg", "Sealsdramon.jpg", "Searchmon.jpg", "Seasarmon.jpg", "Seasarmon X.jpg", "Sepikmon.jpg", "Seraphimon.jpg", "Sethmon.jpg",
         "Sethmon Wild Mode.jpg", "Shademon.jpg", "Shademon (Nene).jpg", "ShadowSeraphimon.jpg", "ShadowToyAgumon.jpg", "ShadowWereGarurumon.jpg", "Shadramon.jpg", "Shakamon.jpg", "Shakkoumon.jpg", "Shamanmon.jpg", "Shawjamon.jpg",
         "Sheepmon.jpg", "Shellmon.jpg", "ShimaUnimon.jpg", "ShineGreymon.jpg", "ShineGreymon Burst Mode.jpg", "ShineGreymon Ruin Mode.jpg", "ShogunGekomon.jpg", "ShootingStarmon.jpg", "Shortmon.jpg", "Shootmon.jpg",
-        "Shounitamon.jpg", "Shoutmon.jpg", "Shoutmon (King Ver).jpg", "Shoutmon + Drill Cannon.jpg", "Shoutmon + Star Sword.jpg", "Shoutmon + Supersonic Sparrow.jpg", "Shoutmon B.jpg",
+        "Shounitamon.jpg", "Shoutmon.jpg", "Shoutmon (King Ver).jpg", "Shoutmon + Drill Cannon.jpg", "Shoutmon + Star Sword.jpg", "Shoutmon + Supersonic Sparrow.jpg", "Shoutmon B.jpg", "Puyoyomon.jpg",
         "Shoutmon DX.jpg", "Shoutmon EX6.jpg", "Shoutmon Star Wheel.jpg", "Shoutmon X2.jpg", "Shoutmon X2 (Incomplete X4).jpg", "Shoutmon X2+.jpg", "Shoutmon X3.jpg", "Shoutmon X3GM.jpg", "Shoutmon X3SD.jpg", "Shoutmon X4.jpg",
         "Shoutmon X4B.jpg", "Shoutmon X4K.jpg", "Shoutmon X4S.jpg", "Shoutmon X5.jpg", "Shoutmon X5B.jpg", "Shoutmon X5S.jpg", "Shoutmon X6.jpg", "Shoutmon X7.jpg", "Shoutmon X7F Superior Mode.jpg",
         "Shurimon.jpg", "Shurimon (Black).jpg", "Silphymon.jpg", "Sinduramon.jpg", "Sirenmon.jpg", "Sistermon Blanc.jpg", "Sistermon Blanc (Awakened).jpg", "Sistermon Ciel.jpg", "Sistermon Noir.jpg",
@@ -163,13 +163,13 @@ module.exports.run = async(client, message, args) => {
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("--------------------------------------------------")
-    message.channel.send("El digimon es: " + img.replace(/\.[^.$]+$/, ''))
-    message.channel.send("►Nivel: " + Math.floor(Math.random() * (99 + 1)))
+    message.channel.send("Digimon name: " + img.replace(/\.[^.$]+$/, ''))
+    message.channel.send("►Level: " + Math.floor(Math.random() * (99 + 1)))
     message.channel.send({ file: ["Digimons/"] + img })
 }
 
 module.exports.config = {
     name: "digimons",
     usage: "-digimons",
-    aliases: ["dig", "digimdesc"]
+    aliases: ["dig", "di"]
 }
