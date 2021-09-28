@@ -107,6 +107,11 @@ module.exports.run = async(client, message, args) => {
         "Flabébé Orange Flower.png","Flabébé White Flower.png","Floette White Flower.png","Floette Blue Flower.png","Floette Yellow Flower.png","Floette Orange Flower.png",
         "Floette Eternal Flower.png","Florges Blue Flower.png","Florges Yellow Flower.png","Florges Orange Flower.png","Florges White Flower.png",
         /*Regional Forms*/
+        "Alolan Rattata.png","Alolan Raticate.png","Alolan Raichu.png","Alolan Sandshrew.png","Alolan Sandslash.png","Alolan Vulpix.png","Alolan Ninetales.png","Alolan Diglett.png",
+        "Alolan Dugtrio.png","Alolan Meowth.png","Alolan Persian.png","Alolan Geodude.png","Alolan Graveler.png","Alolan Golem.png","Alolan Grimer.png","Alolan Muk.png",
+        "Alolan Exeggutor.png","Alolan Marowak.png","Galarian Meowth.png","Galarian Ponyta.png","Galarian Rapidash.png","Galarian Slowpoke.png","Galarian Slowbro.png","Galarian Farfetch'd.png",
+        "Galarian Weezing.png","Galarian Mr Mime.png","Galarian Articuno.png","Galarian Zapdos.png","Galarian Moltre.png","Galarian Slowking.png","Galarian Corsola.png",
+        "Galarian Zigzagoon.png","Galarian Linoone.png","Galarian Darumaka.png","Galarian Darmanitan.png","Galarian Yamask.png","Galarian Stunfisk.png",
         /*Mega*/
         "Mega-Venusaur.png","Mega-Charizard X.png","Mega-Charizard Y.png","Mega-Blastoise.png","Mega-Alakazam.png","Mega-Gengar.png","Mega-Kangaskhan.png","Mega-Pinsir.png",
         "Mega-Gyarados.png","Mega-Aerodactyl.png","Mega-Mewtwo X.png","Mega-Mewtwo Y.png","Mega-Ampharos.png","Mega-Scizor.png","Mega-Heracross.png","Mega-Houndoom.png",
@@ -128,7 +133,6 @@ module.exports.run = async(client, message, args) => {
     message.channel.send("►Attack: "  + Math.floor(Math.random()*(149+1))     + "  " + "►Defense: " + Math.floor(Math.random()*(149+1)))
     message.channel.send("►Special: "+ Math.floor(Math.random()*(149+1))     + "  " + "►Speed: " + Math.floor(Math.random()*(149+1)))
     message.channel.send("►Spe. Attack: "+ Math.floor(Math.random()*(149+1))   + "  " + "►Spe. Defense: " + Math.floor(Math.random()*(149+1)))
-    message.channel.send("►Evasion: " + Math.floor(Math.random()*(99+1))      + "%" + "  " + "►Hit: " + Math.floor(Math.random()*(99+1)) + "%")
     message.channel.send({ file: ["Pokemon/"] + img })
 }
 
