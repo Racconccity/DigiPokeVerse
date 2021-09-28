@@ -151,5 +151,5 @@ module.exports.run = async(client, message, args) => {
 module.exports.config = {
     name: "pokemons",
     usage: "-pokemons",
-    aliases: ["p","pok", "po","poke"]
+    aliases: ["po","poke"]
 }
