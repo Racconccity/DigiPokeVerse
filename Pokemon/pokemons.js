@@ -47,7 +47,7 @@ module.exports.run = async(client, message, args) => {
         "Lileep.png","Cradily.png","Anorith.png","Armaldo.png","Feebas.png","Milotic.png","Castform.png","Kecleon.png","Shuppet.png","Banette.png","Duskull.png","Dusclops.png",
         "Tropius.png","Chimecho.png","Absol.png","Wynaut.png","Snorunt.png","Glalie.png","Spheal.png","Sealeo.png","Walrein.png","Clamperl.png","Huntail.png","Gorebyss.png",
         "Relicanth.png","Luvdisc.png","Bagon.png","Shelgon.png","Salamence.png","Beldum.png","Metang.png","Metagross.png","Regirock.png","Regice.png","Registeel.png","Latias.png",
-        "Latios.png","Kyogre.png","Groudon.png","Rayquaza.png","Jirachi.png","Deoxys.png",
+        "Latios.png","Kyogre.png","Groudon.png","Rayquaza.png","Jirachi.png","Deoxys Normal.png",
         /*Fourth gen*/
         "Turtwig.png","Grotle.png","Torterra.png","Chimchar.png","Monferno.png","Infernape.png","Piplup.png","Prinplup.png","Empoleon.png","Starly.png","Staravia.png","Staraptor.png",
         "Bidoof.png","Bibarel.png","Kricketot.png","Kricketune.png","Shinx.png","Luxio.png","Luxray.png","Budew.png","Roserade.png","Cranidos.png","Rampardos.png","Shieldon.png","Bastiodon.png",
@@ -56,8 +56,8 @@ module.exports.run = async(client, message, args) => {
         "Bronzong.png","Bonsly.png","Mime Jr.png","Happiny.png","Chatot.png","Spiritomb.png","Gible.png","Gabite.png","Garchomp.png","Munchlax.png","Riolu.png","Lucario.png","Hippopotas.png",
         "Hippowdon.png","Skorupi.png","Drapion.png","Croagunk.png","Toxicroak.png","Carnivine.png","Finneon.png","Lumineon.png","Mantyke.png","Snover.png","Abomasnow.png","Weavile.png",
         "Magnezone.png","Lickilicky.png","Rhyperior.png","Tangrowth.png","Electivire.png","Magmortar.png","Togekiss.png","Yanmega.png","Leafeon.png","Glaceon.png","Gliscor.png","Mamoswine.png",
-        "Porygon-Z.png","Gallade.png","Probopass.png","Dusknoir.png","Froslass.png","Rotom.png","Uxie.png","Mesprit.png","Azelf.png","Dialga.png","Palkia.png","Heatran.png","Regigigas.png",
-        "Giratina.png","Cresselia.png","Phione.png","Manaphy.png","Darkrai.png","Shaymin.png","Arceus.png",
+        "Porygon-Z.png","Gallade.png","Probopass.png","Dusknoir.png","Froslass.png","Rotom Normal.png","Uxie.png","Mesprit.png","Azelf.png","Dialga.png","Palkia.png","Heatran.png","Regigigas.png",
+        "Giratina Altered Form.png","Cresselia.png","Phione.png","Manaphy.png","Darkrai.png","Shaymin Land Form.png","Arceus.png",
         /*Fifth gen*/
         "Snivy.png","Servine.png","Serperior.png","Tepig.png","Pignite.png","Emboar.png","Oshawott.png","Dewott.png","Samurott.png","Patrat.png","Watchog.png","Lillipup.png",
         "Herdier.png","Stoutland.png","Purrloin.png","Liepard.png","Pansage.png","Simisage.png","Pansear.png","Simisear.png","Panpour.png","Simipour.png","Munna.png","Musharna.png",
@@ -71,9 +71,30 @@ module.exports.run = async(client, message, args) => {
         "Tynamo.png","Eelektrik.png","Eelektross.png","Elgyem.png","Beheeyem.png","Litwick.png","Lampent.png","Chandelure.png","Axew.png","Fraxure.png","Haxorus.png","Cubchoo.png",
         "Beartic.png","Cryogonal.png","Shelmet.png","Accelgor.png","Stunfisk.png","Mienfoo.png","Mienshao.png","Druddigon.png","Golett.png","Golurk.png","Pawniard.png","Bisharp.png",
         "Bouffalant.png","Rufflet.png","Braviary.png","Vullaby.png","Mandibuzz.png","Heatmor.png","Durant.png","Deino.png","Zweilous.png","Hydreigon.png","Larvesta.png","Volcarona.png",
-        "Cobalion.png","Terrakion.png","Virizion.png","Tornadus.png","Thundurus.png","Reshiram.png","Zekrom.png","Landorus.png","Kyurem.png","Keldeo.png","Meloetta.png","Victini.png","Genesect.png"
+        "Cobalion.png","Terrakion.png","Virizion.png","Tornadus Incarnate Form.png","Thundurus Incarnate Form.png","Reshiram.png","Zekrom.png","Landorus Incarnate Form.png","Kyurem.png",
+        "Keldeo Ordinary Form.png","Meloetta Aria Form.png","Victini.png","Genesect.png",
         /*Sixth gen*/
-
+        "Chespin.png","Quilladin.png","Chesnaught.png","Fennekin.png","Braixen.png","Delphox.png","Froakie.png","Frogadier.png","Greninja.png","Bunnelby.png","Diggersby.png","Fletchling.png",
+        "Fletchinder.png","Talonflame.png","Scatterbug.png","Spewpa.png","Vivillon Meadow.png","Litleo.png","Pyroar.png","Flabébé.png","Floette.png","Florges.png","Skiddo.png","Gogoat.png",
+        "Pancham.png","Pangoro.png","Furfrou.png","Espurr.png","Meowstics.png","Honedge.png","Doublade.png","Aegislash.png","Spritzee.png","Aromatisse.png","Swirlix.png","Slurpuff.png",
+        "Inkay.png","Malamar.png","Binacle.png","Barbaracle.png","Skrelp.png","Dragalge.png","Clauncher.png","Clawitzer.png","Helioptile.png","Heliolisk.png","Tyrunt.png","Tyrantrum.png",
+        "Amaura.png","Aurorus.png","Sylveon.png","Hawlucha.png","Dedenne.png","Carbink.png","Goomy.png","Sliggoo.png","Goodra.png","Klefki.png","Phantump.png","Trevenant.png",
+        "Pumpkaboo.png","Gourgeist.png","Bergmite.png","Avalugg.png","Noibat.png","Noivern.png","Xerneas.png","Yveltal.png","Zygarde.png","Diancie.png","Hoopa Confined.png","Volcanion.png",
+        /*Seventh gen*/
+        /*Eighth gen*/
+        /*Alternative Forms*/
+        "Castform Sunny Form.png","Castform Rainy Form.png","Castform Snowy Form.png","Burmy Plant Cloak.png","Burmy Sandy Cloak.png","Burmy Trash Cloak.png","Cherrim Overcast Form.png",
+        "Cherrim Sunshine Form.png","Darmanitan Unovan Form.png","Meloetta Pirouette Form.png","Aegislash Blade Form.png","Aegislash Shield Form.png","Primal Groudon.png",
+        "Primal Kyogre.png","Zygarde 10 Form.png","Zygarde Complete Form.png","Zygarde Cell.png","Zygarde Core.png","Ash Greninja.png","Giratina Origin Form.png","Shaymin Sky Form.png",
+        "Deoxys Attack.png","Deoxys Defense.png","Deoxys Speed.png","Rotom Heat.png","Rotom Wash.png","Rotom Frost.png","Rotom Fan.png","Rotom Mow.png","Deerling Spring Form.png",
+        "Deerling Summer Form.png","Deerling Autumn Form.png","Deerling Winter Form.png","Sawsbuck Spring Form.png","Sawsbuck Summer Form.png","Sawsbuck Autumn Form.png",
+        "Sawsbuck Winter Form.png","Keldeo Resolute Form.png","Hoopa Unbound.png","Tornadus Therian Form.png","Thundurus Therian Form.png","Landorus Therian Form.png","Black Kyurem.png",
+        "White Kyurem.png","Furfrou Star.png","Furfrou Heart.png","Furfrou Diamond.png","Furfrou Dandy.png","Furfrou Matron.png","Furfrou Debutante.png","Furfrou Pharaoh.png",
+        "Furfrou La Reine.png","Furfrou Kabuki.png","Pikachu RockStar.png","Pikachu Belle.png","Pikachu PopStar.png","Pikachu PhD.png","Pikachu Libre.png","Shellos West Sea.png",
+        "Shellos East Sea.png","Gastrodon West Sea.png","Gastrodon East Sea.png","Wormadam Plant Cloak.png","Wormadam Sandy Cloak.png","Wormadam Trash Cloak.png","Basculin Red-Striped Form.png",
+        "Basculin Blue-Striped Form.png","Vivillon Continental.png","Vivillon Archipelago.png","Vivillon Elegant.png","Vivillon Fancy.png","Vivillon Garden.png"
+        /*Mega*/
+        /*Gigamax*/
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("--------------------------------------------------")
