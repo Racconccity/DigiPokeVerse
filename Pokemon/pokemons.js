@@ -30,7 +30,7 @@ module.exports.run = async(client, message, args) => {
         "Furret.png","Hoothoot.png","Noctowl.png","Ledyba.png","Ledian.png","Spinarak.png","Ariados.png","Crobat.png","Chinchou.png","Lanturn.png","Pichu.png",
         "Cleffa.png","Igglybuff.png","Togepi.png","Togetic.png","Natu.png","Xatu.png","Mareep.png","Flaaffy.png","Ampharos.png","Bellossom.png","Marill.png","Azumarill.png",
         "Sudowoodo.png","Politoed.png","Hoppip.png","Skiploom.png","Jumpluff.png","Aipom.png","Sunkern.png","Sunflora.png","Yanma.png","Wooper.png","Quagsire.png",
-        "Espeon.png","Umbreon.png","Murkrow.png","Slowking.png","Misdreavus.png","Unown.png","Wobbuffet.png","Girafarig.png","Pineco.png","Forretress.png","Dunsparce.png",
+        "Espeon.png","Umbreon.png","Murkrow.png","Slowking.png","Misdreavus.png","Wobbuffet.png","Girafarig.png","Pineco.png","Forretress.png","Dunsparce.png",
         "Gligar.png","Steelix.png","Snubbull.png","Granbull.png","Qwilfish.png","Scizor.png","Shuckle.png","Heracross.png","Sneasel.png","Teddiursa.png","Ursaring.png",
         "Slugma.png","Magcargo.png","Swinub.png","Piloswine.png","Corsola.png","Remoraid.png","Octillery.png","Delibird.png","Mantine.png","Skarmory.png","Houndour.png",
         "Houndoom.png","Kingdra.png","Phanpy.png","Donphan.png","Porygon2.png","Stantler.png","Smeargle.png","Tyrogue.png","Hitmontop.png","Smoochum.png","Elekid.png",
@@ -91,6 +91,14 @@ module.exports.run = async(client, message, args) => {
         "Lunala.png","Nihilego.png","Buzzwole.png","Pheromosa.png","Xurkitree.png","Celesteela.png","Kartana.png","Guzzlord.png","Necrozma.png","Magearna.png","Marshadow.png",
         "Poipole.png","Naganadel.png","Stakataka.png","Blacephalon.png","Zeraora.png","Meltan.png","Melmetal.png",
         /*Eighth gen*/
+        "Grookey.png","Thwackey.png","Rillaboom.png","Scorbunny.png","Raboot.png","Cinderace.png","Sobble.png","Drizzile.png","Inteleon.png","Skwovet.png","Greedent.png","Rookidee.png",
+        "Corvisquire.png","Corviknight.png","Blipbug.png","Dottler.png","Orbeetle.png","Nickit.png","Thievul.png","Gossifleur.png","Eldegoss.png","Wooloo.png","Dubwool.png",
+        "Chewtle.png","Drednaw.png","Yamper.png","Boltund.png","Rolycoly.png","Carkol.png","Coalossal.png","Applin.png","Flapple.png","Appletun.png","Silicobra.png","Sandaconda.png",
+        "Cramorant.png","Arrokuda.png","Barraskewda.png","Toxel.png","Toxtricity.png","Sizzlipede.png","Centiskorch.png","Clobbopus.png","Grapploct.png","Sinistea.png","Polteageist.png","Hatenna.png",
+        "Hattrem.png","Hatterene.png","Impidimp.png","Morgrem.png","Grimmsnarl.png","Obstagoon.png","Perrserker.png","Cursola.png","Sirfetch'd.png","Mr Rime.png","Runerigus.png",
+        "Milcery.png","Alcremie.png","Falinks.png","Pincurchin.png","Snom.png","Frosmoth.png","Stonjourner.png","Eiscue.png","Indeedee.png","Morpek.png","Cufant.png","Copperajah.png",
+        "Dracozolt.png","Arctozolt.png","Dracovish.png","Arctovish.png","Duraludon.png","Dreepy.png","Drakloak.png","Dragapult.png","Zacian.png","Zamazenta.png","Eternatus.png",
+        "Kubfu.png","Urshifu.png","Zarude.png","Regieleki.png","Regidrago.png","Glastrier.png","Spectrier.png","Calyrex.png","Wyrdeer.png","Basculegion.png","Kleavor.png",
         /*Alternative Forms*/
         "Castform Sunny Form.png","Castform Rainy Form.png","Castform Snowy Form.png","Burmy Plant Cloak.png","Burmy Sandy Cloak.png","Burmy Trash Cloak.png","Cherrim Overcast Form.png",
         "Cherrim Sunshine Form.png","Darmanitan Unovan Form.png","Meloetta Pirouette Form.png","Aegislash Blade Form.png","Aegislash Shield Form.png","Primal Groudon.png",
@@ -108,6 +116,8 @@ module.exports.run = async(client, message, args) => {
         "Floette Eternal Flower.png","Florges Blue Flower.png","Florges Yellow Flower.png","Florges Orange Flower.png","Florges White Flower.png","Wishiwashi Solo Form.png",
         "Wishiwashi School Form.png","Mimikyu Busted Form.png","Necrozma Dusk Mane.png","Necrozma Dawn Wings.png","Necrozma Ultra.png","Oricorio Baile.png","Oricorio Pom-Pom.png",
         "Oricorio Pa'u.png","Oricorio Sensu.png","Lycanroc Midday Form.png","Lycanroc Midnight Form.png","Lycanroc Dusk Form.png","Magearna Original Color.png",
+        /*Unowns*/
+        "Unown F.png",
         /*Regional Forms*/
         "Alolan Rattata.png","Alolan Raticate.png","Alolan Raichu.png","Alolan Sandshrew.png","Alolan Sandslash.png","Alolan Vulpix.png","Alolan Ninetales.png","Alolan Diglett.png",
         "Alolan Dugtrio.png","Alolan Meowth.png","Alolan Persian.png","Alolan Geodude.png","Alolan Graveler.png","Alolan Golem.png","Alolan Grimer.png","Alolan Muk.png",
@@ -141,5 +151,5 @@ module.exports.run = async(client, message, args) => {
 module.exports.config = {
     name: "pokemons",
     usage: "-pokemons",
-    aliases: ["pok", "po","poke"]
+    aliases: ["p","pok", "po","poke"]
 }
