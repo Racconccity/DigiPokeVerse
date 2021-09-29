@@ -1,0 +1,30 @@
+{
+    "name": "DigiBot",
+    "description": "Digimon and Pokemon bot",
+    "version": "1.0.0",
+    "engines": {
+        "node": "14.x",
+        "npm": "6.x"
+    },
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "common-tags": "^1.8.0",
+        "dateformat": "^3.0.3",
+        "discord.js": "^11.6.4",
+        "fetch": "^1.1.0",
+        "fs": "0.0.1-security",
+        "imgflip": "^1.0.4",
+        "imgflipper": "^1.0.1",
+        "node-fetch": "^2.6.1",
+        "nodemon": "^2.0.7",
+        "path": "^0.12.7",
+        "random-file": "^1.0.0",
+        "random-puppy": "^1.1.0",
+        "snekfetch": "^4.0.4",
+        "superagent": "^5.3.1",
+        "window": "^4.2.7"
+    }
+}
