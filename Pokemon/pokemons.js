@@ -148,7 +148,7 @@ module.exports.run = async(client, message, args) => {
     message.channel.send("►Attack: "  + Math.floor(Math.random()*(149+1))     + "  " + "►Defense: " + Math.floor(Math.random()*(149+1)))
     message.channel.send("►Special: "+ Math.floor(Math.random()*(149+1))     + "  " + "►Speed: " + Math.floor(Math.random()*(149+1)))
     message.channel.send("►Spe. Attack: "+ Math.floor(Math.random()*(149+1))   + "  " + "►Spe. Defense: " + Math.floor(Math.random()*(149+1)))
-    message.channel.send({ file: ["Pokemon/"] + img })
+    message.channel.send({ file: ["Pokemon/"] + img, 250,250 })
 }
 
 module.exports.config = {
