@@ -116,7 +116,8 @@ module.exports.run = async(client, message, args) => {
         "Floette Eternal Flower.png","Florges Blue Flower.png","Florges Yellow Flower.png","Florges Orange Flower.png","Florges White Flower.png","Wishiwashi Solo Form.png",
         "Wishiwashi School Form.png","Mimikyu Busted Form.png","Necrozma Dusk Mane.png","Necrozma Dawn Wings.png","Necrozma Ultra.png","Oricorio Baile.png","Oricorio Pom-Pom.png",
         "Oricorio Pa'u.png","Oricorio Sensu.png","Lycanroc Midday Form.png","Lycanroc Midnight Form.png","Lycanroc Dusk Form.png","Magearna Original Color.png","Minior Meteor Form.png",
-        "Minior Core Red.png","Minior Core Orange.png","Minior Core Yellow.png","Minior Core Green.png","Minior Core Blue.png","Minior Core Purple.png",
+        "Minior Core Red.png","Minior Core Orange.png","Minior Core Yellow.png","Minior Core Green.png","Minior Core Blue.png","Minior Core Purple.png","Zacian Sword Form.png","Zamazenta Shield Form.png",
+        "Urshifu Single Strike.png","Urshifu Rapid Strike.png","Calyrex Ice Rider.png","Calyrex Shadow Rider.png","Morpeko Full Belly Form.png","Morpeko Hangry Form.png",
         /*Unowns*/
         "Unown A.png","Unown B.png","Unown C.png","Unown D.png","Unown E.png","Unown F.png","Unown G.png","Unown H.png","Unown I.png","Unown J.png","Unown K.png","Unown L.png",
         "Unown M.png","Unown N.png","Unown O.png","Unown P.png","Unown Q.png","Unown R.png","Unown S.png","Unown T.png","Unown U.png","Unown V.png","Unown W.png","Unown X.png",
@@ -139,7 +140,7 @@ module.exports.run = async(client, message, args) => {
         "Kingler Gigamax.png","Lapras Gigamax.png","Eevee Gigamax.png","Snorlax Gigamax.png","Garbodor Gigamax.png","Melmetal Gigamax.png","Corviknight Gigamax.png","Orbeetle Gigamax.png",
         "Drednaw Gigamax.png","Coalossal Gigamax.png","Flapple Gigamax.png","Appletun Gigamax.png","Sandaconda Gigamax.png","Toxtricity Gigamax.png","Centiskorch Gigamax.png",
         "Hatterene Gigamax.png","Grimmsnarl Gigamax.png","Alcremie Gigamax.png","Copperajah Gigamax.png","Duraludon Gigamax.png","Urshifu Single Strike Style.png",
-        "Urshifu Rapid Strike Style Gigamax.png"
+        "Urshifu Rapid Strike Style Gigamax.png","Eternatus Gigamax.png"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
     message.channel.send("--------------------------------------------------")
