@@ -115,9 +115,12 @@ module.exports.run = async(client, message, args) => {
         "Flabébé Orange Flower.png","Flabébé White Flower.png","Floette White Flower.png","Floette Blue Flower.png","Floette Yellow Flower.png","Floette Orange Flower.png",
         "Floette Eternal Flower.png","Florges Blue Flower.png","Florges Yellow Flower.png","Florges Orange Flower.png","Florges White Flower.png","Wishiwashi Solo Form.png",
         "Wishiwashi School Form.png","Mimikyu Busted Form.png","Necrozma Dusk Mane.png","Necrozma Dawn Wings.png","Necrozma Ultra.png","Oricorio Baile.png","Oricorio Pom-Pom.png",
-        "Oricorio Pa'u.png","Oricorio Sensu.png","Lycanroc Midday Form.png","Lycanroc Midnight Form.png","Lycanroc Dusk Form.png","Magearna Original Color.png",
+        "Oricorio Pa'u.png","Oricorio Sensu.png","Lycanroc Midday Form.png","Lycanroc Midnight Form.png","Lycanroc Dusk Form.png","Magearna Original Color.png","Minior Meteor Form.png",
+        "Minior Core Red.png","Minior Core Orange.png","Minior Core Yellow.png","Minior Core Green.png","Minior Core Blue.png","Minior Core Purple.png",
         /*Unowns*/
-        "Unown F.png",
+        "Unown A.png","Unown B.png","Unown C.png","Unown D.png","Unown E.png","Unown F.png","Unown G.png","Unown H.png","Unown I.png","Unown J.png","Unown K.png","Unown L.png",
+        "Unown M.png","Unown N.png","Unown O.png","Unown P.png","Unown Q.png","Unown R.png","Unown S.png","Unown T.png","Unown U.png","Unown V.png","Unown W.png","Unown X.png",
+        "Unown Y.png","Unown Z.png","Unown !.png","Unown ¿.png",
         /*Regional Forms*/
         "Alolan Rattata.png","Alolan Raticate.png","Alolan Raichu.png","Alolan Sandshrew.png","Alolan Sandslash.png","Alolan Vulpix.png","Alolan Ninetales.png","Alolan Diglett.png",
         "Alolan Dugtrio.png","Alolan Meowth.png","Alolan Persian.png","Alolan Geodude.png","Alolan Graveler.png","Alolan Golem.png","Alolan Grimer.png","Alolan Muk.png",
