@@ -117,7 +117,10 @@ module.exports.run = async(client, message, args) => {
         "Wishiwashi School Form.png","Mimikyu Busted Form.png","Necrozma Dusk Mane.png","Necrozma Dawn Wings.png","Necrozma Ultra.png","Oricorio Baile.png","Oricorio Pom-Pom.png",
         "Oricorio Pa'u.png","Oricorio Sensu.png","Lycanroc Midday Form.png","Lycanroc Midnight Form.png","Lycanroc Dusk Form.png","Magearna Original Color.png","Minior Meteor Form.png",
         "Minior Core Red.png","Minior Core Orange.png","Minior Core Yellow.png","Minior Core Green.png","Minior Core Blue.png","Minior Core Purple.png","Zacian Sword Form.png","Zamazenta Shield Form.png",
-        "Urshifu Single Strike.png","Urshifu Rapid Strike.png","Calyrex Ice Rider.png","Calyrex Shadow Rider.png","Morpeko Full Belly Form.png","Morpeko Hangry Form.png",
+        "Urshifu Single Strike.png","Urshifu Rapid Strike.png","Calyrex Ice Rider.png","Calyrex Shadow Rider.png","Morpeko Full Belly Form.png","Morpeko Hangry Form.png","Pikachu Cap Original.png",
+        "Pikachu Cap Hoenn.png","Pikachu Cap Sinnoh.png","Pikachu Cap Unova.png","Pikachu Cap Kalos.png","Pikachu Cap Alola.png","Pikachu Cap Partner.png","Pikachu Cap World.png",
+        "Spiky-eared Pichu.png","Rotom Pokedex.png","Rotom Phone.png","Galarian Darmanitan Zen.png","Toxtricity Amped.png","Toxtricity Low Key.png","Eiscue Noice Face.png","Reshiram Activated.png",
+        "Zekrom Activated.png","Solgaleo Radiant Sun Phase.png","Lunala Full Moon Phase.png","Marshadow Zenith.png",
         /*Unowns*/
         "Unown A.png","Unown B.png","Unown C.png","Unown D.png","Unown E.png","Unown F.png","Unown G.png","Unown H.png","Unown I.png","Unown J.png","Unown K.png","Unown L.png",
         "Unown M.png","Unown N.png","Unown O.png","Unown P.png","Unown Q.png","Unown R.png","Unown S.png","Unown T.png","Unown U.png","Unown V.png","Unown W.png","Unown X.png",
