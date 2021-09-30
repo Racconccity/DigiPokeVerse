@@ -120,7 +120,8 @@ module.exports.run = async(client, message, args) => {
         "Urshifu Single Strike.png","Urshifu Rapid Strike.png","Calyrex Ice Rider.png","Calyrex Shadow Rider.png","Morpeko Full Belly Form.png","Morpeko Hangry Form.png","Pikachu Cap Original.png",
         "Pikachu Cap Hoenn.png","Pikachu Cap Sinnoh.png","Pikachu Cap Unova.png","Pikachu Cap Kalos.png","Pikachu Cap Alola.png","Pikachu Cap Partner.png","Pikachu Cap World.png",
         "Spiky-eared Pichu.png","Rotom Pokedex.png","Rotom Phone.png","Galarian Darmanitan Zen.png","Toxtricity Amped.png","Toxtricity Low Key.png","Eiscue Noice Face.png","Reshiram Activated.png",
-        "Zekrom Activated.png","Solgaleo Radiant Sun Phase.png","Lunala Full Moon Phase.png","Marshadow Zenith.png",
+        "Zekrom Activated.png","Solgaleo Radiant Sun Phase.png","Lunala Full Moon Phase.png","Marshadow Zenith.png","Hisui Growlithe.png","Hisui Braviary.png","White Kyurem Activated.png",
+        "Black  Kyurem Activated.png",
         /*Unowns*/
         "Unown A.png","Unown B.png","Unown C.png","Unown D.png","Unown E.png","Unown F.png","Unown G.png","Unown H.png","Unown I.png","Unown J.png","Unown K.png","Unown L.png",
         "Unown M.png","Unown N.png","Unown O.png","Unown P.png","Unown Q.png","Unown R.png","Unown S.png","Unown T.png","Unown U.png","Unown V.png","Unown W.png","Unown X.png",
