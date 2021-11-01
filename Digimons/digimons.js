@@ -184,10 +184,9 @@ module.exports.run = async(client, message, args) => {
     }
   }
 
-}
-
-module.exports.config = {
-    name: "digimons",
-    usage: "-digimons",
-    aliases: ["-dig", "-di"]
+  module.exports.config = {
+      name: "digimons",
+      usage: "-digimons",
+      aliases: ["-dig", "-di"]
+  }
 }
