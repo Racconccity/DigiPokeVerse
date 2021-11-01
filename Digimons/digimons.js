@@ -23,7 +23,7 @@ module.exports.run = async(client, message, args) => {
         "AxeKnightmon (Duskmon).jpg", "AxeKnightmon (Gulfmon).jpg", "AxeKnightmon (Laylamon).jpg", "AxeKnightmon X.jpg", "Axemon.jpg", "Azulongmon.jpg", "Babamon.jpg", "Babydmon.jpg", "Bacchusmon.jpg", "Bacchusmon (Deisui Mode).jpg", "Bacomon.jpg",
         "Bagramon.jpg", "Baihumon.jpg", "Bakemon.jpg", "BalliBeastmon.jpg", "Ballistamon.jpg", "Ballistamon Mush Cottage.jpg", "Baboongamon.jpg", "Shortmon.jpg",
         "Ballistamon Sextet Launcher.jpg", "BanchoGolemon.jpg", "BanchoLeomon.jpg", "BanchoLeomon Burst Mode.jpg", "BanchoLillymon.jpg", "BanchoMamemon.jpg", "BanchoStingmon.jpg", "BaoHuckmon.jpg", "Barbamon.jpg", "Barbamon X.jpg",
-        "Baromon.jpg", "Batterymon.jpg", "Battle Armament Trailmon.jpg", "Bearmon.jpg", "Beastmon.jpg", "Beelzemon (Behemoth).jpg", "Frosvelgrmon.jpg", "Weddinmon.jpg",
+        "Baromon.jpg", "Batterymon.jpg", "Battle Armament Trailmon.jpg", "Bearmon.jpg", "Beastmon.jpg", "Beelzemon (Behemoth).jpg", "Frosvelgrmon.jpg",
         "Beelzemon.jpg", "Beelzemon (2010 anime).jpg", "Beelzemon (Starmons).jpg", "Beelzemon Blast Mode.jpg", "Beelzemon X.jpg", "Bosamon.jpg", "Frozomon.jpg",
         "Beetlemon.jpg", "BelleStarmon.jpg", "BelleStarmon X.jpg", "Belphemon Rage Mode.jpg", "Belphemon Sleep Mode.jpg", "Belphemon X.jpg", "Hiyarimon.jpg", "WezenGammamon.jpg",
         "BeoWolfmon.jpg", "Betamon.jpg", "Betamon X.jpg", "Betsumon.jpg", "BigMamemon.jpg", "BioDarkdramon.jpg", "BioQuetzalmon.jpg", "Pyonmon.jpg", "BetelGammamon.jpg", "KausGammamon.jpg",
@@ -131,7 +131,7 @@ module.exports.run = async(client, message, args) => {
         "Salamon.jpg", "Salamon X.jpg", "Sandiramon.jpg", "Sangomon.jpg", "SandYanmamon.jpg", "Sangloupmon.jpg", "SantaAgumon.jpg", "Sanzomon.jpg", "SaviorHuckmon.jpg", "Scorpiomon.jpg", "Scorpiomon X.jpg",
         "ScudMissimon.jpg", "Seadramon.jpg", "Seadramon X.jpg", "Seahomon.jpg", "Sealsdramon.jpg", "Searchmon.jpg", "Seasarmon.jpg", "Seasarmon X.jpg", "Sepikmon.jpg", "Seraphimon.jpg", "Sethmon.jpg",
         "Sethmon Wild Mode.jpg", "Shademon.jpg", "Shademon (Nene).jpg", "ShadowSeraphimon.jpg", "ShadowToyAgumon.jpg", "ShadowWereGarurumon.jpg", "Shadramon.jpg", "Shakamon.jpg", "Shakkoumon.jpg", "Shamanmon.jpg", "Shawjamon.jpg",
-        "Sheepmon.jpg", "Shellmon.jpg", "ShimaUnimon.jpg", "ShineGreymon.jpg", "ShineGreymon Burst Mode.jpg", "ShineGreymon Ruin Mode.jpg", "ShogunGekomon.jpg", "ShootingStarmon.jpg", "Shortmon.jpg", "Shootmon.jpg",
+        "Sheepmon.jpg", "Shellmon.jpg", "ShimaUnimon.jpg", "ShineGreymon.jpg", "ShineGreymon Burst Mode.jpg", "ShineGreymon Ruin Mode.jpg", "ShogunGekomon.jpg", "ShootingStarmon.jpg", "Shootmon.jpg",
         "Shounitamon.jpg", "Shoutmon.jpg", "Shoutmon (King Ver).jpg", "Shoutmon + Drill Cannon.jpg", "Shoutmon + Star Sword.jpg", "Shoutmon + Supersonic Sparrow.jpg", "Shoutmon B.jpg", "Puyoyomon.jpg",
         "Shoutmon DX.jpg", "Shoutmon EX6.jpg", "Shoutmon Star Wheel.jpg", "Shoutmon X2.jpg", "Shoutmon X2 (Incomplete X4).jpg", "Shoutmon X2+.jpg", "Shoutmon X3.jpg", "Shoutmon X3GM.jpg", "Shoutmon X3SD.jpg", "Shoutmon X4.jpg",
         "Shoutmon X4B.jpg", "Shoutmon X4K.jpg", "Shoutmon X4S.jpg", "Shoutmon X5.jpg", "Shoutmon X5B.jpg", "Shoutmon X5S.jpg", "Shoutmon X6.jpg", "Shoutmon X7.jpg", "Shoutmon X7F Superior Mode.jpg",
@@ -162,14 +162,32 @@ module.exports.run = async(client, message, args) => {
         "Vitium (Form 2).jpg", "King Drasil 7D6.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
-    message.channel.send("--------------------------------------------------")
-    message.channel.send("Digimon name: " + img.replace(/\.[^.$]+$/, ''))
-    message.channel.send("►Level: " + Math.floor(Math.random() * (99 + 1)))
-    message.channel.send({ file: ["Digimons/"] + img })
+    const digName = ("Digimon name: " + img.replace(/\.[^.$]+$/, ''))
+    //message.channel.send("--------------------------------------------------")
+    //message.channel.send("Digimon name: " + img.replace(/\.[^.$]+$/, ''))
+    //message.channel.send("►Level: " + Math.floor(Math.random() * (99 + 1)))
+    //message.channel.send({ file: ["Digimons/"] + img })
+
+  module.exports = {
+    name: digName,
+    description: 'Digimons'
+    execute(message, args, Discord){
+      const newEmbed = new Discord.MessageEmbed()
+      .setColor('#384281')
+      .setTitle('Digimon')
+      .addFields(
+        {name: 'Level', value: Math.floor(Math.random() * (99 + 1))}
+      )
+      .setImage (img)
+
+      message.channel.send(newEmbed);
+    }
+  }
+
 }
 
 module.exports.config = {
     name: "digimons",
     usage: "-digimons",
-    aliases: ["dig", "di"]
+    aliases: ["-dig", "-di"]
 }
