@@ -162,7 +162,7 @@ module.exports.run = async(client, message, args) => {
         "Vitium (Form 2).jpg", "King Drasil 7D6.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
-    const digName = ("Digimon name: " + img.replace(/\.[^.$]+$/, ''))
+    const digName = (img.replace(/\.[^.$]+$/, ''))
     //message.channel.send("--------------------------------------------------")
     //message.channel.send("Digimon name: " + img.replace(/\.[^.$]+$/, ''))
     //message.channel.send("►Level: " + Math.floor(Math.random() * (99 + 1)))
@@ -170,8 +170,8 @@ module.exports.run = async(client, message, args) => {
 
   module.exports = {
     name: digName,
-    description: 'Digimons'
-    execute(message, args, Discord){
+    description: 'Digimons',
+    execute(message, args, Discord) {
       const newEmbed = new Discord.MessageEmbed()
       .setColor('#384281')
       .setTitle('Digimon')
