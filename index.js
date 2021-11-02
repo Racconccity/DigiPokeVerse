@@ -80,4 +80,4 @@ client.on("message", async(message) => {
     if (commandfile) commandfile.run(client, message, args)
 
 });
-client.login(process.env.token);
+client.login("NjQ2OTc4NDAwOTYzMDAyMzY4.XdY_lw.l8gRyHrRWs9OwwyjgDg-Kqff0T8");

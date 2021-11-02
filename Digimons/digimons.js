@@ -162,31 +162,14 @@ module.exports.run = async(client, message, args) => {
         "Vitium (Form 2).jpg", "King Drasil 7D6.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
-    const digName = (img.replace(/\.[^.$]+$/, ''))
-    //message.channel.send("--------------------------------------------------")
-    //message.channel.send("Digimon name: " + img.replace(/\.[^.$]+$/, ''))
-    //message.channel.send("►Level: " + Math.floor(Math.random() * (99 + 1)))
-    //message.channel.send({ file: ["Digimons/"] + img })
+    message.channel.send("--------------------------------------------------")
+    message.channel.send("Name: " + img.replace(/\.[^.$]+$/, ''))
+    message.channel.send("►Level: "   + Math.floor(Math.random()*(99+1)))
+    message.channel.send({ file: ["Digimons/"] + img })
+}
 
-  module.exports = {
-    name: digName,
-    description: 'Digimons',
-    execute(message, args, Discord) {
-      const newEmbed = new Discord.MessageEmbed()
-      .setColor('#384281')
-      .setTitle('Digimon')
-      .addFields(
-        {name: 'Level', value: Math.floor(Math.random() * (99 + 1))}
-      )
-      .setImage (img)
-
-      message.channel.send(newEmbed);
-    }
-  }
-
-  module.exports.config = {
-      name: "digimons",
-      usage: "-digimons",
-      aliases: ["-dig", "-di"]
-  }
+module.exports.config = {
+    name: "digimons",
+    usage: "-digimons",
+    aliases: ["dig", "di"]
 }
