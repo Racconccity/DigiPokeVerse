@@ -4,6 +4,8 @@ const colours = require("../colours.json");
 const window = require("window");
 const randomFile = require('random-file');
 const path = require('path');
+const { MessageAttachment } = require("discord.js");
+const { Attachment, RichEmbed } = require('discord.js');
 const fs = require('fs');
 
 module.exports.run = async(client, message, args) => {
@@ -162,10 +164,31 @@ module.exports.run = async(client, message, args) => {
         "Vitium (Form 2).jpg", "King Drasil 7D6.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
-    message.channel.send("--------------------------------------------------")
-    message.channel.send("Name: " + img.replace(/\.[^.$]+$/, ''))
-    message.channel.send("►Level: "   + Math.floor(Math.random()*(99+1)))
-    message.channel.send({ file: ["Digimons/"] + img })
+      message.channel.send({
+        embed: {
+            color: 3447003,
+            fields: [{
+              name:"Name",
+              value: img.replace(/\.[^.$]+$/, '')
+            },
+            {
+              name: "Attack",
+              value: Math.floor(Math.random()*(299+1))
+            },
+            {
+              name: "Defense",
+              value: Math.floor(Math.random()*(199+1))
+            },
+            {
+              name: "Speed",
+              value: Math.floor(Math.random()*(199+1))
+            },
+          ],
+          files: [
+            `Digimons/${img}`
+          ],
+          timestamp: new Date()
+      }})
 }
 
 module.exports.config = {
