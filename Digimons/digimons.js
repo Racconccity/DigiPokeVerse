@@ -25,7 +25,7 @@ module.exports.run = async(client, message, args) => {
         "AxeKnightmon (Duskmon).jpg", "AxeKnightmon (Gulfmon).jpg", "AxeKnightmon (Laylamon).jpg", "AxeKnightmon X.jpg", "Axemon.jpg", "Azulongmon.jpg", "Babamon.jpg", "Babydmon.jpg", "Bacchusmon.jpg", "Bacchusmon (Deisui Mode).jpg", "Bacomon.jpg",
         "Bagramon.jpg", "Baihumon.jpg", "Bakemon.jpg", "BalliBeastmon.jpg", "Ballistamon.jpg", "Ballistamon Mush Cottage.jpg", "Baboongamon.jpg", "Shortmon.jpg",
         "Ballistamon Sextet Launcher.jpg", "BanchoGolemon.jpg", "BanchoLeomon.jpg", "BanchoLeomon Burst Mode.jpg", "BanchoLillymon.jpg", "BanchoMamemon.jpg", "BanchoStingmon.jpg", "BaoHuckmon.jpg", "Barbamon.jpg", "Barbamon X.jpg",
-        "Baromon.jpg", "Batterymon.jpg", "Battle Armament Trailmon.jpg", "Bearmon.jpg", "Beastmon.jpg", "Beelzemon (Behemoth).jpg", "Frosvelgrmon.jpg",
+        "Baromon.jpg", "Batterymon.jpg", "Battle Armament Trailmon.jpg", "Bearmon.jpg", "Beastmon.jpg", "Beelzemon (Behemoth).jpg", "Frosvelgrmon.jpg","GulusGammamon.jpg",
         "Beelzemon.jpg", "Beelzemon (2010 anime).jpg", "Beelzemon (Starmons).jpg", "Beelzemon Blast Mode.jpg", "Beelzemon X.jpg", "Bosamon.jpg", "Frozomon.jpg",
         "Beetlemon.jpg", "BelleStarmon.jpg", "BelleStarmon X.jpg", "Belphemon Rage Mode.jpg", "Belphemon Sleep Mode.jpg", "Belphemon X.jpg", "Hiyarimon.jpg", "WezenGammamon.jpg",
         "BeoWolfmon.jpg", "Betamon.jpg", "Betamon X.jpg", "Betsumon.jpg", "BigMamemon.jpg", "BioDarkdramon.jpg", "BioQuetzalmon.jpg", "Pyonmon.jpg", "BetelGammamon.jpg", "KausGammamon.jpg",
@@ -85,7 +85,7 @@ module.exports.run = async(client, message, args) => {
         "Justimon (Blitz Arm).jpg", "Justimon (Critical Arm).jpg", "Justimon X.jpg", "Jyagamon.jpg", "Jyarimon.jpg", "Kabukimon.jpg", "Kabuterimon.jpg", "Kakkinmon.jpg", "Kamemon.jpg",
         "Kangarumon.jpg", "Kapurimon.jpg", "Karatenmon.jpg", "KaratsukiNumemon.jpg", "Kazemon.jpg", "Keemon.jpg", "KendoGarurumon.jpg", "Kenkimon.jpg", "Kentaurosmon.jpg", "Assaultmon.jpg",
         "Kentaurosmon X.jpg", "Keramon.jpg", "Keramon X.jpg", "Ketomon.jpg", "Kimeramon.jpg", "KingChessmon.jpg", "KingEtemon.jpg", "Kinkakumon.jpg", "Kiwimon.jpg", "KnightChessmon (Black).jpg",
-        "KnightChessmon (White).jpg", "Knightmon.jpg", "Knightmon Wise-Sword Mode.jpg", "KoDokugumon.jpg", "Kogamon.jpg", "KoHagurumon.jpg", "KoKabuterimon.jpg", "Negamon.jpg",
+        "KnightChessmon (White).jpg", "Knightmon.jpg", "Knightmon Wise-Sword Mode.jpg", "KoDokugumon.jpg", "Kogamon.jpg", "KoHagurumon.jpg", "KoKabuterimon.jpg", "Negamon.jpg","Canoweissmon.jpg",
         "Kokatorimon.jpg", "Kokomon.jpg", "Kokuwamon.jpg", "Kokuwamon X.jpg", "Kongoumon.jpg", "Korikakumon.jpg", "Koromon.jpg", "Kotemon.jpg", "Komondomon.jpg", "Abbadomon.jpg",
         "KoZenimon.jpg", "Kudamon.jpg", "Kudamon (2006 anime).jpg", "Kumamon.jpg", "Kumbhiramon.jpg", "Kunemon.jpg", "Kuramon.jpg", "Kuwagamon.jpg", "Kuwagamon X.jpg", "Abbadomon Core.jpg",
         "Kuzuhamon.jpg", "Kuzuhamon Miko Mode.jpg", "Kyaromon.jpg", "KyodaiNumemon.jpg", "Kyokyomon.jpg", "Kyubimon.jpg", "Kyubimon (Silver).jpg", "Kyukimon.jpg", "Kyupimon.jpg",
@@ -161,7 +161,7 @@ module.exports.run = async(client, message, args) => {
         "D-Reaper ADR-05 - Creep Hands.jpg", "D-Reaper ADR-06 - Horn Striker.jpg", "D-Reaper ADR-07 - Paratice Head.jpg", "D-Reaper ADR-08 - Optimizer.jpg", "D-Reaper ADR-09 - Gatekeeper.jpg", "Reaper.jpg",
         "Mother D-Reaper.jpg", "Eater (Humanoid Mode).jpg", "Eater (Purebreed Mode).jpg", "Eater Adam.jpg", "Eater Bit.jpg", "Eater EDEN.jpg", "Eater Eve.jpg", "Eater Legion.jpg", "Eraser.jpg",
         "Ex-Eraser α.jpg", "Ex-Eraser β.jpg", "Ex-Eraser γ.jpg", "Ex-Eraser Ω.jpg", "Giga Devast.jpg", "Mother Eater.jpg", "NEO.jpg", "Shift Eraser.jpg", "Spiral.jpg", "Tera Devast.jpg", "Vitium (Form 1).jpg",
-        "Vitium (Form 2).jpg", "King Drasil 7D6.jpg"
+        "Vitium (Form 2).jpg", "King Drasil 7D6.jpg","OmegaKnight.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
       message.channel.send({
