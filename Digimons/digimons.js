@@ -53,7 +53,7 @@ module.exports.run = async(client, message, args) => {
         "Datamon.jpg", "Datirimon.jpg", "Death Airdramon.jpg", "Deathmon (White).jpg", "Deathmon (Black).jpg", "Death Devimon.jpg", "Death Meramon.jpg", "Death MetalGreymon.jpg", "Death Tyranomon.jpg",
         "Deathmon (C_mon Digimon).jpg", "Deckerdramon.jpg", "Deckerdramon Float Mode.jpg", "DeckerGreymon.jpg", "Deltamon.jpg", "DemiDevimon.jpg", "DemiMeramon.jpg", "DemiVeemon.jpg",
         "Depthmon.jpg", "Deputymon.jpg", "Deramon.jpg", "Destromon.jpg", "Devidramon.jpg", "Devimon.jpg", "Devitamamon.jpg", "DexDorugamon.jpg", "DexDorugoramon.jpg",
-        "DexDoruGreymon.jpg", "Dexmon.jpg", "Diaboromon.jpg", "Diaboromon X.jpg", "Dianamon.jpg", "Diatrymon.jpg", "Digitamamon.jpg", "Digmon.jpg", "Dinobeemon.jpg",
+        "DexDoruGreymon.jpg", "Dexmon.jpg", "Diaboromon.jpg", "Diaboromon X.jpg", "Dianamon.jpg", "Diatrymon.jpg", "Digitamamon.jpg", "Digmon.jpg", "Dinobeemon.jpg","Arresterdramon Superior Mode (Brave Snatcher).jpg",
         "Dinohyumon.jpg", "Dinorexmon.jpg", "Dinotigermon.jpg", "Divermon.jpg", "Dobermon.jpg", "Dobermon X.jpg", "Dodomon.jpg", "Doggymon.jpg", "Dokugumon.jpg", "Curimon.jpg",
         "Dokunemon.jpg", "Dolphmon.jpg", "Dominimon.jpg", "Dondokomon.jpg", "DonShoutmon.jpg", "Dorbickmon.jpg", "Dorbickmon Darkness Mode (Flarerizamon).jpg",
         "Dorbickmon Darkness Mode One.jpg", "Dorbickmon Darkness Mode Two.jpg", "Dorimon.jpg", "Dorugamon.jpg", "Dorugoramon.jpg", "DoruGreymon.jpg", "Dorulumon.jpg",
@@ -155,13 +155,13 @@ module.exports.run = async(client, message, args) => {
         "Waspmon.jpg", "Weddinmon.jpg", "Weedmon.jpg", "Wendigomon.jpg", "WereGarurumon.jpg", "WereGarurumon Sagittarius Mode.jpg", "WereGarurumon X.jpg", "Whamon.jpg", "KingWhamon.jpg", "Wingdramon.jpg",
         "Wisemon.jpg", "Witchmon.jpg", "Wizardmon.jpg", "Wizardmon X.jpg", "Woodmon.jpg", "Wormmon.jpg", "Xiaomon.jpg", "Yaamon.jpg", "YaegerDorulumon.jpg", "Yakiimon.jpg", "Yanmamon.jpg", "Yasyamon.jpg",
         "Yatakaramon.jpg", "Yoyomon.jpg", "Yokomon.jpg", "Youkomon.jpg", "YukimiBotamon.jpg", "Yuramon.jpg", "Zamielmon.jpg", "Zanbamon.jpg", "ZeedGarurumon.jpg", "ZeedMillenniummon.jpg", "ZekeGreymon.jpg",
-        "Zenimon.jpg", "Zephyrmon.jpg", "Zerimon.jpg", "Zhuqiaomon.jpg", "ZubaEagermon.jpg", "Zubamon.jpg", "Zudomon.jpg", "Zurumon.jpg", "Divemon.jpg", "Climbmon.jpg", "Sunamon.jpg",
+        "Zenimon.jpg", "Zephyrmon.jpg", "Zerimon.jpg", "Zhuqiaomon.jpg", "ZubaEagermon.jpg", "Zubamon.jpg", "Zudomon.jpg", "Zurumon.jpg", "Divemon.jpg", "Climbmon.jpg", "Sunamon.jpg","Deusmon.jpg",
         /*Xtra Forms*/
         "Omedamon.jpg", "BlackWarKazumon.jpg", "DigiGnome.jpg", "D-Reaper ADR-01 - Jeri Type.jpg", "D-Reaper ADR-02 - Searcher.jpg", "D-Reaper ADR-03 - Pendulum Feet.jpg", "D-Reaper ADR-04 - Bubbles.jpg",
         "D-Reaper ADR-05 - Creep Hands.jpg", "D-Reaper ADR-06 - Horn Striker.jpg", "D-Reaper ADR-07 - Paratice Head.jpg", "D-Reaper ADR-08 - Optimizer.jpg", "D-Reaper ADR-09 - Gatekeeper.jpg", "Reaper.jpg",
         "Mother D-Reaper.jpg", "Eater (Humanoid Mode).jpg", "Eater (Purebreed Mode).jpg", "Eater Adam.jpg", "Eater Bit.jpg", "Eater EDEN.jpg", "Eater Eve.jpg", "Eater Legion.jpg", "Eraser.jpg",
         "Ex-Eraser α.jpg", "Ex-Eraser β.jpg", "Ex-Eraser γ.jpg", "Ex-Eraser Ω.jpg", "Giga Devast.jpg", "Mother Eater.jpg", "NEO.jpg", "Shift Eraser.jpg", "Spiral.jpg", "Tera Devast.jpg", "Vitium (Form 1).jpg",
-        "Vitium (Form 2).jpg", "King Drasil 7D6.jpg","OmegaKnight.jpg"
+        "Vitium (Form 2).jpg","Vitium (Ultimate).jpg","King Drasil 7D6.jpg","OmegaKnight.jpg","NeoCrimson.jpg"
     ]
     const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
       message.channel.send({
