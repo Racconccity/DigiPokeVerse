@@ -99,7 +99,7 @@ module.exports.run = async(client, message, args) => {
         "Kubfu.png","Zarude.png","Regieleki.png","Regidrago.png","Glastrier.png","Spectrier.png","Calyrex.png","Wyrdeer.png","Kleavor.png","Overqwil.png",
         "Ursaluna.png","Basculegion.png","Basculegion♂.png","Basculegion♀.png","Sneasler.png","Enamorus Incarnate Form.png",
         /*Ninth gen*/
-        "Sprigatito.png","Fuecoco.png","Quaxly.png","Koraidon.png","Miraidon.png","Lechonk.png","Pawmi.png","Smoliv.png","Cetitan.png","Fidough.png",
+        "Sprigatito.png","Fuecoco.png","Quaxly.png","Koraidon.png","Miraidon.png","Lechonk.png","Pawmi.png","Smoliv.png","Cetitan.png","Fidough.png","Greavard.png",
         "Cyclizar.png","Grafaiai.png","Klawf.png","Armarouge.png","Ceruledge.png","Wiglett.png","Farigiraf.png","Bellibolt.png",
         /*Alternative Forms*/
         "Castform Sunny Form.png","Castform Rainy Form.png","Castform Snowy Form.png","Burmy Plant Cloak.png","Burmy Sandy Cloak.png","Burmy Trash Cloak.png","Cherrim Overcast Form.png",
