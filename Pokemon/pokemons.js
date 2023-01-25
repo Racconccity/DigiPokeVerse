@@ -99,8 +99,18 @@ module.exports.run = async(client, message, args) => {
         "Kubfu.png","Zarude.png","Regieleki.png","Regidrago.png","Glastrier.png","Spectrier.png","Calyrex.png","Wyrdeer.png","Kleavor.png","Overqwil.png",
         "Ursaluna.png","Basculegion.png","Basculegion♂.png","Basculegion♀.png","Sneasler.png","Enamorus Incarnate Form.png",
         /*Ninth gen*/
-        "Sprigatito.png","Fuecoco.png","Quaxly.png","Koraidon.png","Miraidon.png","Lechonk.png","Pawmi.png","Smoliv.png","Cetitan.png","Fidough.png","Greavard.png",
-        "Cyclizar.png","Grafaiai.png","Klawf.png","Armarouge.png","Ceruledge.png","Wiglett.png","Farigiraf.png","Bellibolt.png",
+        "Sprigatito.png","Floragato.png","Meowscarada.png","Fuecoco.png","Quaxly.png","Koraidon.png","Miraidon.png","Lechonk.png","Pawmi.png","Smoliv.png","Cetitan.png","Fidough.png","Greavard.png",
+        "Cyclizar.png","Grafaiai.png","Klawf.png","Armarouge.png","Ceruledge.png","Wiglett.png","Farigiraf.png","Bellibolt.png","Gimmighoul Chest Form.png","Crocalor.png","Skeledirge.png",
+        "Quaxwell.png","Quaquaval.png","Oinkologne ♂.png","Oinkologne ♀.png","Tarountula.png","Spidops.png","Nymble.png","Lokix.png","Pawmo.png","Pawmot.png","Tandemaus.png","Maushold.png",
+        "Dachsbun.png","Dolliv.png","Arboliva.png","Squawkabilly Green Plumage.png","Nacli.png",".png","Naclstack.png","Garganacl.png","Charcadet.png","Tadbulb.png","Wattrel.png",
+        "Kilowattrel.png","Maschiff.png","Mabosstiff.png","Shroodle.png","Bramblin.png","Brambleghast.png","Toedscool.png","Toedscruel.png","Capsakid.png","Scovillain.png","Rellor.png",
+        "Rabsca.png","Flittle.png","Espathra.png","Tinkatink.png","Tinkatuff.png","Tinkaton.png","Wugtrio.png","Bombirdier.png","Finizen.png","Palafin Zero Form.png","Varoom.png",
+        "Revavroom.png","Orthworm.png","Glimmet.png","Glimmora.png","Houndstone.png","Flamigo.png","Cetoddle.png","Veluza.png","Dondozo.png","Tatsugiri Curly Form.png",
+        "Annihilape.png","Clodsire.png","Dudunsparce.png","Kingambit.png","Frigibax.png","Arctibax.png","Baxcalibur.png","Gholdengo.png","Wo-Chien.png","Chien-Pao.png","Ting-Lu.png",
+        "Chi-Yu.png",
+        /*Paradox Forms*/
+        "Great Tusk.png","Scream Tail.png","Brute Bonnet.png","Flutter Mane.png","Slither Wing.png","Sandy Shocks.png","Iron Treads.png","Iron Bundle.png","Iron Hands.png",
+        "Iron Jugulis.png","Iron Moth.png","Iron Thorns.png","Roaring Moon.png","Iron Valiant.png",
         /*Alternative Forms*/
         "Castform Sunny Form.png","Castform Rainy Form.png","Castform Snowy Form.png","Burmy Plant Cloak.png","Burmy Sandy Cloak.png","Burmy Trash Cloak.png","Cherrim Overcast Form.png",
         "Cherrim Sunshine Form.png","Darmanitan Unovan Form.png","Meloetta Pirouette Form.png","Aegislash Blade Form.png","Aegislash Shield Form.png","Primal Groudon.png",
@@ -123,7 +133,8 @@ module.exports.run = async(client, message, args) => {
         "Pikachu Cap Hoenn.png","Pikachu Cap Sinnoh.png","Pikachu Cap Unova.png","Pikachu Cap Kalos.png","Pikachu Cap Alola.png","Pikachu Cap Partner.png","Pikachu Cap World.png",
         "Spiky-eared Pichu.png","Rotom Pokedex.png","Rotom Phone.png","Galarian Darmanitan Zen.png","Toxtricity Amped.png","Toxtricity Low Key.png","Eiscue Noice Face.png","Reshiram Activated.png",
         "Zekrom Activated.png","Solgaleo Radiant Sun Phase.png","Lunala Full Moon Phase.png","Marshadow Zenith.png","White Kyurem Activated.png","Black  Kyurem Activated.png","Palkia Origin Form.png",
-        "Dialga Origin Form.png","Enamorus Therian Form.png","Mewtwo Armored.png","Basculin White-Striped Form.png",
+        "Dialga Origin Form.png","Enamorus Therian Form.png","Mewtwo Armored.png","Basculin White-Striped Form.png","Gimmighoul Roaming Form.png","Squawkabilly White Plumage.png",
+        "Squawkabilly Yellow Plumage.png","Squawkabilly Blue Plumage.png","Palafin Hero Form.png","Tatsugiri Droopy Form.png","Tatsugiri Stretchy Form.png",
         /*Unowns*/
         "Unown A.png","Unown B.png","Unown C.png","Unown D.png","Unown E.png","Unown F.png","Unown G.png","Unown H.png","Unown I.png","Unown J.png","Unown K.png","Unown L.png",
         "Unown M.png","Unown N.png","Unown O.png","Unown P.png","Unown Q.png","Unown R.png","Unown S.png","Unown T.png","Unown U.png","Unown V.png","Unown W.png","Unown X.png",
@@ -135,7 +146,8 @@ module.exports.run = async(client, message, args) => {
         "Galarian Weezing.png","Galarian Mr Mime.png","Galarian Articuno.png","Galarian Zapdos.png","Galarian Moltre.png","Galarian Slowking.png","Galarian Corsola.png",
         "Galarian Zigzagoon.png","Galarian Linoone.png","Galarian Darumaka.png","Galarian Darmanitan.png","Galarian Yamask.png","Galarian Stunfisk.png","Hisui Decidueye.png",
         "Hisui Growlithe.png","Hisui Braviary.png","Hisui Voltorb.png","Hisui Zorua.png","Hisui Zoroark.png","Hisui Typhlosion.png","Hisui Samurott.png","Hisui Qwilfish.png","Hisui Lilligant.png",
-        "Hisui Sliggoo.png","Hisui Goodra.png","Hisui Arcanine.png",".png","Hisui Electrode.png","Hisui Sneasel.png","Hisui Avalugg.png","Paldean Wooper.png",
+        "Hisui Sliggoo.png","Hisui Goodra.png","Hisui Arcanine.png",".png","Hisui Electrode.png","Hisui Sneasel.png","Hisui Avalugg.png","Paldean Wooper.png","Paldean Tauros Combat Breed.png",
+        "Paldean Tauros Blaze Breed.png","Paldean Tauros Aqua Breed.png",
         /*Mega*/
         "Mega-Venusaur.png","Mega-Charizard X.png","Mega-Charizard Y.png","Mega-Blastoise.png","Mega-Alakazam.png","Mega-Gengar.png","Mega-Kangaskhan.png","Mega-Pinsir.png",
         "Mega-Gyarados.png","Mega-Aerodactyl.png","Mega-Mewtwo X.png","Mega-Mewtwo Y.png","Mega-Ampharos.png","Mega-Scizor.png","Mega-Heracross.png","Mega-Houndoom.png",
