@@ -11,7 +11,7 @@ const fs = require('fs');
 module.exports.run = async(client, message, args) => {
     var randomimg = path.join(__dirname, 'Digimons/');
     randomimg = [
-        "Aegiochusmon Blue.jpg", "Aegiochusmon Dark.jpg", "Aegiochusmon Green.jpg", "Aegiochusmon Holy.jpg", "Aegiochusmon.jpg", "Yoxtuyoxtumon.jpg", "Machmon.jpg",
+        "Aegiochusmon Blue.jpg", "Aegiochusmon Dark.jpg", "Aegiochusmon Green.jpg", "Aegiochusmon Holy.jpg", "Aegiochusmon.jpg", "Yoxtuyoxtumon.jpg", "Machmon.jpg","Loogamon.jpg",
         "Aegisdramon.jpg", "AeroVeedramon.jpg", "Agumon (2006 anime).jpg", "Agumon Burst Mode.jpg", "Agumon Expert.jpg", "Agumon X.jpg", "Agumon.jpg", "Agunimon.jpg", "Agumon (Yuki no Kizuna).jpg", "Aircraft Carrier Whamon.jpg", "Airdramon.jpg", "Akatorimon.jpg",
         "Aldamon.jpg", "Algomon (Baby I).jpg", "Algomon (Baby II).jpg", "Algomon (Child).jpg", "Algomon (Adult).jpg", "Algomon (Perfect).jpg", "Entmon.jpg","Gyukimon.jpg",
         "Algomon (Ultimate).jpg", "Allomon.jpg", "Allomon X.jpg", "Alphamon.jpg", "Alphamon Ouryuken.jpg", "Amon.jpg", "AncientBeetlemon.jpg", "Ghostmon.jpg","Xiangpengmon.jpg",
