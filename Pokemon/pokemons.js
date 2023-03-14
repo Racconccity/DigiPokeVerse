@@ -96,8 +96,8 @@ module.exports.run = async(client, message, args) => {
         "Hattrem.png","Hatterene.png","Impidimp.png","Morgrem.png","Grimmsnarl.png","Obstagoon.png","Perrserker.png","Cursola.png","Sirfetch'd.png","Mr Rime.png","Runerigus.png",
         "Milcery.png","Alcremie.png","Falinks.png","Pincurchin.png","Snom.png","Frosmoth.png","Stonjourner.png","Eiscue.png","Indeedee♂.png","Indeedee♀.png","Morpek.png","Cufant.png","Copperajah.png",
         "Dracozolt.png","Arctozolt.png","Dracovish.png","Arctovish.png","Duraludon.png","Dreepy.png","Drakloak.png","Dragapult.png","Zacian.png","Zamazenta.png","Eternatus.png",
-        "Kubfu.png","Zarude.png","Regieleki.png","Regidrago.png","Glastrier.png","Spectrier.png","Calyrex.png","Wyrdeer.png","Kleavor.png","Overqwil.png",
-        "Ursaluna.png","Basculegion.png","Basculegion♂.png","Basculegion♀.png","Sneasler.png","Enamorus Incarnate Form.png",
+        "Kubfu.png","Zarude.png","Regieleki.png","Regidrago.png","Glastrier.png","Spectrier.png","Calyrex.png","Wyrdeer.png","Kleavor.png","Overqwil.png","Ursaluna.png","Basculegion.png",
+        "Basculegion♂.png","Basculegion♀.png","Sneasler.png","Enamorus Incarnate Form.png",
         /*Ninth gen*/
         "Sprigatito.png","Floragato.png","Meowscarada.png","Fuecoco.png","Quaxly.png","Koraidon.png","Miraidon.png","Lechonk.png","Pawmi.png","Smoliv.png","Cetitan.png","Fidough.png","Greavard.png",
         "Cyclizar.png","Grafaiai.png","Klawf.png","Armarouge.png","Ceruledge.png","Wiglett.png","Farigiraf.png","Bellibolt.png","Gimmighoul Chest Form.png","Crocalor.png","Skeledirge.png",
@@ -110,7 +110,7 @@ module.exports.run = async(client, message, args) => {
         "Chi-Yu.png",
         /*Paradox Forms*/
         "Great Tusk.png","Scream Tail.png","Brute Bonnet.png","Flutter Mane.png","Slither Wing.png","Sandy Shocks.png","Iron Treads.png","Iron Bundle.png","Iron Hands.png",
-        "Iron Jugulis.png","Iron Moth.png","Iron Thorns.png","Roaring Moon.png","Iron Valiant.png",
+        "Iron Jugulis.png","Iron Moth.png","Iron Thorns.png","Roaring Moon.png","Iron Valiant.png","Iron Leaves.png","Walking Wake.png",
         /*Alternative Forms*/
         "Castform Sunny Form.png","Castform Rainy Form.png","Castform Snowy Form.png","Burmy Plant Cloak.png","Burmy Sandy Cloak.png","Burmy Trash Cloak.png","Cherrim Overcast Form.png",
         "Cherrim Sunshine Form.png","Darmanitan Unovan Form.png","Meloetta Pirouette Form.png","Aegislash Blade Form.png","Aegislash Shield Form.png","Primal Groudon.png",
