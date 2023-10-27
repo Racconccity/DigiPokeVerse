@@ -107,10 +107,10 @@ module.exports.run = async(client, message, args) => {
         "Rabsca.png","Flittle.png","Espathra.png","Tinkatink.png","Tinkatuff.png","Tinkaton.png","Wugtrio.png","Bombirdier.png","Finizen.png","Palafin Zero Form.png","Varoom.png",
         "Revavroom.png","Orthworm.png","Glimmet.png","Glimmora.png","Houndstone.png","Flamigo.png","Cetoddle.png","Veluza.png","Dondozo.png","Tatsugiri Curly Form.png",
         "Annihilape.png","Clodsire.png","Dudunsparce.png","Kingambit.png","Frigibax.png","Arctibax.png","Baxcalibur.png","Gholdengo.png","Wo-Chien.png","Chien-Pao.png","Ting-Lu.png",
-        "Chi-Yu.png",
+        "Chi-Yu.png","Dipplin.png","Poltchageist.png","Okidogi.png","Sinistcha.png","Munkidori.png","Fezandipiti.png","Ogerpon Teal Mask.png","Archaludon.png","Terapagos Normal Form.png",
         /*Paradox Forms*/
         "Great Tusk.png","Scream Tail.png","Brute Bonnet.png","Flutter Mane.png","Slither Wing.png","Sandy Shocks.png","Iron Treads.png","Iron Bundle.png","Iron Hands.png",
-        "Iron Jugulis.png","Iron Moth.png","Iron Thorns.png","Roaring Moon.png","Iron Valiant.png","Iron Leaves.png","Walking Wake.png",
+        "Iron Jugulis.png","Iron Moth.png","Iron Thorns.png","Roaring Moon.png","Iron Valiant.png","Iron Leaves.png","Walking Wake.png","Raging Bolt.png","Iron Crown.png",
         /*Alternative Forms*/
         "Castform Sunny Form.png","Castform Rainy Form.png","Castform Snowy Form.png","Burmy Plant Cloak.png","Burmy Sandy Cloak.png","Burmy Trash Cloak.png","Cherrim Overcast Form.png",
         "Cherrim Sunshine Form.png","Darmanitan Unovan Form.png","Meloetta Pirouette Form.png","Aegislash Blade Form.png","Aegislash Shield Form.png","Primal Groudon.png",
@@ -134,7 +134,8 @@ module.exports.run = async(client, message, args) => {
         "Spiky-eared Pichu.png","Rotom Pokedex.png","Rotom Phone.png","Galarian Darmanitan Zen.png","Toxtricity Amped.png","Toxtricity Low Key.png","Eiscue Noice Face.png","Reshiram Activated.png",
         "Zekrom Activated.png","Solgaleo Radiant Sun Phase.png","Lunala Full Moon Phase.png","Marshadow Zenith.png","White Kyurem Activated.png","Black  Kyurem Activated.png","Palkia Origin Form.png",
         "Dialga Origin Form.png","Enamorus Therian Form.png","Mewtwo Armored.png","Basculin White-Striped Form.png","Gimmighoul Roaming Form.png","Squawkabilly White Plumage.png",
-        "Squawkabilly Yellow Plumage.png","Squawkabilly Blue Plumage.png","Palafin Hero Form.png","Tatsugiri Droopy Form.png","Tatsugiri Stretchy Form.png",
+        "Squawkabilly Yellow Plumage.png","Squawkabilly Blue Plumage.png","Palafin Hero Form.png","Tatsugiri Droopy Form.png","Tatsugiri Stretchy Form.png","Terapagos Terastal Form.png",
+        //"Ogerpon Wellspring Mask.png","Ogerpon Hearthflame Mask.png","Ogerpon Cornerstone Mask.png",
         /*Unowns*/
         "Unown A.png","Unown B.png","Unown C.png","Unown D.png","Unown E.png","Unown F.png","Unown G.png","Unown H.png","Unown I.png","Unown J.png","Unown K.png","Unown L.png",
         "Unown M.png","Unown N.png","Unown O.png","Unown P.png","Unown Q.png","Unown R.png","Unown S.png","Unown T.png","Unown U.png","Unown V.png","Unown W.png","Unown X.png",
