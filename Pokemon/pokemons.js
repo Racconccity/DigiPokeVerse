@@ -163,14 +163,40 @@ module.exports.run = async(client, message, args) => {
         "Hatterene Gigamax.png","Grimmsnarl Gigamax.png","Alcremie Gigamax.png","Copperajah Gigamax.png","Duraludon Gigamax.png","Urshifu Single Strike Style.png",
         "Urshifu Rapid Strike Style Gigamax.png","Eternatus Gigamax.png"
     ]
-    const img = randomimg[Math.floor(Math.random() * randomimg.length - 1 + 1)]
-    message.channel.send("--------------------------------------------------")
-    message.channel.send("The Pokemon is: " + img.replace(/\.[^.$]+$/, ''))
-    message.channel.send("►Level: "   + Math.floor(Math.random()*(99+1)))
-    message.channel.send("►Attack: "  + Math.floor(Math.random()*(149+1))     + "  " + "►Defense: " + Math.floor(Math.random()*(149+1)))
-    message.channel.send("►Special: "+ Math.floor(Math.random()*(149+1))     + "  " + "►Speed: " + Math.floor(Math.random()*(149+1)))
-    message.channel.send("►Spe. Attack: "+ Math.floor(Math.random()*(149+1))   + "  " + "►Spe. Defense: " + Math.floor(Math.random()*(149+1)))
-    message.channel.send({ file: ["Pokemon/"] + img })
+    const img = randomimg[Math.floor(Math.random() * randomimg.length)]; // Corregir el uso de Math.floor
+    message.channel.send({
+      embed: {
+        color: 3447003,
+        title: "Pokemon Info",
+        fields: [
+          {
+            name: "Name",
+            value: img.replace(/\.[^.$]+$/, '')
+          },
+          {
+            name: "Attack",
+            value: Math.floor(Math.random() * 300) // Corregir Math.floor
+          },
+          {
+            name: "Defense",
+            value: Math.floor(Math.random() * 200) // Corregir Math.floor
+          },
+          {
+            name: "Speed",
+            value: Math.floor(Math.random() * 200) // Corregir Math.floor
+          },
+        ],
+        thumbnail: {
+          url: `attachment://Pokemon/${img}`,
+          width: 100,
+          height: 100
+        },
+        timestamp: new Date()
+      },
+      files: [
+        `./Pokemon/${img}`
+      ]
+    });
 }
 
 module.exports.config = {
