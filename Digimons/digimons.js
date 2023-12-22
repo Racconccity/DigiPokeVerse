@@ -17,7 +17,7 @@ module.exports.run = async(client, message, args) => {
         "Algomon (Ultimate).jpg", "Allomon.jpg", "Allomon X.jpg", "Alphamon.jpg", "Alphamon Ouryuken.jpg", "Amon.jpg", "AncientBeetlemon.jpg", "Ghostmon.jpg","Xiangpengmon.jpg",
         "AncientGarurumon.jpg", "AncientGreymon.jpg", "AncientKazemon.jpg", "AncientMegatheriummon.jpg", "AncientMermaidmon.jpg", "Aequcedramon.jpg","Oboromon.jpg","Xiquemon.jpg",
         "AncientSphinxmon.jpg", "AncientTroiamon.jpg", "AncientVolcanomon.jpg", "AncientWisemon.jpg", "Andromon.jpg", "Angemon.jpg", "Manticoremon.jpg","Hoverespimon.jpg",
-        "Angewomon X.jpg", "Angewomon.jpg", "Ankylomon.jpg", "Antylamon (Evil).jpg", "Antylamon (Good).jpg", "Anubismon.jpg", "Dokimon.jpg", "Junkmon.jpg","Oleamon.jpg",
+        "Angewomon X.jpg", "Angewomon.jpg", "Ankylomon.jpg", "Antylamon (Evil).jpg", "Antylamon (Good).jpg", "Anubismon.jpg", "Dokimon.jpg", "Junkmon.jpg","Oleamon.jpg","Fenriloogamon Takemikazuchi.jpg","Takutoumon.jpg",
         "Apemon.jpg", "Apocalymon.jpg", "Apokarimon (Creepy Mode).jpg", "Apollomon.jpg", "Apollomon Darkness Mode.jpg", "Apollomon Whispered.jpg", "Aquilamon.jpg", "Arbormon.jpg", "Arcadiamon (Champion).jpg", "Arcadiamon (In-Training).jpg",
         "Arcadiamon (Mega).jpg", "Arcadiamon (Rookie).jpg", "Arcadiamon (Ultimate).jpg", "Arcadiamon (Ultra).jpg", "Archelomon.jpg", "LovelyAngemon.jpg","Publimon.jpg",
         "Argomon (Mega).jpg", "Argomon (Ultimate Worm Phase).jpg", "Argomon (Ultimate).jpg", "Armadillomon.jpg", "Armageddemon.jpg", "Armamon.jpg", "Armed MadLeomon.jpg", "Armormon.jpg", "Arresterdramon.jpg", "Arresterdramon Superior Mode.jpg",

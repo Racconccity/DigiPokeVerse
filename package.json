@@ -16,7 +16,7 @@
         "discord.js": "^11.6.4",
         "fetch": "^1.1.0",
         "fs": "0.0.1-security",
-        "imgflip": "^1.0.4",
+        "imgflip": "^3.0.0",
         "imgflipper": "^1.0.1",
         "node-fetch": "^2.6.1",
         "nodemon": "^2.0.7",
@@ -25,6 +25,6 @@
         "random-puppy": "^1.1.0",
         "snekfetch": "^4.0.4",
         "superagent": "^5.3.1",
-        "window": "^4.2.7"
+        "window": "^1.0.0"
     }
 }
